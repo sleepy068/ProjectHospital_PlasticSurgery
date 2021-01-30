@@ -1,0 +1,20 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+    <GameDBStringTable ID="LOC_EN_ADDON_PLASTICS_EXAMINATIONS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Sleepy068</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            
+			<!-- ### ### -->
+			<!-- ######################################## Content for V.X Added Below ######################################## -->
+			<!-- ### ### -->
+
+</LocalizedStrings>
+</GameDBStringTable>
+</Database>

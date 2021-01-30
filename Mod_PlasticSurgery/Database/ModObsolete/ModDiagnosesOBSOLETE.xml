@@ -1,0 +1,10 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<!-- Obsolete diagnosis (ones no longer needed in the game or that I've changed symptoms for) are stored here.
+	They need to stay in the game code for players with old saves, so they can filter through old patients but
+	these diagnosis are disabled and will no longer normally show in the possible diagnosis list 
+	or generate with new patients.
+	<Disabled>true</Disabled>
+	-->
+
+</Database>

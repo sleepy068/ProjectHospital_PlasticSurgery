@@ -1,0 +1,20 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+    <GameDBStringTable ID="LOC_RU_ADDON_PLASTICS_EXAMINATIONS">
+
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Anubis</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            
+			<!-- ### ### -->
+			<!-- ######################################## Content for V.X Added Below ######################################## -->
+			<!-- ### ### -->
+
+</LocalizedStrings>
+</GameDBStringTable>
+</Database>

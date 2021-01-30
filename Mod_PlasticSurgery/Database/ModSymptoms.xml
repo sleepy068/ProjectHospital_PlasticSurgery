@@ -1,0 +1,1013 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<!--  -->
+		
+	<!-- Stock Symptoms to use (just remember to add these to surgery complications) -->
+	<!-- 
+		Numbness (SYM_NUMBNESS)
+		Nausea (SYM_NAUSEA)
+		Swelling (SYM_SWELLING)
+		Brusie (SYM_BRUISE)
+	-->
+	
+	<!-- ==================================== -->
+	<!-- ============= Symptoms ============= -->
+	<!-- ==================================== -->
+	
+		<!-- Rapid Blinking -->
+		<GameDBSymptom ID="SYM_CRP_RAPID_BLINKING">
+        <DescriptionLocID>SYM_CRP_RAPID_BLINKING_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_037</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_038</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+	
+		<!-- Lazy Eye -->
+		<GameDBSymptom ID="SYM_CRP_LAZY_EYE">
+        <DescriptionLocID>SYM_CRP_LAZY_EYE_DESC</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_CRP_ATROPINE_EYEDROP</TreatmentRef>
+        </Treatments>
+
+        <ShameLevel>30</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_039</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_040</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+	
+	<!-- ### Hand Focus ### -->	
+		<!-- Bent Digit -->
+		<GameDBSymptom ID="SYM_CRP_H_BENT_DIGIT">
+        <DescriptionLocID>SYM_CRP_H_BENT_DIGIT_DESC</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+
+        <ShameLevel>10</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_059</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_060</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+		
+		<!-- Prominent Cord (Muscle/Tissue Cord on Hand) -->
+		<GameDBSymptom ID="SYM_CRP_H_THICKCORD">
+        <DescriptionLocID>SYM_CRP_H_THICKCORD_DESC</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+
+        <ShameLevel>25</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_061</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_062</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+		
+		<!-- Thickening of the Palmar Fascia (Hand) -->
+		<GameDBSymptom ID="SYM_CRP_THPAFA">
+        <DescriptionLocID>SYM_CRP_THPAFA_DESC</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_USG</ExaminationRef>
+        </Examinations>
+
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_057</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_058</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+	
+		<!-- Dimpling of Skin -->
+		<GameDBSymptom ID="SYM_CRP_DIMPLES">
+        <DescriptionLocID>SYM_CRP_DIMPLES_DESC</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+
+        <ShameLevel>25</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_063</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_064</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+		
+		<!-- Hand Deformities -->
+		
+		<!-- Loss of Function (Digit of Hand) -->
+		
+		<!-- Plaque on Hand -->
+		
+		<!-- Overgrowth of Scar Tissue -->
+		<GameDBSymptom ID="SYM_CRP_OOST">
+        <DescriptionLocID>SYM_CRP_OOST_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+
+        <ShameLevel>25</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_067</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_068</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+		
+		<!-- Bleeding (Mobile)(Level 1 - Very Light) -->
+		<GameDBSymptom ID="SYM_CRP_BLEEDING1">
+        <DescriptionLocID>SYM_CRP_BLEEDING1_DESC</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_BANDAGE</TreatmentRef>
+        </Treatments>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_069</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_070</CustomIconSmallAssetRef>
+		<BleedingLevel>1</BleedingLevel>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1627</IconIndex>
+		</GameDBSymptom>
+		
+		<!-- Bleeding (Mobile)(Level 2 - Light) -->
+		<GameDBSymptom ID="SYM_CRP_BLEEDING2">
+        <DescriptionLocID>SYM_CRP_BLEEDING2_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_BANDAGE</TreatmentRef>
+        </Treatments>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_071</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_072</CustomIconSmallAssetRef>
+		<BleedingLevel>2</BleedingLevel>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1627</IconIndex>
+		</GameDBSymptom>
+		
+		<!-- Bleeding (Mobile)(Level 3 - Moderate) -->
+		<GameDBSymptom ID="SYM_CRP_BLEEDING3">
+        <DescriptionLocID>SYM_CRP_BLEEDING3_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
+        </Treatments>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_073</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_074</CustomIconSmallAssetRef>
+		<BleedingLevel>3</BleedingLevel>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1627</IconIndex>
+		</GameDBSymptom>
+		
+		<!-- Bleeding (Mobile)(Level 4 - Severe) -->
+		<GameDBSymptom ID="SYM_CRP_BLEEDING4">
+        <DescriptionLocID>SYM_CRP_BLEEDING4_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>3</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>8</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
+        </Treatments>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_075</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_076</CustomIconSmallAssetRef>
+		<BleedingLevel>4</BleedingLevel>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1627</IconIndex>
+		</GameDBSymptom>
+		
+		<!-- Bleeding (Mobile)(Level 5 - Catastrophic) -->
+		<GameDBSymptom ID="SYM_CRP_BLEEDING5">
+        <DescriptionLocID>SYM_CRP_BLEEDING5_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>1</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>3</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
+        </Treatments>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_077</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_078</CustomIconSmallAssetRef>
+		<BleedingLevel>5</BleedingLevel>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1627</IconIndex>
+		</GameDBSymptom>
+		
+		
+	<!-- ========================================= -->
+	<!-- ============= Complications ============= -->
+	<!-- ========================================= -->
+	
+	<!-- ### Generic ### -->
+		<!-- Undesired Results -->
+		<GameDBSymptom ID="SYM_SLP_UNDESIRED_RESULTS">
+        <DescriptionLocID>SYM_SLP_UNDESIRED_RESULTS_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_007</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_008</CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+		
+		<!-- Seroma (Fluid Accumulation At Surgery Site) -->
+		<GameDBSymptom ID="SYM_CRP_SEROMA">
+        <DescriptionLocID>SYM_CRP_SEROMA_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_CRP_WATCH_WAIT</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_001</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_002</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+		<!-- Mild Allergic Reaction -->
+		<GameDBSymptom ID="SYM_CRP_MILD_AR">
+        <DescriptionLocID>SYM_CRP_MILD_AR_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_ANTIHISTAMINES</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>10</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_009</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_010</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+		<!-- Post-Operative Pain -->
+		<GameDBSymptom ID="SYM_CRP_POSTOP_PAIN">
+        <DescriptionLocID>SYM_CRP_POSTOP_PAIN_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <Treatments>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>5</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_011</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_012</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		</GameDBSymptom>
+		
+		<!-- Mild Scar Tissue -->
+		<GameDBSymptom ID="SYM_CRP_M_SCAR_TISSUE">
+        <DescriptionLocID>SYM_CRP_M_SCAR_TISSUE_DESC</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_013</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_014</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+		<!-- Significant Scar Tissue -->
+		<GameDBSymptom ID="SYM_SLP_S_SCAR_TISSUE">
+        <DescriptionLocID>SYM_SLP_S_SCAR_TISSUE_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_PLAS_SCAR_REVISION_SURGERY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>15</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_015</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_016</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+		<!-- Nerve Damage -->
+		<GameDBSymptom ID="SYM_SLP_PLAS_NERVE_DAMAGE">
+        <DescriptionLocID>SYM_SLP_PLAS_NERVE_DAMAGE_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_PLAS_NERVE_DECOM_SURGERY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_003</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_004</CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+		
+		<!-- MRSA Infection -->
+		<GameDBSymptom ID="SYM_CRP_MRSA_INFECTION">
+        <DescriptionLocID>SYM_CRP_MRSA_INFECTION_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+		
+        <PatientMobility>IMOBILE</PatientMobility>
+		
+		<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+		
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_CRP_MRSA_TREATMENT_A</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_021</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_022</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+		<!-- Plastic Version of Abscess -->
+		<GameDBSymptom ID="SYM_PLAS_ABSCESS">
+        <DescriptionLocID>SYM_ABSCESS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+        
+        <PatientMobility>IMOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CRP_INCISION_AND_DRAINAGE</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1595</IconIndex>
+    </GameDBSymptom>
+		
+		<!-- Local Anaesthetic Poisoning -->
+		<GameDBSymptom ID="SYM_CRP_LI_LOCALPOISIONING">
+        <DescriptionLocID>SYM_CRP_LI_LOCALPOISIONING_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>High</Hazard>
+		
+		<RiskOfCollapseStartHours>2</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>4</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_COMA</CollapseSymptomRef>
+        <PatientMobility>IMOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_CRP_INTRA_LIPIDEMULSION</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_031</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_032</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+		<!-- Wound Infection (Collapse, mobile) -->
+		<GameDBSymptom ID="SYM_CRP_WOUND_INFECTION2">
+        <DescriptionLocID>SYM_CRP_WOUND_INFECTION2_DESC</DescriptionLocID>
+		
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTISEPTICS</TreatmentRef>
+        </Treatments>
+		
+		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_MEDIUM</CollapseProcedureRef>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1629</IconIndex>
+    </GameDBSymptom>
+			
+	<!-- ### Breast Surgery Focus ### -->
+		<!-- Capsular Contracture (The formation of tight scar tissue around the implant) -->
+		<GameDBSymptom ID="SYM_SLP_B_CAPSULAR">
+        <DescriptionLocID>SYM_SLP_B_CAPSULAR_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_PLAS_CAPSULECTOMY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_017</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_018</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+		<!-- Breast Implant Infection -->
+		<GameDBSymptom ID="SYM_SLP_BARSA_INFECTION">
+        <DescriptionLocID>SYM_SLP_BARSA_INFECTION_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+		
+        <PatientMobility>IMOBILE</PatientMobility>
+		
+		<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+		
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_PLAS_IMPLANT_REMOVAL</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_019</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_020</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+						
+		<!-- Breast Implant Extrusion -->	
+		<GameDBSymptom ID="SYM_SLP_B_IMPLANT_EXTRUSION">
+        <DescriptionLocID>SYM_SLP_B_IMPLANT_EXTRUSION_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_WOUND_INFECTION</CollapseSymptomRef>
+		
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_023</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_024</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+		<!-- Fail Implant Surgery -->	
+		<GameDBSymptom ID="SYM_SLP_FAILED_BA">
+        <DescriptionLocID>SYM_SLP_FAILED_BA_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_025</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_026</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+	<!-- ### Liposuction Focus ### -->
+		<!-- Asymmetric or ‘Baggy’ Skin Surface -->
+		<GameDBSymptom ID="SYM_CRP_LI_BAGGY_SKIN">
+        <DescriptionLocID>SYM_CRP_LI_BAGGY_SKIN_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_CRP_COMPRESSION_GARMENT</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_029</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_030</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
+		<!-- Pulmonary Embolism ***(CRP VERSION/Complication - Requires Carido or ICU for treatment)*** -->
+		<GameDBSymptom ID="SYM_CRP_PULMONARY_EMBOLISM">
+        <DescriptionLocID>SYM_CRP_PULMONARY_EMBOLISM_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+        
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
+			<ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+		
+        <Treatments>
+            <TreatmentRef>TRT_CLOT_PREVENTING_DRUGS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_027</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_028</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+		
+	<!-- ### Nose Surgery Focus ### -->
+		<!-- Nasal Septal Perforation -->
+		<GameDBSymptom ID="SYM_SLP_NOSE_SEPTALPERF">
+        <DescriptionLocID>SYM_SLP_NOSE_SEPTALPERF_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>72</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_CRP_WOUND_INFECTION2</CollapseSymptomRef>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_035</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_036</CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+	
+	<!-- ### Eye Surgery Focus ### -->
+		<!-- Globe Perforation -->
+		<GameDBSymptom ID="SYM_SLP_EYE_GLOBE_PERFORATION">
+        <DescriptionLocID>SYM_SLP_EYE_GLOBE_PERFORATION_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+		<RiskOfCollapseStartHours>4</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>16</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_CRP_WOUND_INFECTION2</CollapseSymptomRef>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_PLAS_EMERG_REPAIR</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_041</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_042</CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+		
+		<!-- Unsatisfactory Eye Alignment -->
+		<GameDBSymptom ID="SYM_SLP_EYE_UNDESIRED_RESULTS">
+        <DescriptionLocID>SYM_SLP_EYE_UNDESIRED_RESULTS_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>10</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_043</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_044</CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+		
+		<!-- Diplopia (Double Vision) -->
+		<GameDBSymptom ID="SYM_CRP_EYE_DIPLOPIA">
+        <DescriptionLocID>SYM_CRP_EYE_DIPLOPIA_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_BASIC_VISUAL_TEST</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_CRP_EYE_PATCH</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_045</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_046</CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+		
+		<!-- Conjunctival Inclusion Cyst -->
+		<GameDBSymptom ID="SYM_SLP_EYE_CIC">
+        <DescriptionLocID>SYM_SLP_EYE_CIC_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef></CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+		
+		<!-- Conjunctival Scarring -->
+		<GameDBSymptom ID="SYM_CRP_EYE_CONJU_SCAR">
+        <DescriptionLocID>SYM_CRP_EYE_CONJU_SCAR_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+		    <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_CRP_CORTICOSTEROID_EYEDROPS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef></CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+		
+		<!-- Slipped Muscle -->
+		<GameDBSymptom ID="SYM_SLP_EYE_SLIPPED_MUSCLE">
+        <DescriptionLocID>SYM_SLP_EYE_SLIPPED_MUSCLE_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_051</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_052</CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+		
+	<!-- ### Hair Transplant Focus ### -->	
+		
+		<!-- Folliculitis  -->
+		<GameDBSymptom ID="SYM_CRP_FOLLICULITIS">
+        <DescriptionLocID>SYM_CRP_FOLLICULITIS_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+		<Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_053</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_054</CustomIconSmallAssetRef>
+		
+		</GameDBSymptom>
+		
+	<!-- ### MISC Focus ### -->	
+		
+		<!-- Friction Burns  -->
+		
+		<!-- Excessive Fluid Loss  -->
+		
+</Database>

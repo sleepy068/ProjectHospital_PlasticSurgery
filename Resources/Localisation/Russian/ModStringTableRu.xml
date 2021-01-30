@@ -1,0 +1,19 @@
+<Database>
+	<GameDBStringTable ID="LOC_RU_ADDON_MOD_PLASTICSL">
+	<LanguageCode>ru</LanguageCode>
+	<LanguageNameLocalized>Русский</LanguageNameLocalized>
+	<Contributors>
+	<Name>Anubis</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      
+	<LocID>ADDON_MOD_PLASTICSL</LocID>                       	
+	<Text>Пластическая хирургия</Text>  
+	</GameDBLocalizedString>
+
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

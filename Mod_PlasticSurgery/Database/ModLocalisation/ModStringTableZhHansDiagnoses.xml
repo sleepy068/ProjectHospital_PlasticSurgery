@@ -1,0 +1,194 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_ZHHANS_ADDON_PLASTICS_DIAGNOSES">
+	<LanguageCode>zh-Hans</LanguageCode>
+	<LanguageNameLocalized>简体中文</LanguageNameLocalized>
+	<Contributors>
+	<Name>Juijote</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_BREAST_01</LocID>                         
+			<Text>隆胸术 (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_BREAST_01_DESC</LocID>                         
+			<Text>隆胸，也被称为隆乳术，可以是一种美容手术（C），也可以是乳房重建手术（R）的重建手术。该手术包括将假体植入乳房下方以扩大乳房。植入物的类型和大小取决于各种因素，如病人希望自己的乳房大多少，他们的乳房解剖结构，皮肤厚度和弹性，以及体型。病人表示，他们希望通过美容隆胸术来提高自己的外貌。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_STOMACH_01</LocID>                         
+			<Text>吸脂术 (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_STOMACH_01_DESC</LocID>                         
+			<Text>吸脂术，也被称为脂肪切除术或脂肪整形术，是一种通过去除多余的脂肪沉积物来瘦身和重塑身体特定部位的手术，从而改善身体的轮廓和比例。常见的目标区域包括大腿、臀部、腹部、手臂、颈部和下巴下方。通常情况下，较小体积的吸脂手术在门诊进行，而较大体积的吸脂手术则需要住院监测液体水平，如果病人患有任何其他疾病，则需要住院。病人表示，他们希望通过吸脂术来提高自己的外貌。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_NOSE_01</LocID>                         
+			<Text>隆鼻术 (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_NOSE_01_DESC</LocID>                         
+			<Text>隆鼻术是改变鼻子形状的手术。做隆鼻手术的动机可能是为了改变鼻子的外观，改善呼吸或两者兼而有之。隆鼻术通常被称为 "隆鼻"。这种外科手术的目的是提高鼻子的外在形象，或其外部美感。这通常涉及重塑一个 "弯曲 "的鼻子，或使一个大鼻子与面部其他部位的比例更好。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_01</LocID>                         
+			<Text>眼睑痉挛(R)(温和型)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_01_DESC</LocID>                         
+			<Text>眼睑痉挛是眼睑肌肉的异常收缩。它通常是指良性本质性眼睑痉挛（BEB），它是一种双侧疾病，是一种导致眼睑发作性闭合的局灶性肌张力障碍。在较轻的病例中，肉毒杆菌毒素注射是一种普遍接受的治疗方法。瘫痪开始需要一到四天。完整的效果通常需要一个星期左右，并经常持续到四个月。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_02</LocID>                         
+			<Text>斜视 (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_02_DESC</LocID>                         
+			<Text>斜视是指在看一个物体时，眼睛不能正确地相互对准的一种情况。专注于某一物体的眼睛可能会交替出现。这种情况可能偶尔出现，也可能一直存在。如果在儿童期的大部分时间都存在，可能会导致弱视或丧失深度知觉。虽然它通常被认为是一种儿童疾病，但斜视的发病率实际上在成人中更高。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_HAIR_01</LocID>                         
+			<Text>头发移植 (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_HAIR_01_DESC</LocID>                         
+			<Text>头发移植是一种外科技术，将身体某个部位的毛囊（称为 "供体部位"）移到被称为 "受体部位 "的秃头或斑秃部位。该技术主要用于治疗男性型秃发。在这种微创手术中，含有遗传上抗秃的毛囊的移植物（如后脑勺）被移植到秃头皮上。头发移植也可用于恢复睫毛、眉毛、胡须、胸毛、阴毛，以及填补事故或手术造成的疤痕，如换脸和以前的头发移植。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_01</LocID>                         
+			<Text>化学换肤（轻度换肤）(C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_01_DESC</LocID>                         
+			<Text>化学换肤是一种使用化学溶液纠正面部瑕疵、皱纹和皮肤色素不均的治疗形式。在这种治疗中，将一种化学溶液涂在皮肤上，使其 "起泡 "并最终剥落。新的皮肤通常比旧的皮肤更光滑，皱纹更少。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_01</LocID>                         
+			<Text>静脉曲张（简单）(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_01_DESC</LocID>                         
+			<Text>静脉曲张是扭曲、扩大的静脉。任何浅层静脉都可能变得曲张，但最常受影响的是腿部的静脉。对于许多患者来说，静脉曲张只是一种外观上的问题。对于其他患者来说，静脉曲张会引起疼痛和不适，并可能导致更严重的问题。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_VEIN_01</LocID>                         
+			<Text>毛细血管扩张症 (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_VEIN_01_DESC</LocID>                         
+			<Text>毛细血管扩张症，通常被称为蜘蛛静脉，是由靠近皮肤表面的微小血管组成的集群。它们通常是红色、蓝色或紫色；它们的外观就像蜘蛛网。它们通常出现在面部和腿部。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_M</LocID>                         
+			<Text>杜普伊藤氏挛缩症（简单）(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_F</LocID>                         
+			<Text>杜普伊藤氏挛缩症（简单）(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_DESC</LocID>                         
+			<Text>杜普埃特伦挛缩症，也被称为手掌纤维瘤病，其特点是手部畸形，即一个或多个手指的关节不能完全伸直，它通常在多年后发展。这种情况影响到位于手掌皮肤下的一层组织。组织结在皮肤下形成 - 最终形成一条粗线，可将一个或多个手指拉到弯曲的位置。如果是简单的，这种情况可能相对容易纠正，不需要手术干预。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_01</LocID>                         
+			<Text>肥厚性疤痕（简单）(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_01_DESC</LocID>                         
+			<Text>肥厚性疤痕是一种增厚的、宽大的、通常是凸起的疤痕，发生在皮肤受伤的地方。疤痕在伤口愈合过程中很常见，但增生性疤痕是对创伤或伤害的异常反应的结果。疤痕是烧伤的常见并发症，但也可能在穿孔、割伤、甚至痤疮后形成。增生性疤痕与瘢痕疙瘩相似，但往往比较温和，不会超过原来皮肤损伤的界限。这些疤痕并不危险或威胁生命。它们可能会发痒和疼痛，但更多时候只是一个美容问题。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_02</LocID>                         
+			<Text>瘢痕疙瘩(简单)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_02_DESC</LocID>                         
+			<Text>瘢痕疙瘩是一种凸起的疤痕。它们发生在受伤后皮肤愈合的地方。它们可以长到比造成疤痕的原始损伤大得多。任何可能导致疤痕的因素都可能导致瘢痕疙瘩。这包括被烧伤、割伤，或有严重的痤疮。 </Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_REPLANT_01</LocID>                         
+			<Text>被截断的手指(GT)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_REPLANT_01_DESC</LocID>                         
+			<Text>外伤性截肢是指由于事故或受伤而导致的身体部位的损失。在这个案例中，病人手上的一个指头被截去，需要立即进行医疗护理，以试图恢复手和指头的功能。尖锐的断头台型(GT)损伤，周围组织相对未受损伤，其移植后的预后最好，成功率为77%。严重的挤压伤（CI）、多层次损伤和撕脱伤常常使软组织受到破坏，以至于无法重新连接基本的血管，使再植不可能。在这种情况下，可能需要对残端进行修复性截肢。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_02</LocID>                         
+			<Text>皮肤调理（肉毒杆菌毒素疗法）(C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_02_DESC</LocID>                         
+			<Text>肉毒杆菌素注射主要因能够减少面部皱纹的出现而受到关注。肉毒杆菌素注射剂阻断了神经的某些化学信号，主要是导致肌肉收缩的信号。这些注射剂最常见的用途是暂时放松导致额头和眼睛周围出现皱纹的面部肌肉。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_03</LocID>                         
+			<Text>皮肤调理（皮肤填充剂）(C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_03_DESC</LocID>                         
+			<Text>皮肤填充剂，有时也称为软组织填充剂，是在皮下注射的材料，用于减少面部皱纹或线条的外观，也可用于通过增加脸颊和嘴唇的体积来增强面部轮廓，并改善疤痕的外观。皮肤填充物产品是可生物降解的，这意味着它们会在体内自然消失。填充物的寿命可能有所不同，这取决于品牌、厚度和治疗区域。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_04</LocID>                         
+			<Text>皮肤再生(激光换肤)(C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_04_DESC</LocID>                         
+			<Text>激光换肤是一种面部年轻化手术，使用激光来改善皮肤的外观或治疗面部的小缺陷。激光换肤可以减少面部细纹的出现。如果病人有疤痕或晒伤，它还可以治疗肤色流失，改善病人的肤色。激光换肤不能消除过度或下垂的皮肤。</Text>	
+		</GameDBLocalizedString>
+		
+	<!-- ### ### -->
+	<!-- ######################################## Content for v1.03 Added Below ######################################## -->
+	<!-- ### ### -->
+	
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_F_V2</LocID>                         
+			<Text>杜普伊藤氏挛缩症（简单）(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_M_V2</LocID>                         
+			<Text>杜普伊藤氏挛缩症（简单）(R)</Text>	
+		</GameDBLocalizedString>
+		
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

@@ -1,0 +1,559 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_ZHHANS_ADDON_PLASTICS_SYMPTOMS">
+	<LanguageCode>zh-Hans</LanguageCode>
+	<LanguageNameLocalized>简体中文</LanguageNameLocalized>
+	<Contributors>
+	<Name>Juijote</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- Plastic Surgery Mod -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C001</LocID>                                          	
+		<Text>患者要求（隆胸手术）</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C001_DESC</LocID>                   
+		<Text>病人表示，他们希望通过美容隆胸术来提高自己的外貌。</Text>  
+	</GameDBLocalizedString>	
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_PLAS_NERVE_DAMAGE</LocID>                               
+		<Text>术后神经性疼痛</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_PLAS_NERVE_DAMAGE_DESC</LocID>                   
+		<Text>如果在手术过程中神经受损，就会出现术后神经性疼痛（PONP）。受损的神经不能正确地将信号从身体的各个部位传递给大脑。相反，这些信号变得夸张，导致慢性疼痛，可能持续几个月甚至几年。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_UNDESIRED_RESULTS</LocID>                               
+		<Text>不希望看到的结果</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_UNDESIRED_RESULTS_DESC</LocID>                   
+		<Text>不利的结果是进行任何种类的手术的一部分和组成部分。在手术或治疗完成后，如果结果与预期的不同，就会出现治疗后的不理想结果。这可能会导致进一步的并发症，增加病人的压力。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_S_SCAR_TISSUE</LocID>                               
+		<Text>显著的疤痕组织</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_S_SCAR_TISSUE_DESC</LocID>                   
+		<Text>疤痕是皮肤表面的伤口或损伤愈合后留在皮肤上的痕迹。疤痕或疤痕组织的形成是愈合过程中的一个正常部分，当皮肤因受伤或手术而被切开时就会出现。疤痕组织的生长受到许多因素的影响，这些因素包括。原始伤害的严重程度。伤口的大小、深度和在身体上的位置。过多的疤痕组织，层层深入，会在手术后几个月明显降低功能和运动。这可能会产生负面影响，并降低病人的满意度。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_CAPSULAR</LocID>                               
+		<Text>帽状腱膜挛缩</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_CAPSULAR_DESC</LocID>                   
+		<Text>囊性挛缩是一种隆胸并发症，当内部疤痕组织在乳房假体周围形成一个紧缩或收缩的囊，使其收缩，直至变得错位和坚硬。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_BARSA_INFECTION</LocID>                               
+		<Text>乳房假体感染</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_BARSA_INFECTION_DESC</LocID>                   
+		<Text>从表面上看，细菌感染对任何可植入的医疗设备都是一个问题，包括乳房假体。感染的症状可能包括高烧和乳房疼痛、发红和或肿胀。如果单靠抗生素似乎不能清除感染，那么外科医生可能需要清理受感染的组织，并更换或完全移除植入物。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_FAILED_BA</LocID>                               
+		<Text>隆胸手术失败</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_FAILED_BA_DESC</LocID>                   
+		<Text>由于手术并发症，病人无法获得成功的整容手术结果。他们不会为此感到高兴。 </Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_IMPLANT_EXTRUSION</LocID>                               
+		<Text>乳房假体的挤压</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_IMPLANT_EXTRUSION_DESC</LocID>                   
+		<Text>在相对罕见的情况下，在植入物重建手术后，植入物或组织扩张器的表面会穿过皮肤并暴露出来。这被称为 "挤压"。如果患者的假体被挤出或暴露，可能会发生感染。如果乳房植入物已经挤出或即将挤出，整形外科医生将不得不通过矫正手术将其取出或替换。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_ABSCESS</LocID>                   
+		<Text>脓肿</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C002</LocID>                                          	
+		<Text>患者要求（吸脂术）</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C002_DESC</LocID>                   
+		<Text>患者表示，他们希望通过吸脂术来提升自己的外貌。</Text>  
+	</GameDBLocalizedString>	
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C003</LocID>                                          	
+		<Text>患者要求（隆鼻手术）</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C003_DESC</LocID>                   
+		<Text>患者表示，他们希望通过隆鼻手术来提高他们的外貌。</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_NOSE_SEPTALPERF</LocID>                                          	
+		<Text>鼻腔隔膜穿孔</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_NOSE_SEPTALPERF_DESC</LocID>                   
+		<Text>鼻腔隔膜穿孔是一种医学症状，即鼻中隔--分隔鼻腔的骨质/软骨壁--出现一个洞或裂缝。有些穿孔会导致出血、疼痛，以及吸气时发出呼啸声。如果干涸的血液或痂皮堆积起来，你也可能通过鼻子呼吸困难。许多穿孔不需要关闭，但严重或复杂的穿孔可能导致感染。</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R001</LocID>                                          	
+		<Text>眼睑痉挛 (评估)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R001_DESC</LocID>                   
+		<Text>对眼睑痉挛没有特别的检查。诊断依赖于身体检查、病史和排除其他可能的原因。医生评估了病人的症状并确定诊断确实是眼睑痉挛。</Text>  
+	</GameDBLocalizedString>		
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_GLOBE_PERFORATION</LocID>                                          	
+		<Text>眼球穿孔</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_GLOBE_PERFORATION_DESC</LocID>                   
+		<Text>当眼球外膜的完整性被钝性或穿透性创伤破坏时，就会发生眼球破裂。任何对角膜、巩膜或两者的全层损伤都被认为是开放性眼球损伤，在急性期要以同样的方式处理。球状体破裂是眼科的急症，迅速采取行动对于最大限度地提高功能效果至关重要。虽然眼球在眼眶内的位置在许多情况下可以保护它免受伤害，但眼球后段的损伤与永久性视力丧失的频率非常高。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_UNDESIRED_RESULTS</LocID>                                          	
+		<Text>不满意的眼睛矫正</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_UNDESIRED_RESULTS_DESC</LocID>                   
+		<Text>在矫正斜视和其他眼睛错位问题时，手术后不满意的眼睛排列是最常见的并发症。尽管术前进行了仔细的测量，并使用了常见的手术剂量表，但仍有一定比例的患者在术后会出现过度矫正或矫正不足的情况，需要通过矫正手术来缓解这一问题。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_CIC</LocID>                               
+		<Text>结膜包容囊肿</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_CIC_DESC</LocID>                   
+		<Text>当手术中结膜上皮细胞被埋在结膜表面下时，就会发生结膜包涵囊肿。这些细胞会随着时间的推移而繁殖，在最初手术的几天到几年后形成结膜下囊肿。结膜疤痕在再次手术后更常见，也在手术切除后更常见，此时肌肉腹腔的推进可能会使较厚的后部特农氏囊更靠近角膜缘，在那里它更明显。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_SLIPPED_MUSCLE</LocID>                               
+		<Text>肌肉滑脱</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_SLIPPED_MUSCLE_DESC</LocID>                   
+		<Text>在斜视手术中，如果肌肉囊没有包括肌肉或肌肉肌腱，就会发生肌肉滑脱。当肌肉囊被重新连接到巩膜上时，肌腱和肌肉就会从连接处向后自由滑动。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C004</LocID>                               
+		<Text>患者要求（头发移植）</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C004_DESC</LocID>                   
+		<Text>病人表示他们想通过植发来改善自己的外貌。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C005</LocID>                               
+		<Text>患者要求（化学换肤）</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C005_DESC</LocID>                   
+		<Text>病人表示，他们希望通过化学去皮来改善他们的外观。病人希望只做轻度换肤，所以没有对皮肤造成太大负担或需要长期治疗。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R002</LocID>                                          	
+		<Text>错位的眼睛</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R002_DESC</LocID>                   
+		<Text>病人已被证实有错位的眼睛。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R003</LocID>                                          	
+		<Text>简单的静脉曲张</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R003_DESC</LocID>                   
+		<Text>简单的静脉曲张患者有静脉曲张，但幸运的是，它们看起来相当简单，缺乏更严重诊断的迹象或症状。引起症状的静脉曲张不应该被忽视，应及时治疗，以防止病人的不适，并帮助预防未来的问题。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C006</LocID>                                          	
+		<Text>患者要求（蜘蛛网状静脉移除）</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C006_DESC</LocID>                   
+		<Text>患者表示，他们希望通过手术去除身体某个部位的蜘蛛网状静脉，以改善其外观。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_M</LocID>                                          	
+		<Text>永久性弯曲的手指</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_F</LocID>                                          	
+		<Text>永久性弯曲的手指</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_DESC</LocID>                   
+		<Text>病人的手指长期向手掌内侧弯曲。这种弯曲是由于厚重的组织迫使手指处于收缩状态。评估表明这是杜普伊藤氏挛缩症的原因。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R005</LocID>                                          	
+		<Text>肥厚性疤痕</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R005_DESC</LocID>                   
+		<Text>患者出现了肥厚性疤痕，给他们带来了一定程度的不适感。虽然这些疤痕并不危险或危及生命，但纠正这种不适感将有助于提高病人的生活质量。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R006</LocID>                                          	
+		<Text>瘢痕疙瘩</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R006_DESC</LocID>                   
+		<Text>患者出现了瘢痕疙瘩，给他们带来了一定程度的不适感。虽然这些疤痕并不危险或危及生命，但纠正这种不适感将有助于提高病人的生活质量。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT001</LocID>                                          	
+		<Text>损失的数字</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT001_DESC</LocID>                   
+		<Text>病人的一个手指因事故或受伤而被截肢。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C007</LocID>                               
+		<Text>患者要求（皮肤护理）</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C007_DESC</LocID>                   
+		<Text>患者表示，他们希望通过注射肉毒杆菌来帮助调理他们的皮肤，提高他们的外观。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C008</LocID>                               
+		<Text>患者要求（皮肤护理）</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C008_DESC</LocID>                   
+		<Text>患者表示，他们希望通过注射皮肤填充剂来帮助调理他们的皮肤和提高他们的外观。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C009</LocID>                               
+		<Text>患者要求（皮肤再生）</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C009_DESC</LocID>                   
+		<Text>患者表示，他们希望通过激光换肤手术来帮助他们的皮肤恢复活力，提高他们的外观。</Text>  
+	</GameDBLocalizedString>
+				
+	<!-- CRP Export (Everything below will be exported to CRP after release) -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEROMA</LocID>                                          	
+		<Text>血清素瘤</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEROMA_DESC</LocID>                   
+		<Text>血清肿是在你的皮肤表面下积聚的液体。血清肿可能是在外科手术后形成的，最常见的是在手术切口的部位或切除组织的地方。血清肿可能需要几周时间才能自行吸收。只要不出现并发症，让血清肿自行吸收是自然愈合的最佳方式。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_POSTOP_PAIN</LocID>                               
+		<Text>术后疼痛</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_POSTOP_PAIN_DESC</LocID>                   
+		<Text>术后疼痛是一种预期的和暂时的背景疼痛的增加，通常发生在手术后。术后疼痛仍然是患者的一个重要问题，也是麻醉师和急性疼痛医学专家的一个挑战。尽管在过去的二十年里，随着多模式镇痛方案的使用，区域麻醉的进步，以及术后持续镇痛输液的使用，某些亚群的病人会继续发展为慢性术后疼痛。术后疼痛处理不当会导致并发症和长时间的康复。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_M_SCAR_TISSUE</LocID>                               
+		<Text>轻微疤痕组织</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_M_SCAR_TISSUE_DESC</LocID>                   
+		<Text>疤痕是皮肤表面的伤口或损伤愈合后留在皮肤上的痕迹。疤痕或疤痕组织的形成是愈合过程中的一个正常部分，当皮肤因受伤或手术而被切开时就会出现。疤痕组织的生长受到许多因素的影响，这些因素包括。原始伤害的严重程度。伤口的大小、深度和在身体上的位置。</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MRSA_INFECTION</LocID>                               
+		<Text>抗性金黄色葡萄球菌感染</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MRSA_INFECTION_DESC</LocID>                   
+		<Text>耐甲氧西林金黄色葡萄球菌（MRSA）感染是由一种对用于治疗普通葡萄球菌感染的许多抗生素产生抗药性的葡萄球菌引起的。这可能很快变成深的、痛苦的脓肿，需要通过手术引流。有时，这些细菌仍然局限在皮肤上。但它们也可以钻入身体深处，在骨骼、关节、手术伤口、血液、心脏瓣膜和肺部造成可能危及生命的感染。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PULMONARY_EMBOLISM</LocID>                               
+		<Text>肺栓塞</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PULMONARY_EMBOLISM_DESC</LocID>                   
+		<Text>肺栓塞（PE）是指从身体其他部位通过血液流动的物质（栓塞）堵塞了肺部的动脉。大多数时候，肺栓塞是由来自腿部的血块引起的，或者很少是身体其他部位的血块（深静脉血栓或DVT）。手术会增加病人患肺栓塞的风险。\治疗要求。心脏科或重症监护室检查。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_LOCALPOISIONING</LocID>                               
+		<Text>局部麻醉剂中毒</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_LOCALPOISIONING_DESC</LocID>                   
+		<Text>局部麻醉剂的毒性通常是由于治疗错误而发生的。导致中毒的情况包括不经意的静脉或动脉注射，以及摄入或局部使用的含局部麻醉剂的剂量过大。中枢神经系统对局麻药的影响比心脏系统更敏感，通常会首先表现出中毒的迹象/症状。</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_BAGGY_SKIN</LocID>                               
+		<Text>不对称或 "袋状 "皮肤表面</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_BAGGY_SKIN_DESC</LocID>                   
+		<Text>当脂肪从皮下被移除时，一些病人认为他们的皮肤会收缩，以适应他们更光滑、更有弹性的身体。然而，情况并不总是如此，特别是在皮肤明显受损的部位。这在胃部和臀部区域最常见，尽管它可能发生在全身。如果皮肤在脂肪沉积物上被长期拉伸，当脂肪沉积物不再存在时，它可能不会收紧或缩回。例如，任何有妊娠纹的部位，在吸脂术后都不可能迅速收紧。过多和下垂的皮肤是吸脂术后出现凹陷的最常见原因。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_WOUND_INFECTION2</LocID>                               
+		<Text>伤口感染</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_WOUND_INFECTION2_DESC</LocID>                   
+		<Text>当细菌等病菌在伤口的受损皮肤内生长时，就会发生伤口感染。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RAPID_BLINKING</LocID>                               
+		<Text>过度眨眼</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RAPID_BLINKING_DESC</LocID>                   
+		<Text>眨眼是一种条件反射，这意味着你的身体会自动这样做。你也可以在你想眨眼的时候让自己眨眼。过度眨眼是指你眨眼的次数超过你想要的次数。过度眨眼是由过度刺激眨眼反射引起的。这最常见的原因是眼睛里有异物。这可能很简单，就像嵌顿的睫毛摩擦到眼球的前面一样。因此，任何导致角膜擦伤的东西都会引起过度的眨眼和流泪，以试图将异物洗掉。过度眨眼也可能是由过敏反应引起的，导致结膜出水、发痒和变粗糙。还有其他许多疾病状态也与过度眨眼有关。对过度眨眼的治疗取决于根本原因。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LAZY_EYE</LocID>                               
+		<Text>弱视（懒惰的眼睛）</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LAZY_EYE_DESC</LocID>                   
+		<Text>弱视是一种视力发育障碍，即眼睛不能达到正常的视力，即使戴着处方眼镜或隐形眼镜也不能达到。弱视也称为懒惰眼，在婴儿期和儿童早期开始。在大多数情况下，只有一只眼睛受到影响。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_DIPLOPIA</LocID>                               
+		<Text>复视 (Diplopia)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_DIPLOPIA_DESC</LocID>                   
+		<Text>复视复视，是指同时感知一个物体的两个图像，这些图像可能在水平、垂直、对角线（即垂直和水平方向）或旋转方向上相互移位。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_CONJU_SCAR</LocID>                               
+		<Text>结膜瘢痕</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_CONJU_SCAR_DESC</LocID>                   
+		<Text>结膜疤痕可能是手术后的一个持续问题。结膜没有恢复到典型的半透明的白色外观，而是长期保持充血和粉红色。许多情况会导致结膜，即覆盖眼白和眼睑下方的透明薄膜，变得有疤痕。疤痕会损害结膜，使其无法保留保护性的粘膜层，而粘膜层有助于泪液粘附在结膜表面。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FOLLICULITIS</LocID>                               
+		<Text>毛囊炎</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FOLLICULITIS_DESC</LocID>                   
+		<Text>毛囊炎是一种常见的皮肤病，毛囊会发炎。它通常由细菌或真菌感染引起。起初，它可能看起来像毛囊周围的小红疙瘩或白头粉刺--每根头发生长的小口袋。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MILD_AR</LocID>                               
+		<Text>轻度过敏反应</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MILD_AR_DESC</LocID>                   
+		<Text>病人在手术中或手术后出现了轻微的过敏反应。这可能是对所使用的某些麻醉药物、环境条件、手术中使用的其他类型的药物或材料，甚至是伤口敷料的反应。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_THPAFA</LocID>                               
+		<Text>掌部筋膜增厚</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_THPAFA_DESC</LocID>                   
+		<Text>掌筋膜是手掌上的一个三角形结构，位于远端。当增厚时，它变得紧张和缩短，使手指向手掌内侧收缩。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_BENT_DIGIT</LocID>                               
+		<Text>弯曲的手指</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_BENT_DIGIT_DESC</LocID>                   
+		<Text>患者出现了手指向内弯曲的情况，虽然他们对手指仍有运动控制能力，但患者无法自己纠正弯曲的情况。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_THICKCORD</LocID>                               
+		<Text>突出的组织索</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_THICKCORD_DESC</LocID>                   
+		<Text>患者的手上有一条硬化的、厚实的肌肉/组织索。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DIMPLES</LocID>                               
+		<Text>皮肤凹陷</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DIMPLES_DESC</LocID>                   
+		<Text>患者的皮肤有凹陷的外观，类似于橘子皮或高尔夫球的表面结构。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OOST</LocID>                               
+		<Text>疤痕组织的过度生长</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OOST_DESC</LocID>                   
+		<Text>当伤口处产生过多的胶原蛋白时，就会发生疤痕组织过度生长。疤痕不断增长，甚至在伤口愈合后也是如此。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING1</LocID>                               
+		<Text>非常轻微的出血</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING1_DESC</LocID>                   
+		<Text>病人的出血量很轻，通常没有生命体征的变化，通常没有必要进行液体复苏。像这样的出血通常会自行停止。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING2</LocID>                               
+		<Text>轻度出血</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING2_DESC</LocID>                   
+		<Text>病人出血量较少，通常没有生命体征的变化，通常没有必要进行液体复苏。止血可能是必要的，以防止进一步的并发症。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING3</LocID>                               
+		<Text>中度出血</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING3_DESC</LocID>                   
+		<Text>病人的出血量有些大，为防止低血容量休克，发明是必要的。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING4</LocID>                               
+		<Text>严重出血</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING4_DESC</LocID>                   
+		<Text>病人正在大量出血，预防低血容量性休克至关重要。</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING5</LocID>                               
+		<Text>灾难性的出血</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING5_DESC</LocID>                   
+		<Text>病人正在大量出血，需要立即进行干预以挽救病人的生命。</Text>  
+	</GameDBLocalizedString>
+	
+	<!-- ### ### -->
+	<!-- ######################################## Content for v1.03 Added Below ######################################## -->
+	<!-- ### ### -->
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_F_V2</LocID>                                          	
+		<Text>永久性弯曲的手指</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_M_V2</LocID>                                          	
+		<Text>永久性弯曲的手指</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

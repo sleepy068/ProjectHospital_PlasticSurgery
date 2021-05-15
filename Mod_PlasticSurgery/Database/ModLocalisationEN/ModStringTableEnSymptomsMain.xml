@@ -1,0 +1,194 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_EN_ADDON_PLASTICS_SYMPTOMS_MAIN">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Sleepy068</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- =========================================== -->
+	<!-- ============= Plastic Surgery ============= -->
+	<!-- =========================================== -->
+	<!-- ================= Cosmetic ================ -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C001_V2</LocID>                                          	
+		<Text>Patient Request (Breast Augmentation)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C001_DESC</LocID>                   
+		<Text>The patient has expressed that they want a Cosmetic Breast Augmentation to enhance their appearance.</Text>  
+	</GameDBLocalizedString>	
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C002_V2</LocID>                                          	
+		<Text>Patient Request (Liposuction)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C002_DESC</LocID>                   
+		<Text>The patient has expressed that they want Liposuction to enhance their appearance.</Text>  
+	</GameDBLocalizedString>	
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C003_V2</LocID>                                          	
+		<Text>Patient Request (Augmentation Rhinoplasty)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C003_DESC</LocID>                   
+		<Text>The patient has expressed that they want Augmentation Rhinoplasty to enhance their appearance.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C004_V2</LocID>                               
+		<Text>Patient Request (Hair Transplant)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C004_DESC</LocID>                   
+		<Text>The patient has expressed that they want a Hair Transplant to enhance their appearance.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C005</LocID>                               
+		<Text>Patient Request (Chemical Peel)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C005_DESC</LocID>                   
+		<Text>The patient has expressed that they want a Chemical Peel to enhance their appearance. The patient wishes to only have a light peel, so nothing too taxing on the skin or requiring long term treatment.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C006</LocID>                                          	
+		<Text>Patient Request (Spider Veins)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C006_DESC</LocID>                   
+		<Text>The patient has expressed that they want a procedure to remove spider veins (Telangiectasias) from a part or parts of their body to enhance their appearance.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C007</LocID>                               
+		<Text>Patient Request (Skin Conditioning)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C007_DESC</LocID>                   
+		<Text>The patient has expressed that they want botox injections to help condition their skin and enhance their appearance.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C008</LocID>                               
+		<Text>Patient Request (Skin Conditioning)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C008_DESC</LocID>                   
+		<Text>The patient has expressed that they want dermal filler injections to help condition their skin and enhance their appearance.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C009</LocID>                               
+		<Text>Patient Request (Skin Rejuvenation)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C009_DESC</LocID>                   
+		<Text>The patient has expressed that they want a laser resurfacing procedure to help rejuvenation their skin and enhance their appearance.</Text>  
+	</GameDBLocalizedString>
+	
+	<!-- ================= Reconstructive ================ -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R001</LocID>                                          	
+		<Text>Blepharospam (Evaluation)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R001_DESC</LocID>                   
+		<Text>There is no particular test for blepharospasm. Diagnosis relies on physical examination, medical history and ruling out other possible causes. The doctor has evaluated the patient's symptoms and determined the diagnosis is indeed blepharospasm.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R002_V2</LocID>                                          	
+		<Text>Misaligned Eyes</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R002_DESC</LocID>                   
+		<Text>The patient has been confirmed to have misaligned eyes.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R003</LocID>                                          	
+		<Text>Simple Varicose Veins</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R003_DESC</LocID>                   
+		<Text>The patient has varicose veins but fortunately they appear to be rather simple and lack the signs or symptoms of a more serious diagnosis. Varicose veins that cause symptoms should not be ignored and treated promptly to prevent patient discomfort and to help prevent future issues.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_M</LocID>                                          	
+		<Text>Permanently Bent Finger</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_F</LocID>                                          	
+		<Text>Permanently Bent Finger</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_DESC</LocID>                   
+		<Text>The patient's finger is permanently bent inwards towards the palm. The bending is a result of thick tissue forcing the finger into a contractured position. Evaluation suggests this is the cause of a Dupuytren’s Contracture.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R005</LocID>                                          	
+		<Text>Hypertrophic Scarring</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R005_DESC</LocID>                   
+		<Text>The patient has presented with Hypertrophic Scarring that is giving them some degree of discomfort. While these scars aren’t dangerous or life-threatening correcting the discomfort will help enhance the patient's quality of life.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R006</LocID>                                          	
+		<Text>Keloid Scarring</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R006_DESC</LocID>                   
+		<Text>The patient has presented with Keloid Scarring that is giving them some degree of discomfort. While these scars aren’t dangerous or life-threatening correcting the discomfort will help enhance the patient's quality of life.</Text>  
+	</GameDBLocalizedString>	
+	
+	<!-- ================= Reconstructive Trauma ================ -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT001_V2</LocID>                                          	
+		<Text>Loss of Digit</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT001_DESC</LocID>                   
+		<Text>One of the patient's digits has been amputated due to an accident or injury.</Text>  
+	</GameDBLocalizedString>
+				
+	<!-- ==================================================== -->
+	<!-- ============= Plastic Surgery vx.x.x.x ============= -->
+	<!-- ==================================================== -->
+	<!-- ================= Cosmetic ================ -->
+	
+	<!-- ================= Reconstructive ================ -->
+	
+	<!-- ================= Reconstructive Trauma ================ -->
+
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

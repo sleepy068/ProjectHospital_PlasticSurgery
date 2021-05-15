@@ -1,0 +1,80 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_EN_ADDON_PLASTICS_TREATMENTS_SURG_OLD">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Sleepy068</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- =========================================== -->
+	<!-- ============= Plastic Surgery ============= -->
+	<!-- =========================================== -->
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_AUGMENTATION_MAMMOPLASTY</LocID>                         
+		<Text>Augmentation Mammoplasty</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_PLAS_NERVE_DECOM_SURGERY</LocID>                                    	
+		<Text>Nerve Reconstructive Surgery</Text>
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_CORRECTIVE_SURGERY</LocID>                                    	
+		<Text>Corrective Surgery</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_PLAS_SCAR_REVISION_SURGERY</LocID>                                    	
+		<Text>Scar Revision Surgery</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_PLAS_IMPLANT_REMOVAL</LocID>                                    	
+		<Text>Breast Implant Removal</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_PLAS_CAPSULECTOMY</LocID>                                    	
+		<Text>Capsulectomy</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_SAL</LocID>                                    	
+		<Text>Suction Assisted Lipectomy (SAL)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_RHINOPLASTY</LocID>                                    	
+		<Text>Rhinoplasty</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_PLAS_EYEMSURGERY</LocID>                                    	
+		<Text>Eye Muscle Surgery</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_PLAS_EMERG_REPAIR</LocID>                                    	
+		<Text>Emergency Surgery (Plastic)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_HAIRT</LocID>                                    	
+		<Text>Follicular Unit Transplantation</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>TRT_SLP_PLAS_REPLANT</LocID>                                    	
+		<Text>Replantation</Text>  
+	</GameDBLocalizedString>
+
+    <!-- ==================================================== -->
+	<!-- ============= Plastic Surgery vx.x.x.x ============= -->
+	<!-- ==================================================== -->
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

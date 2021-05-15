@@ -13,7 +13,7 @@
             <RequiredSkillsToPrescribe>
                 <SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
             </RequiredSkillsToPrescribe>
-
+ 
             <RequiredDoctorQualificationList>
                 <SkillRef>SKILL_DOC_SPEC_PLAS_SURGERY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
@@ -88,7 +88,7 @@
                     <ProbabilityPercentMaxSkillLevel>10</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_PLAS_NERVE_DAMAGE</SymptomRef>
+                    <SymptomRef>SYM_SLP_PLAS_NERVE_DAMAGE_V2</SymptomRef>
                     <ProbabilityPercent>5</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -103,22 +103,22 @@
                     <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE</SymptomRef> <!-- 10 -->
+                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE_V2</SymptomRef> <!-- 10 -->
                     <ProbabilityPercent>6</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_UNDESIRED_RESULTS</SymptomRef>
+                    <SymptomRef>SYM_SLP_UNDESIRED_RESULTS_V2</SymptomRef>
                     <ProbabilityPercent>3</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_B_CAPSULAR</SymptomRef>
+                    <SymptomRef>SYM_SLP_B_CAPSULAR_V2</SymptomRef>
                     <ProbabilityPercent>5</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_BARSA_INFECTION</SymptomRef>
+                    <SymptomRef>SYM_SLP_BARSA_INFECTION_V2</SymptomRef>
                     <ProbabilityPercent>3</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -453,7 +453,7 @@
                     <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE</SymptomRef>
+                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE_V2</SymptomRef>
                     <ProbabilityPercent>4</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -629,7 +629,7 @@
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
                 <Complication>
-                    <SymptomRef>SYM_SLP_UNDESIRED_RESULTS</SymptomRef>
+                    <SymptomRef>SYM_SLP_UNDESIRED_RESULTS_V2</SymptomRef>
                     <ProbabilityPercent>15</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>4</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -649,12 +649,12 @@
                     <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE</SymptomRef> <!-- 10 -->
+                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE_V2</SymptomRef> <!-- 10 -->
                     <ProbabilityPercent>4</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_NOSE_SEPTALPERF</SymptomRef>
+                    <SymptomRef>SYM_SLP_NOSE_SEPTALPERF_V2</SymptomRef>
                     <ProbabilityPercent>3</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -835,7 +835,7 @@
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_UNDESIRED_RESULTS</SymptomRef>
+                    <SymptomRef>SYM_SLP_UNDESIRED_RESULTS_V2</SymptomRef>
                     <ProbabilityPercent>30</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>10</ProbabilityPercentMaxSkillLevel>
                 </Complication>

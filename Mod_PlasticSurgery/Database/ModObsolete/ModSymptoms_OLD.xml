@@ -11,32 +11,96 @@
 		Brusie (SYM_BRUISE)
 	-->
 	
-	<!-- ============================================= -->
-	<!-- ============= Normal Treatments ============= -->
-	<!-- ============================================= -->
-	<!-- Fail Implant Surgery -->	
-	<GameDBSymptom ID="SYM_SLP_FAILED_BA">
-        <DescriptionLocID>SYM_SLP_FAILED_BA_DESC</DescriptionLocID>
-        <DiscomfortLevel>High</DiscomfortLevel>
-        <PatientComplains>true</PatientComplains>
-        <Hazard>Low</Hazard>
-        <PatientMobility>MOBILE</PatientMobility>
-		
-        <Examinations>
-			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-        </Examinations>
-		
-        <ShameLevel>20</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-		
-		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_025</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_026</CustomIconSmallAssetRef>
-		
-        <IconIndex>1</IconIndex>
-		
-		</GameDBSymptom>
-		
+	<!-- ==================================================== -->
+	<!-- ============= Plastic Surgery Symptoms ============= -->
+	<!-- ==================================================== -->
+
+
+	<!-- ========================================================= -->
+	<!-- ============= Plastic Surgery Complications ============= -->
+	<!-- ========================================================= -->
+	
+	<!-- ### Generic ### -->
+	<!-- Undesired Results -->
+	<GameDBSymptom ID="SYM_SLP_UNDESIRED_RESULTS">
+	<DescriptionLocID>SYM_SLP_UNDESIRED_RESULTS_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_007</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_008</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Significant Scar Tissue -->
+	<GameDBSymptom ID="SYM_SLP_S_SCAR_TISSUE">
+	<DescriptionLocID>SYM_SLP_S_SCAR_TISSUE_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>TRT_SLP_PLAS_SCAR_REVISION_SURGERY</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>15</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_015</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_016</CustomIconSmallAssetRef>
+	
+	<IconIndex>1</IconIndex>
+	
+	</GameDBSymptom>
+	
+	<!-- Nerve Damage -->
+	<GameDBSymptom ID="SYM_SLP_PLAS_NERVE_DAMAGE">
+	<DescriptionLocID>SYM_SLP_PLAS_NERVE_DAMAGE_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>TRT_SLP_PLAS_NERVE_DECOM_SURGERY</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_003</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_004</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
 	<!-- Plastic Version of Abscess -->
 	<GameDBSymptom ID="SYM_PLAS_ABSCESS">
         <DescriptionLocID>SYM_ABSCESS_DESCRIPTION</DescriptionLocID>
@@ -60,95 +124,9 @@
         <IconIndex>1595</IconIndex>
     </GameDBSymptom>
 		
-	
-	<!-- ============================================== -->
-	<!-- ============= Surgery Treatments ============= -->
-	<!-- ============================================== -->
-	<!-- ### Generic ### -->
-	<!-- Undesired Results -->
-	<GameDBSymptom ID="SYM_SLP_UNDESIRED_RESULTS_V2">
-	<DescriptionLocID>SYM_SLP_UNDESIRED_RESULTS_DESC</DescriptionLocID>
-	<DiscomfortLevel>High</DiscomfortLevel>
-	<PatientComplains>true</PatientComplains>
-	<Hazard>Low</Hazard>
-	<PatientMobility>MOBILE</PatientMobility>
-	
-	<Examinations>
-		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-	</Examinations>
-	
-	<Treatments>
-		<TreatmentRef>SUR_SLP_CORRECTIVE_SURGERY</TreatmentRef>
-	</Treatments>
-	
-	<ShameLevel>0</ShameLevel>
-	<IsMainSymptom>false</IsMainSymptom>
-	<IconIndex>1</IconIndex>
-	
-	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_007</CustomIconBigAssetRef>
-	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_008</CustomIconSmallAssetRef>
-	
-	</GameDBSymptom>
-	
-	<!-- Significant Scar Tissue -->
-	<GameDBSymptom ID="SYM_SLP_S_SCAR_TISSUE_V2">
-	<DescriptionLocID>SYM_SLP_S_SCAR_TISSUE_DESC</DescriptionLocID>
-	<DiscomfortLevel>High</DiscomfortLevel>
-	<PatientComplains>true</PatientComplains>
-	<Hazard>Low</Hazard>
-	<PatientMobility>MOBILE</PatientMobility>
-	
-	<Examinations>
-		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-	</Examinations>
-	
-	<Treatments>
-		<TreatmentRef>SUR_SLP_PLAS_SCAR_REVISION_SURGERY</TreatmentRef>
-	</Treatments>
-	
-	<ShameLevel>15</ShameLevel>
-	<IsMainSymptom>false</IsMainSymptom>
-	
-	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_015</CustomIconBigAssetRef>
-	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_016</CustomIconSmallAssetRef>
-	
-	<IconIndex>1</IconIndex>
-	
-	</GameDBSymptom>
-	
-	<!-- Nerve Damage -->
-	<GameDBSymptom ID="SYM_SLP_PLAS_NERVE_DAMAGE_V2">
-	<DescriptionLocID>SYM_SLP_PLAS_NERVE_DAMAGE_DESC</DescriptionLocID>
-	<DiscomfortLevel>High</DiscomfortLevel>
-	<PatientComplains>true</PatientComplains>
-	<Hazard>Medium</Hazard>
-	<PatientMobility>MOBILE</PatientMobility>
-	
-	<Examinations>
-		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-	</Examinations>
-	
-	<Treatments>
-		<TreatmentRef>SUR_SLP_PLAS_NERVE_DECOM_SURGERY</TreatmentRef>
-	</Treatments>
-	
-	<ShameLevel>0</ShameLevel>
-	<IsMainSymptom>false</IsMainSymptom>
-	
-	<IconIndex>1</IconIndex>
-	
-	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_003</CustomIconBigAssetRef>
-	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_004</CustomIconSmallAssetRef>
-	
-	</GameDBSymptom>
-	
-	
 	<!-- ### Breast Surgery Focus ### -->
 	<!-- Capsular Contracture (The formation of tight scar tissue around the implant) -->
-	<GameDBSymptom ID="SYM_SLP_B_CAPSULAR_V2">
+	<GameDBSymptom ID="SYM_SLP_B_CAPSULAR">
 	<DescriptionLocID>SYM_SLP_B_CAPSULAR_DESC</DescriptionLocID>
 	<DiscomfortLevel>High</DiscomfortLevel>
 	<PatientComplains>true</PatientComplains>
@@ -161,7 +139,7 @@
 	</Examinations>
 	
 	<Treatments>
-		<TreatmentRef>SUR_SLP_PLAS_CAPSULECTOMY</TreatmentRef>
+		<TreatmentRef>TRT_SLP_PLAS_CAPSULECTOMY</TreatmentRef>
 	</Treatments>
 	
 	<ShameLevel>20</ShameLevel>
@@ -175,7 +153,7 @@
 	</GameDBSymptom>
 	
 	<!-- Breast Implant Infection -->
-	<GameDBSymptom ID="SYM_SLP_BARSA_INFECTION_V2">
+	<GameDBSymptom ID="SYM_SLP_BARSA_INFECTION">
 	<DescriptionLocID>SYM_SLP_BARSA_INFECTION_DESC</DescriptionLocID>
 	<DiscomfortLevel>High</DiscomfortLevel>
 	<PatientComplains>false</PatientComplains>
@@ -192,7 +170,7 @@
 	</Examinations>
 	
 	<Treatments>
-		<TreatmentRef>SUR_SLP_PLAS_IMPLANT_REMOVAL</TreatmentRef>
+		<TreatmentRef>TRT_SLP_PLAS_IMPLANT_REMOVAL</TreatmentRef>
 	</Treatments>
 	
 	<ShameLevel>20</ShameLevel>
@@ -206,7 +184,7 @@
 	</GameDBSymptom>
 					
 	<!-- Breast Implant Extrusion -->	
-	<GameDBSymptom ID="SYM_SLP_B_IMPLANT_EXTRUSION_V2">
+	<GameDBSymptom ID="SYM_SLP_B_IMPLANT_EXTRUSION">
 	<DescriptionLocID>SYM_SLP_B_IMPLANT_EXTRUSION_DESC</DescriptionLocID>
 	<DiscomfortLevel>High</DiscomfortLevel>
 	<PatientComplains>true</PatientComplains>
@@ -223,7 +201,7 @@
 	</Examinations>
 	
 	<Treatments>
-		<TreatmentRef>SUR_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+		<TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
 	</Treatments>
 	
 	<ShameLevel>20</ShameLevel>
@@ -236,10 +214,32 @@
 	
 	</GameDBSymptom>
 	
-	
+	<!-- Fail Implant Surgery -->	
+	<GameDBSymptom ID="SYM_SLP_FAILED_BA">
+        <DescriptionLocID>SYM_SLP_FAILED_BA_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_025</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_026</CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
 	<!-- ### Nose Surgery Focus ### -->
 	<!-- Nasal Septal Perforation -->
-	<GameDBSymptom ID="SYM_SLP_NOSE_SEPTALPERF_V2">
+	<GameDBSymptom ID="SYM_SLP_NOSE_SEPTALPERF">
         <DescriptionLocID>SYM_SLP_NOSE_SEPTALPERF_DESC</DescriptionLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <PatientComplains>true</PatientComplains>
@@ -256,7 +256,7 @@
         </Examinations>
 		
 		<Treatments>
-            <TreatmentRef>SUR_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+            <TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
         </Treatments>
 		
         <ShameLevel>0</ShameLevel>
@@ -268,10 +268,9 @@
 		
 		</GameDBSymptom>
 	
-	
 	<!-- ### Eye Surgery Focus ### -->
 	<!-- Globe Perforation -->
-	<GameDBSymptom ID="SYM_SLP_EYE_GLOBE_PERFORATION_V2">
+	<GameDBSymptom ID="SYM_SLP_EYE_GLOBE_PERFORATION">
 	<DescriptionLocID>SYM_SLP_EYE_GLOBE_PERFORATION_DESC</DescriptionLocID>
 	<DiscomfortLevel>High</DiscomfortLevel>
 	<PatientComplains>true</PatientComplains>
@@ -288,7 +287,7 @@
 	</Examinations>
 	
 	<Treatments>
-		<TreatmentRef>SUR_SLP_PLAS_EMERG_REPAIR</TreatmentRef>
+		<TreatmentRef>TRT_SLP_PLAS_EMERG_REPAIR</TreatmentRef>
 	</Treatments>
 	
 	<ShameLevel>0</ShameLevel>
@@ -301,7 +300,7 @@
 	</GameDBSymptom>
 	
 	<!-- Unsatisfactory Eye Alignment -->
-	<GameDBSymptom ID="SYM_SLP_EYE_UNDESIRED_RESULTS_V2">
+	<GameDBSymptom ID="SYM_SLP_EYE_UNDESIRED_RESULTS">
 	<DescriptionLocID>SYM_SLP_EYE_UNDESIRED_RESULTS_DESC</DescriptionLocID>
 	<DiscomfortLevel>High</DiscomfortLevel>
 	<PatientComplains>true</PatientComplains>
@@ -314,7 +313,7 @@
 	</Examinations>
 	
 	<Treatments>
-		<TreatmentRef>SUR_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+		<TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
 	</Treatments>
 	
 	<ShameLevel>10</ShameLevel>
@@ -327,7 +326,7 @@
 	</GameDBSymptom>
 	
 	<!-- Conjunctival Inclusion Cyst -->
-	<GameDBSymptom ID="SYM_SLP_EYE_CIC_V2">
+	<GameDBSymptom ID="SYM_SLP_EYE_CIC">
 	<DescriptionLocID>SYM_SLP_EYE_CIC_DESC</DescriptionLocID>
 	<DiscomfortLevel>High</DiscomfortLevel>
 	<PatientComplains>true</PatientComplains>
@@ -340,7 +339,7 @@
 	</Examinations>
 	
 	<Treatments>
-		<TreatmentRef>SUR_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+		<TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
 	</Treatments>
 	
 	<ShameLevel>0</ShameLevel>
@@ -353,7 +352,7 @@
 	</GameDBSymptom>
 	
 	<!-- Slipped Muscle -->
-	<GameDBSymptom ID="SYM_SLP_EYE_SLIPPED_MUSCLE_V2">
+	<GameDBSymptom ID="SYM_SLP_EYE_SLIPPED_MUSCLE">
 	<DescriptionLocID>SYM_SLP_EYE_SLIPPED_MUSCLE_DESC</DescriptionLocID>
 	<DiscomfortLevel>High</DiscomfortLevel>
 	<PatientComplains>false</PatientComplains>
@@ -366,7 +365,7 @@
 	</Examinations>
 	
 	<Treatments>
-		<TreatmentRef>SUR_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+		<TreatmentRef>TRT_SLP_CORRECTIVE_SURGERY</TreatmentRef>
 	</Treatments>
 	
 	<ShameLevel>0</ShameLevel>
@@ -379,9 +378,14 @@
 	</GameDBSymptom>
 	
 		
-	<!-- ====================================== -->
-	<!-- ============= CRP Export ============= -->
-	<!-- ====================================== -->
+	<!-- ======================================== -->
+	<!-- ============= CRP Symptoms ============= -->
+	<!-- ======================================== -->
 
+
+	<!-- ============================================= -->
+	<!-- ============= CRP Complications ============= -->
+	<!-- ============================================= -->
+			
 
 </Database>

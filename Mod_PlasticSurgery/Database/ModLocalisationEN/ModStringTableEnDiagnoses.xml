@@ -10,7 +10,7 @@
 	<LocalizedStrings>
 	
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_C_BREAST_01</LocID>                         
+			<LocID>DIA_PLAS_C_BREAST_01_V2</LocID>                         
 			<Text>Breast Augmentation (C)</Text>	
 		</GameDBLocalizedString>
 		
@@ -20,7 +20,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_C_STOMACH_01</LocID>                         
+			<LocID>DIA_PLAS_C_STOMACH_01_V2</LocID>                         
 			<Text>Liposuction (C)</Text>	
 		</GameDBLocalizedString>
 		
@@ -30,7 +30,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_C_NOSE_01</LocID>                         
+			<LocID>DIA_PLAS_C_NOSE_01_V2</LocID>                         
 			<Text>Augmentation Rhinoplasty (C)</Text>	
 		</GameDBLocalizedString>
 		
@@ -50,7 +50,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_R_EYE_02</LocID>                         
+			<LocID>DIA_PLAS_R_EYE_02_V2</LocID>                         
 			<Text>Strabismus (R)</Text>	
 		</GameDBLocalizedString>
 		
@@ -60,7 +60,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_C_HAIR_01</LocID>                         
+			<LocID>DIA_PLAS_C_HAIR_01_V2</LocID>                         
 			<Text>Hair Transplant (C)</Text>	
 		</GameDBLocalizedString>
 		
@@ -135,7 +135,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_R_T_REPLANT_01</LocID>                         
+			<LocID>DIA_PLAS_R_T_REPLANT_01_V2</LocID>                         
 			<Text>Amputated Digit (GT)(R)</Text>	
 		</GameDBLocalizedString>
 		

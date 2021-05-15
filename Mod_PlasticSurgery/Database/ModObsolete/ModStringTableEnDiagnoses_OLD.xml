@@ -1,0 +1,104 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_EN_ADDON_PLASTICS_DIAGNOSES_OLD">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Sleepy068</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_BREAST_01</LocID>                         
+			<Text>Breast Augmentation (C)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_STOMACH_01</LocID>                         
+			<Text>Liposuction (C)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_NOSE_01</LocID>                         
+			<Text>Augmentation Rhinoplasty (C)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_01</LocID>                         
+			<Text>Blepharospam (R)(Mild)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_02</LocID>                         
+			<Text>Strabismus (R)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_HAIR_01</LocID>                         
+			<Text>Hair Transplant (C)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_01</LocID>                         
+			<Text>Chemical Peel (Light Peel)(C)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_01</LocID>                         
+			<Text>Varicose Veins (Simple)(R)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_VEIN_01</LocID>                         
+			<Text>Telangiectasias (C)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_M</LocID>                         
+			<Text>Dupuytren’s Contracture (Simple)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_F</LocID>                         
+			<Text>Dupuytren’s Contracture (Simple)(R)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_01</LocID>                         
+			<Text>Hypertrophic Scar (Simple)(R)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_02</LocID>                         
+			<Text>Keloid Scar (Simple)(R)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_REPLANT_01</LocID>                         
+			<Text>Amputated Digit (GT)(R)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_02</LocID>                         
+			<Text>Skin Conditioning (Botulinum Toxin Therapy)(C)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_03</LocID>                         
+			<Text>Skin Conditioning (Dermal Fillers)(C)</Text>	
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_04</LocID>                         
+			<Text>Skin Rejuvenation (Laser Resurfacing)(C)</Text>	
+		</GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content for V.X Added Below ######################################## -->
+	<!-- ### ### -->
+		
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

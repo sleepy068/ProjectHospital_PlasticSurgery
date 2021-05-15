@@ -52,7 +52,7 @@
 	<!-- Cosmetic 'Diagnosis' are made rarer to help prevent them been too common as they have, accurately, quite high payouts. -->
 	
 	<!-- Breast Augmentation - Cosmetic (Breast Job) -->
-	<GameDBMedicalCondition ID="DIA_PLAS_C_BREAST_01_V2">
+	<GameDBMedicalCondition ID="DIA_PLAS_C_BREAST_01">
 	<AbbreviationLocID>DIA_PLAS_C_BREAST_01_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
@@ -61,7 +61,7 @@
 	<Symptoms>
         <GameDBSymptomRules>
             <ProbabilityPercent>100</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_PLAS_C001_V2</GameDBSymptomRef>
+            <GameDBSymptomRef>SYM_PLAS_C001</GameDBSymptomRef>
         </GameDBSymptomRules>
     </Symptoms>
 	
@@ -98,7 +98,7 @@
 		<!-- Male Only -->
 	
 	<!-- Augmentation Rhinoplasty - Cosmetic (Nose Job) -->
-	<GameDBMedicalCondition ID="DIA_PLAS_C_NOSE_01_V2">
+	<GameDBMedicalCondition ID="DIA_PLAS_C_NOSE_01">
 	<AbbreviationLocID>DIA_PLAS_C_NOSE_01_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
@@ -106,7 +106,7 @@
 	<Symptoms>
         <GameDBSymptomRules>
             <ProbabilityPercent>100</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_PLAS_C003_V2</GameDBSymptomRef>
+            <GameDBSymptomRef>SYM_PLAS_C003</GameDBSymptomRef>
         </GameDBSymptomRules>
     </Symptoms>
 	
@@ -117,7 +117,7 @@
 		
     <Treatments>
 		<TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
-		<TreatmentRef>SUR_SLP_RHINOPLASTY</TreatmentRef>
+		<TreatmentRef>TRT_SLP_RHINOPLASTY</TreatmentRef>
     </Treatments>
 		
     <DepartmentRef>DPT_PLASTICS</DepartmentRef>
@@ -140,7 +140,7 @@
 	<!-- Cheek Enhancement - Cosmetic -->
 	
 	<!-- Liposuction - Cosmetic  -->
-	<GameDBMedicalCondition ID="DIA_PLAS_C_STOMACH_01_V2">
+	<GameDBMedicalCondition ID="DIA_PLAS_C_STOMACH_01">
 	<AbbreviationLocID>DIA_PLAS_C_STOMACH_01_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
@@ -148,7 +148,7 @@
 	<Symptoms>
         <GameDBSymptomRules>
             <ProbabilityPercent>100</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_PLAS_C002_V2</GameDBSymptomRef>
+            <GameDBSymptomRef>SYM_PLAS_C002</GameDBSymptomRef>
         </GameDBSymptomRules>
     </Symptoms>
 	
@@ -159,7 +159,7 @@
 		
     <Treatments>
 		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
-		<TreatmentRef>SUR_SLP_SAL</TreatmentRef>
+		<TreatmentRef>TRT_SLP_SAL</TreatmentRef>
     </Treatments>
 		
     <DepartmentRef>DPT_PLASTICS</DepartmentRef>
@@ -188,7 +188,7 @@
 	<!-- Lip Augmentation - Cosmetic -->
 	
 	<!-- Hair Transplantation - Cosmetic -->
-	<GameDBMedicalCondition ID="DIA_PLAS_C_HAIR_01_V2">
+	<GameDBMedicalCondition ID="DIA_PLAS_C_HAIR_01">
 	<AbbreviationLocID>DIA_PLAS_C_HAIR_01_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
@@ -196,7 +196,7 @@
 	<Symptoms>
         <GameDBSymptomRules>
             <ProbabilityPercent>100</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_PLAS_C004_V2</GameDBSymptomRef>
+            <GameDBSymptomRef>SYM_PLAS_C004</GameDBSymptomRef>
         </GameDBSymptomRules>
     </Symptoms>
 	
@@ -207,7 +207,7 @@
 		
     <Treatments>
 		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
-		<TreatmentRef>SUR_SLP_HAIRT</TreatmentRef>
+		<TreatmentRef>TRT_SLP_HAIRT</TreatmentRef>
     </Treatments>
 		
     <DepartmentRef>DPT_PLASTICS</DepartmentRef>
@@ -508,7 +508,7 @@
 	<!-- Facial Spasms, SYM_EYE_PAIN -->
 	
 	<!-- Strabismus (Verging into Ophthalmology) -->
-	<GameDBMedicalCondition ID="DIA_PLAS_R_EYE_02_V2">
+	<GameDBMedicalCondition ID="DIA_PLAS_R_EYE_02">
 	<AbbreviationLocID>DIA_PLAS_R_EYE_02_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_SL_ULTRARARE</OccurrenceRef>
@@ -516,7 +516,7 @@
 	<Symptoms>
         <GameDBSymptomRules>
             <ProbabilityPercent>100</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_PLAS_R002_V2</GameDBSymptomRef>
+            <GameDBSymptomRef>SYM_PLAS_R002</GameDBSymptomRef>
         </GameDBSymptomRules>
 		<GameDBSymptomRules>
             <ProbabilityPercent>80</ProbabilityPercent>
@@ -549,7 +549,7 @@
 		<TreatmentRef>TRT_CRP_ATROPINE_EYEDROP</TreatmentRef>
 		<TreatmentRef>TRT_ANALGESICS</TreatmentRef>
 		<TreatmentRef>TRT_EYE_DROPS</TreatmentRef>
-		<TreatmentRef>SUR_SLP_PLAS_EYEMSURGERY</TreatmentRef>
+		<TreatmentRef>TRT_SLP_PLAS_EYEMSURGERY</TreatmentRef>
     </Treatments>
 		
     <DepartmentRef>DPT_PLASTICS</DepartmentRef>
@@ -899,7 +899,7 @@
 	<!-- ============================================================================================ -->
 	
 	<!-- Replantation (Amputated Digit)(Guillotine-type) -->
-	<GameDBMedicalCondition ID="DIA_PLAS_R_T_REPLANT_01_V2">
+	<GameDBMedicalCondition ID="DIA_PLAS_R_T_REPLANT_01">
 	<AbbreviationLocID>DIA_PLAS_R_T_REPLANT_01_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_SL_UNLIKELY</OccurrenceRef>
@@ -907,7 +907,7 @@
 	<Symptoms>
         <GameDBSymptomRules>
             <ProbabilityPercent>100</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_PLAS_RT001_V2</GameDBSymptomRef>
+            <GameDBSymptomRef>SYM_PLAS_RT001</GameDBSymptomRef>
         </GameDBSymptomRules>
 		<GameDBSymptomRules>
             <ProbabilityPercent>100</ProbabilityPercent>
@@ -935,7 +935,7 @@
 		<TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
 		<TreatmentRef>TRT_ANALGESICS</TreatmentRef>
 		<TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
-		<TreatmentRef>SUR_SLP_PLAS_REPLANT</TreatmentRef>
+		<TreatmentRef>TRT_SLP_PLAS_REPLANT</TreatmentRef>
     </Treatments>
 		
     <DepartmentRef>DPT_PLASTICS</DepartmentRef>

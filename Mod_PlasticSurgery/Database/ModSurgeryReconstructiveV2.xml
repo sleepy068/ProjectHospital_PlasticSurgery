@@ -651,12 +651,12 @@
                     <ProbabilityPercentMaxSkillLevel>4</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				 <Complication>
-                    <SymptomRef>SYM_SLP_EYE_GLOBE_PERFORATION</SymptomRef>
+                    <SymptomRef>SYM_SLP_EYE_GLOBE_PERFORATION_V2</SymptomRef>
                     <ProbabilityPercent>2</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_EYE_UNDESIRED_RESULTS</SymptomRef> <!-- Actually a lot more common in some studies but I've taken the lowest average this to make it less annoying -->
+                    <SymptomRef>SYM_SLP_EYE_UNDESIRED_RESULTS_V2</SymptomRef> <!-- Actually a lot more common in some studies but I've taken the lowest average this to make it less annoying -->
                     <ProbabilityPercent>33</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>10</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -666,7 +666,7 @@
                     <ProbabilityPercentMaxSkillLevel>4</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				 <Complication>
-                    <SymptomRef>SYM_SLP_EYE_CIC</SymptomRef>
+                    <SymptomRef>SYM_SLP_EYE_CIC_V2</SymptomRef>
                     <ProbabilityPercent>6</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -676,7 +676,7 @@
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_EYE_SLIPPED_MUSCLE</SymptomRef> <!-- 12 -->
+                    <SymptomRef>SYM_SLP_EYE_SLIPPED_MUSCLE_V2</SymptomRef> <!-- 12 -->
                     <ProbabilityPercent>11</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
@@ -941,7 +941,7 @@
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_SLP_PLAS_NERVE_DAMAGE</SymptomRef>
+                    <SymptomRef>SYM_SLP_PLAS_NERVE_DAMAGE_V2</SymptomRef>
                     <ProbabilityPercent>5</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>

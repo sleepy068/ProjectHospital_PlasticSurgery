@@ -1,7 +1,7 @@
 <Database>
 	<!-- Plastic Surgery Mod by Sleepy068 -->
 	<!-- Patient Request (Breast Augmentation) -->
-	<GameDBSymptom ID="SYM_PLAS_C001_V2">
+	<GameDBSymptom ID="SYM_PLAS_C001">
         <DescriptionLocID>SYM_PLAS_C001_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <PatientComplains>true</PatientComplains>
@@ -12,7 +12,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>SUR_SLP_AUGMENTATION_MAMMOPLASTY</TreatmentRef>
+            <TreatmentRef>TRT_SLP_AUGMENTATION_MAMMOPLASTY</TreatmentRef>
         </Treatments>
 		
         <ShameLevel>0</ShameLevel>
@@ -26,7 +26,7 @@
     </GameDBSymptom>
 	
 	<!-- Patient Request (Liposuction) -->
-	<GameDBSymptom ID="SYM_PLAS_C002_V2">
+	<GameDBSymptom ID="SYM_PLAS_C002">
         <DescriptionLocID>SYM_PLAS_C002_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <PatientComplains>true</PatientComplains>
@@ -37,7 +37,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>SUR_SLP_SAL</TreatmentRef>
+            <TreatmentRef>TRT_SLP_SAL</TreatmentRef>
         </Treatments>
 		
         <ShameLevel>0</ShameLevel>
@@ -51,7 +51,7 @@
     </GameDBSymptom>
 	
 	<!-- Patient Request (Augmentation Rhinoplasty) -->
-	<GameDBSymptom ID="SYM_PLAS_C003_V2">
+	<GameDBSymptom ID="SYM_PLAS_C003">
         <DescriptionLocID>SYM_PLAS_C003_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <PatientComplains>true</PatientComplains>
@@ -62,7 +62,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>SUR_SLP_RHINOPLASTY</TreatmentRef>
+            <TreatmentRef>TRT_SLP_RHINOPLASTY</TreatmentRef>
         </Treatments>
 		
         <ShameLevel>0</ShameLevel>
@@ -76,7 +76,7 @@
     </GameDBSymptom>
 	
 	<!-- Patient Request (Hair Transplant) -->
-	<GameDBSymptom ID="SYM_PLAS_C004_V2">
+	<GameDBSymptom ID="SYM_PLAS_C004">
         <DescriptionLocID>SYM_PLAS_C004_DESC</DescriptionLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <PatientComplains>true</PatientComplains>
@@ -87,7 +87,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>SUR_SLP_HAIRT</TreatmentRef>
+            <TreatmentRef>TRT_SLP_HAIRT</TreatmentRef>
         </Treatments>
 		
         <ShameLevel>0</ShameLevel>
@@ -251,7 +251,7 @@
     </GameDBSymptom>
 	
 	<!-- Misaligned Eyes -->
-	<GameDBSymptom ID="SYM_PLAS_R002_V2">
+	<GameDBSymptom ID="SYM_PLAS_R002">
         <DescriptionLocID>SYM_PLAS_R002_DESC</DescriptionLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
         <PatientComplains>false</PatientComplains>
@@ -262,7 +262,7 @@
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>SUR_SLP_PLAS_EYEMSURGERY</TreatmentRef>
+            <TreatmentRef>TRT_SLP_PLAS_EYEMSURGERY</TreatmentRef>
         </Treatments>
 		
         <ShameLevel>0</ShameLevel>
@@ -401,7 +401,7 @@
     </GameDBSymptom>
 	
 	<!-- Loss of Digit -->
-	<GameDBSymptom ID="SYM_PLAS_RT001_V2">
+	<GameDBSymptom ID="SYM_PLAS_RT001">
         <DescriptionLocID>SYM_PLAS_RT001_DESC</DescriptionLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <PatientComplains>true</PatientComplains>
@@ -417,7 +417,7 @@
 			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>SUR_SLP_PLAS_REPLANT</TreatmentRef>
+            <TreatmentRef>TRT_SLP_PLAS_REPLANT</TreatmentRef>
         </Treatments>
 		
         <ShameLevel>0</ShameLevel>

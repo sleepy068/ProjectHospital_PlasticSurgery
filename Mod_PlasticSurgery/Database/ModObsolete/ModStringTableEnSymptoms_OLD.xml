@@ -1,0 +1,161 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_EN_ADDON_PLASTICS_SYMPTOMS_OLD">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Sleepy068</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- =========================================== -->
+	<!-- ============= Plastic Surgery ============= -->
+	<!-- =========================================== -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C001</LocID>                                          	
+		<Text>Patient Request (Breast Augmentation)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_PLAS_NERVE_DAMAGE</LocID>                               
+		<Text>Postoperative Neuropathic Pain</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_UNDESIRED_RESULTS</LocID>                               
+		<Text>Undesired Results</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_S_SCAR_TISSUE</LocID>                               
+		<Text>Significant Scar Tissue</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_CAPSULAR</LocID>                               
+		<Text>Capsular Contracture</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_BARSA_INFECTION</LocID>                               
+		<Text>Breast Implant Infection</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_IMPLANT_EXTRUSION</LocID>                               
+		<Text>Breast Implant Extrusion</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_ABSCESS</LocID>                   
+		<Text>Abscess</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C002</LocID>                                          	
+		<Text>Patient Request (Liposuction)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C003</LocID>                                          	
+		<Text>Patient Request (Augmentation Rhinoplasty)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_NOSE_SEPTALPERF</LocID>                                          	
+		<Text>Nasal Septal Perforation</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R001</LocID>                                          	
+		<Text>Blepharospam (Evaluation)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_GLOBE_PERFORATION</LocID>                                          	
+		<Text>Globe Perforation</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_UNDESIRED_RESULTS</LocID>                                          	
+		<Text>Unsatisfactory Eye Alignment</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_CIC</LocID>                               
+		<Text>Conjunctival Inclusion Cyst</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_SLIPPED_MUSCLE</LocID>                               
+		<Text>Slipped Muscle</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C004</LocID>                               
+		<Text>Patient Request (Hair Transplant)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C005</LocID>                               
+		<Text>Patient Request (Chemical Peel)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R002</LocID>                                          	
+		<Text>Misaligned Eyes</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R003</LocID>                                          	
+		<Text>Simple Varicose Veins</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C006</LocID>                                          	
+		<Text>Patient Request (Spider Veins)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_M</LocID>                                          	
+		<Text>Permanently Bent Finger</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_F</LocID>                                          	
+		<Text>Permanently Bent Finger</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R005</LocID>                                          	
+		<Text>Hypertrophic Scarring</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R006</LocID>                                          	
+		<Text>Keloid Scarring</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT001</LocID>                                          	
+		<Text>Loss of Digit</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C007</LocID>                               
+		<Text>Patient Request (Skin Conditioning)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C008</LocID>                               
+		<Text>Patient Request (Skin Conditioning)</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C009</LocID>                               
+		<Text>Patient Request (Skin Rejuvenation)</Text>  
+	</GameDBLocalizedString>
+
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

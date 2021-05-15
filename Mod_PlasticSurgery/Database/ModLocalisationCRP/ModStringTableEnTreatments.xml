@@ -1,0 +1,17 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_EN_ADDON_PLASTICS_TREATMENTS_CRP">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Sleepy068</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- =============================================================== -->
+	<!-- ============= CRP EXPORT Plastic Surgery vx.x.x.x ============= -->
+	<!-- =============================================================== -->
+		
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

@@ -97,63 +97,13 @@
 	</GameDBLocalizedString>
 
 	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_C005</LocID>                               
-		<Text>Patient Request (Chemical Peel)</Text>  
-	</GameDBLocalizedString>
-
-	<GameDBLocalizedString>      
 		<LocID>SYM_PLAS_R002</LocID>                                          	
 		<Text>Misaligned Eyes</Text>  
 	</GameDBLocalizedString>
 
 	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_R003</LocID>                                          	
-		<Text>Simple Varicose Veins</Text>  
-	</GameDBLocalizedString>
-
-	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_C006</LocID>                                          	
-		<Text>Patient Request (Spider Veins)</Text>  
-	</GameDBLocalizedString>
-
-	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_R004_M</LocID>                                          	
-		<Text>Permanently Bent Finger</Text>  
-	</GameDBLocalizedString>
-	
-	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_R004_F</LocID>                                          	
-		<Text>Permanently Bent Finger</Text>  
-	</GameDBLocalizedString>
-
-	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_R005</LocID>                                          	
-		<Text>Hypertrophic Scarring</Text>  
-	</GameDBLocalizedString>
-
-	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_R006</LocID>                                          	
-		<Text>Keloid Scarring</Text>  
-	</GameDBLocalizedString>
-
-	<GameDBLocalizedString>      
 		<LocID>SYM_PLAS_RT001</LocID>                                          	
 		<Text>Loss of Digit</Text>  
-	</GameDBLocalizedString>
-
-	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_C007</LocID>                               
-		<Text>Patient Request (Skin Conditioning)</Text>  
-	</GameDBLocalizedString>
-
-	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_C008</LocID>                               
-		<Text>Patient Request (Skin Conditioning)</Text>  
-	</GameDBLocalizedString>
-
-	<GameDBLocalizedString>      
-		<LocID>SYM_PLAS_C009</LocID>                               
-		<Text>Patient Request (Skin Rejuvenation)</Text>  
 	</GameDBLocalizedString>
 
 	</LocalizedStrings>

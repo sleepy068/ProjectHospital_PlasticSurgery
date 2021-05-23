@@ -10,7 +10,7 @@
 	<LocalizedStrings>
 	
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_C_BREAST_01</LocID>                         
+			<LocID>DIA_PLAS_C_BREAST_01_V2</LocID>                         
 			<Text>Увеличение груди (К)</Text>	
 		</GameDBLocalizedString>
 		
@@ -20,7 +20,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_C_STOMACH_01</LocID>                         
+			<LocID>DIA_PLAS_C_STOMACH_01_V2</LocID>                         
 			<Text>Липосакция (К)</Text>	
 		</GameDBLocalizedString>
 		
@@ -30,7 +30,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_C_NOSE_01</LocID>                         
+			<LocID>DIA_PLAS_C_NOSE_01_V2</LocID>                         
 			<Text>Аугментационная ринопластика (К)</Text>	
 		</GameDBLocalizedString>
 		
@@ -50,7 +50,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_R_EYE_02</LocID>                         
+			<LocID>DIA_PLAS_R_EYE_02_V2</LocID>                         
 			<Text>Косоглазие (Р)</Text>	
 		</GameDBLocalizedString>
 		
@@ -130,7 +130,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_R_T_REPLANT_01</LocID>                         
+			<LocID>DIA_PLAS_R_T_REPLANT_01_V2</LocID>                         
 			<Text>Ампутация пальца (GT)(Р)</Text>	
 		</GameDBLocalizedString>
 		

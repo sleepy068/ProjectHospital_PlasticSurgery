@@ -1,0 +1,194 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_CZ_ADDON_PLASTICS_DIAGNOSES">
+	<LanguageCode>cz</LanguageCode>
+	<LanguageNameLocalized>Czech</LanguageNameLocalized>
+	<Contributors>
+	<Name>XiZyno</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_BREAST_01</LocID>                         
+			<Text>Zvětšení prsou (K)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_BREAST_01_DESC</LocID>                         
+			<Text>Zvětšení prsou, známé také jako augmentační mammoplastika, může být kosmetickým zákrokem (K) nebo rekonstrukčním zákrokem (R) v případě operace rekonstrukce prsu. Postup zahrnuje zavedení implantátů pod prsa, aby se zvětšily. Typ a velikost implantátu závisí na faktorech, například na tom, o kolik větší si pacient přeje být, o jeho anatomii, tloušťce a pružnosti kůže a typu těla. Pacient vyjádřil, že chce kosmetické zvětšení prsou, které zlepší jejich vzhled.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_STOMACH_01</LocID>                         
+			<Text>Liposukce (K)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_STOMACH_01_DESC</LocID>                         
+			<Text>Liposukce, známá také jako lipektomie nebo lipoplastika, je postup, který zlepšuje kontury a proporce těla tím, že odstraňuje přebytečné tukové zásoby a zeštíhluje a přetváří konkrétní oblasti těla. Společné cílené oblasti zahrnují stehna, hýždě, břicho, paže, krk a pod bradou. Liposukce menších objemů se obvykle provádí ambulantně, zatímco větší objemy vyžadují pobyt v nemocnici ke sledování hladin tekutin a v případě, že pacienti trpí jiným zdravotním stavem. Pacient vyjádřil, že chce liposukci, která by zlepšila jejich vzhled.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_NOSE_01</LocID>                         
+			<Text>Augmentační rhinoplastika (K)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_NOSE_01_DESC</LocID>                         
+			<Text>Augmentační rhinoplastika je operace, která mění tvar nosu. Motivací pro rinoplastiku může být změna vzhledu nosu, zlepšení dýchání nebo obojí. Augmentační rhinoplastika se běžně označuje jako „operace nosu“. Tento chirurgický zákrok slouží ke zlepšení vnějšího vzhledu nosu nebo jeho vnější estetiky. To často zahrnuje přetváření „křivého“ nosu nebo lepší přizpůsobení velkého nosu nosu. zbytek obličeje.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_01</LocID>                         
+			<Text>Blefarospazmus (R)(Mírný)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_01_DESC</LocID>                         
+			<Text>Blefarospasmus je abnormální kontrakce svalů víček. Často se jedná o benigní esenciální blefarospazmus (BEB), což je bilaterální stav a forma fokální dystonie vedoucí k epizodickému uzavření víček. V mírnějších případech jsou běžně přijímanou léčbou injekce botulotoxinu. Paralýza trvá od jednoho do čtyř dnů. Úplný účinek obvykle trvá asi týden a často trvá až čtyři měsíce.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_02</LocID>                         
+			<Text>Strabismus (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_02_DESC</LocID>                         
+			<Text>Strabismusje stav, kdy se oči při pohledu na předmět navzájem správně nesrovnají. Oko, které je zaměřeno na objekt, se může střídat. Podmínka může být přítomna příležitostně nebo neustále. Pokud je přítomen během velké části dětství, může to mít za následek amblyopii nebo ztrátu vnímání hloubky. I když je to často považováno za dětský stav, výskyt strabismu je ve skutečnosti vyšší u dospělých.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_HAIR_01</LocID>                         
+			<Text>Transplantace vlasů (K)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_HAIR_01_DESC</LocID>                         
+			<Text>Transplantace vlasů je chirurgická technika, která odstraňuje vlasové folikuly z jedné části těla, která se nazývá „místo dárce“, do plešaté nebo plešaté části těla známé jako „místo příjemce“. Tato technika se primárně používá k léčbě mužské plešatosti. V tomto minimálně invazivním postupu se transplantáty obsahující vlasové folikuly, které jsou geneticky rezistentní vůči plešatění (jako zadní část hlavy), transplantují na plešatou pokožku hlavy. Transplantaci vlasů lze také použít k obnovení řas, obočí, vousů, vlasů na hrudi, ochlupení na ohanbí a k vyplnění jizev způsobených nehodami nebo chirurgickým zákrokem, jako jsou například lifting obličeje a předchozí transplantace vlasů..</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_01</LocID>                         
+			<Text>Chemický peeling (Slabý)(K)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_01_DESC</LocID>                         
+			<Text>Chemický peeling je forma léčby, při které se pomocí chemických roztoků korigují vady obličeje, vrásky a nerovnoměrné pigmentace pokožky. Při tomto ošetření se na pokožku nanáší chemický roztok, který ji „puchýří“ a nakonec se odlupuje. Nová pokožka je obvykle hladší a méně vrásčitá než ta stará.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_01</LocID>                         
+			<Text>Křečové žíly (Jednoduché)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_01_DESC</LocID>                         
+			<Text>Křečové žíly jsou zkroucené, rozšířené žíly. Jakákoli povrchová žíla může být křečová, ale nejčastěji postižené žíly jsou nohy. U mnoha pacientů jsou křečové žíly pouze kosmetickým problémem. U ostatních pacientů mohou křečové žíly způsobit bolestivou bolest a nepohodlí a mohou vést k vážnějším problémům.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_VEIN_01</LocID>                         
+			<Text>Teleangiektazie (K)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_VEIN_01_DESC</LocID>                         
+			<Text>Teleangiektazie, běžně známé jako pavoučí žíly jsou shluky drobných krevních cév, které se vyvíjejí blízko povrchu kůže. Často jsou červené, modré nebo fialové; a vypadají jako pavučina. Obvykle se vyskytují na obličeji a nohou.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_M</LocID>                         
+			<Text>Dupuytrenova kontraktura (Jednoduchá)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_F</LocID>                         
+			<Text>Dupuytrenova kontraktura (Jednoduchá)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_DESC</LocID>                         
+			<Text>Dupuytrenova kontraktura, známá také jako palmární fibromatóza, se vyznačuje deformací ruky, při které nelze plně narovnat klouby jednoho nebo více prstů, obvykle se vyvíjí v průběhu let. Tento stav ovlivňuje vrstvu tkáně, která leží pod kůží vaší dlaně. Uzly tkáně se tvoří pod kůží - nakonec vytvoří silnou šňůru, která může vytáhnout jeden nebo více prstů do ohnuté polohy. Je-li to jednoduché, lze tento stav relativně snadno napravit bez nutnosti chirurgického zákroku.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_01</LocID>                         
+			<Text>Hypertrofická jizva (Jednoduchá)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_01_DESC</LocID>                         
+			<Text>Hypertrofická jizva je zesílená, široká, často vyvýšená jizva, která se vyvíjí tam, kde je zraněna kůže. Jizvy jsou běžné během procesu hojení rány, ale hypertrofická jizva je výsledkem abnormální reakce na trauma nebo zranění. Jizvy jsou častou komplikací popáleninových poranění, ale mohou se také tvořit po piercingu, řezných řezech nebo dokonce po akné. Hypertrofické jizvy jsou podobné keloidním jizvám, ale bývají mírnější a nerostou za hranice původního poranění kůže. Jizvy nejsou nebezpečné ani životu nebezpečné. Mohou být svědivé a bolestivé, ale častěji jsou pouze kosmetickým problémem.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_02</LocID>                         
+			<Text>Keloidní jizva (Jednoduchá)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_02_DESC</LocID>                         
+			<Text>Keloidy jsou druhem vyvýšené jizvy. Vyskytují se tam, kde se kůže po poranění zhojila. Mohou růst mnohem větší než původní zranění, které způsobilo jizvu. Cokoli, co může způsobit jizvu, může způsobit keloid. To zahrnuje popáleniny, řezání nebo závažné akné. </Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_REPLANT_01</LocID>                         
+			<Text>Amputovaná číslice(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_REPLANT_01_DESC</LocID>                         
+			<Text>Traumatická amputace je ztráta části těla, ke které dojde v důsledku nehody nebo zranění. V tomto případě byla číslice na pacientově ruce amputována a vyžaduje okamžitou lékařskou pomoc, aby se pokusila obnovit funkci ruky a číslice. Ostrá poranění typu gilotiny (GT) s relativně nepoškozenou okolní tkání mají nejlepší prognózu po opětovné výsadbě s úspěšností 77%. Těžká poranění při rozdrcení (CI), poranění na více úrovních a poranění při avulzi často manglují měkkou tkáň natolik, že brání opětovnému připojení základních krevních cév, což znemožňuje opětovnou výsadbu. V takových případech může být nutná revizní amputace pahýlu.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_02</LocID>                         
+			<Text>Terapie botulotoxiny(K)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_02_DESC</LocID>                         
+			<Text>Injekce botoxu se vyznačují především schopností snižovat výskyt vrásek na obličeji. Injekce botoxu blokují určité chemické signály z nervů, většinou signály, které způsobují kontrakci svalů. Nejběžnějším použitím těchto injekcí je dočasné uvolnění obličejových svalů, které způsobují vrásky na čele a kolem očí.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_03</LocID>                         
+			<Text>Dermální plniva(K)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_03_DESC</LocID>                         
+			<Text>Kožní výplně, někdy nazývané výplně měkkých tkání, jsou materiály vstřikované pod kůži ke snížení výskytu vrásek nebo linek na obličeji a lze je také použít ke zlepšení kontur obličeje přidáním objemu na tváře a rty a ke zlepšení vzhledu jizev. Dermální výplňové produkty jsou biologicky odbouratelné, což znamená, že přirozeně zmizí v těle. Životnost plniva se může lišit v závislosti na značce, tloušťce a ošetřené ploše.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_04</LocID>                         
+			<Text>Omlazení pleti (Laserový resurfacing)(K)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_04_DESC</LocID>                         
+			<Text>Laserový resurfacing je procedura omlazení obličeje, která používá laser ke zlepšení vzhledu pokožky nebo k ošetření drobných vad obličeje. Laserový resurfacing může snížit výskyt jemných čar v obličeji. Může také léčit ztrátu tónu pleti a zlepšit pleť pacienta, pokud má jizvy nebo poškození sluncem. Laserový resurfacing nemůže eliminovat nadměrnou nebo ochablou pokožku.</Text>	
+		</GameDBLocalizedString>
+		
+	<!-- ### ### -->
+	<!-- ######################################## Content for v1.03 Added Below ######################################## -->
+	<!-- ### ### -->
+	
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_F_V2</LocID>                         
+			<Text>Dupuytrenova kontraktura (Jednoduchá)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_M_V2</LocID>                         
+			<Text>Dupuytrenova kontraktura (Jednoduchá)(R)</Text>	
+		</GameDBLocalizedString>
+		
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

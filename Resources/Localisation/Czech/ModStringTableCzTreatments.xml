@@ -1,0 +1,316 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_EN_ADDON_PLASTICS_TREATMENTS">
+	<LanguageCode>cz</LanguageCode>
+	<LanguageNameLocalized>Czech</LanguageNameLocalized>
+	<Contributors>
+	<Name>XiZyno</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- Plastic Surgery Mod -->
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_AUGMENTATION_MAMMOPLASTY</LocID>                         
+			<Text>Augmentační mamoplastika</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_AUGMENTATION_MAMMOPLASTY_DESC</LocID>                         
+			<Text>Zvětšení prsou je technika kosmetické chirurgie využívající prsní implantáty a techniky mamografické plastiky tukového štěpu ke zvětšení velikosti, změně tvaru a změně struktury prsů ženy.. \n\nPožadovaná místnost: Operační sál na Plastickém odd.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_NERVE_DECOM_SURGERY</LocID>                                    	
+			<Text>Nervová rekonstrukční chirurgická operace</Text>
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_NERVE_DECOM_SURGERY_DESC</LocID>                        	
+			<Text>Nervová rekonstrukční chirurgická operace , nebo chirurgická oprava nervu zahrnuje vyšetření poškozeného nervu a odstranění poškozené tkáně nebo jizvy z nervových zakončení. Poté lze nerv přímo znovu připojit, pokud je na koncích dostatečná délka, která umožňuje kvalitní opravu bez napětí. \n\nPožadovaná místnost: Operační sál na Neurologickém odd.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_CORRECTIVE_SURGERY</LocID>                                    	
+			<Text>Nápravná chirurgie</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_CORRECTIVE_SURGERY_DESC</LocID>                        	
+			<Text>Není neobvyklé, že pacienti občas vyžadují korekční chirurgický zákrok, který se provádí za účelem řešení komplikací souvisejících s předchozím chirurgickým zákrokem. Řešení těchto komplikací výrazně pomůže spokojenosti pacientů na úkor dalšího času na operaci a dalších rizik komplikací. \n\nPožadovaná místnost: Operační sál na Plastickém odd.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_SCAR_REVISION_SURGERY</LocID>                                    	
+			<Text>Chirurgie revizí jizev</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_SCAR_REVISION_SURGERY_DESC</LocID>                        	
+			<Text>Revize jizev je chirurgický zákrok ke zlepšení vzhledu jizev nebo jejich viditelnosti. Obnovuje také funkci a koriguje změny kůže (znetvoření) způsobené zraněním, špatným hojením nebo předchozí operací. \n\nPožadovaná místnost: Operační sál na Plastickém odd.</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_IMPLANT_REMOVAL</LocID>                                    	
+			<Text>Odstranění prsního implantátu</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_IMPLANT_REMOVAL_DESC</LocID>                        	
+			<Text>Infekce prsních implantátů jsou obvykle způsobeny stafylokoky aureus a koaguláza-negativními stafylokoky. Gramnegativní bacily se zřídka vyskytují u infekcí prsních implantátů. I když jsou infekce tohoto typu vzácné, obvykle vyžadují odstranění implantátů. Tento chirurgický zákrok odstraní prsní implantáty a vyčistí tkáň kolem implantátů. Obvykle jsou vyžadovány následné antibiotické kurzy. \n\nPožadovaná místnost: Operační sál na Plastickém odd..</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_CAPSULECTOMY</LocID>                                    	
+			<Text>Kapsulektomie</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_CAPSULECTOMY_DESC</LocID>                        	
+			<Text>Kapsulektomie je chirurgické odstranění zjizvené tkáně nebo tobolky, která se zesílila a ztvrdla kolem prsního implantátu. Tobolka se skládá z fibroblastů, kolagenu a krevních cév. Provedení kapsulektomie by mělo zmírnit nepohodlí a zlepšit vzhled a pocit pacientových prsou. \n\nPožadovaná místnost: Operační sál na Plastickém odd..</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_PLAS_INCISION_AND_DRAINAGE</LocID>                                    	
+			<Text>Řez a drenáž</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_SAL</LocID>                                    	
+			<Text>Lipektomie s odsáváním (SAL)</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_SAL_DESC</LocID>                        	
+			<Text>Liposukce je invazivní chirurgie, jejímž cílem je zlepšit kontury a proporce těla odstraněním lokalizovaných a nepřiměřených usazenin tuku. Liposukce může během jedné relace odstranit až 5 litrů tuku s relativní bezpečností. Lipektomie asistovaná sáním (SAL) je místo, kde je tuk odstraněn z těla vakuovým odsáváním. SAL může být suchý, mokrý nebo tumescentní (Tumescentní liposukce) v závislosti na objemu solného roztoku (solného roztoku), který je injikován do místa operace před zahájením procedury. \n\nPožadovaná místnost: Operační sál na Plastickém odd..</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_RHINOPLASTY</LocID>                                    	
+			<Text>Operace nosu</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_RHINOPLASTY_DESC</LocID>                        	
+			<Text>Rinoplastika, běžně známá jako plastika nosu, je postup plastické chirurgie pro korekci a rekonstrukci nosu. Používají se dva typy plastické chirurgie - rekonstrukční chirurgie, která obnovuje formu a funkce nosu, a kosmetická chirurgie, která zlepšuje vzhled nosu.  \n\nPožadovaná místnost: Operační sál na Plastickém odd..</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EYEMSURGERY</LocID>                                    	
+			<Text>Chirurgie očních svalů</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EYEMSURGERY_DESC</LocID>                        	
+			<Text>Chirurgie očních svalů je chirurgický zákrok k nápravě strabismu (vychýlení očí) nebo nystagmu (kroutění očí). Chirurgie zahrnuje pohyb jednoho nebo více očních svalů za účelem úpravy polohy oka nebo očí.  \n\nPožadovaná místnost: Operační sál na Plastickém odd..</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EMERG_REPAIR</LocID>                                    	
+			<Text>Nouzová chirurgie (plastická)</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EMERG_REPAIR_DESC</LocID>                        	
+			<Text>Nouzovou chirurgii lze definovat jako chirurgický zákrok, který je nutný k řešení akutního ohrožení života, orgánů, končetin nebo tkání způsobeného zevním traumatem, akutním chorobným procesem, akutní exacerbací chronického chorobného procesu nebo komplikací chirurgického nebo jiného intervenčního postupu . \ n \ nDůležitost: Tato operace je považována za kritickou a měla by být prioritou. \n\nPožadovaná místnost: Operační sál na Plastickém odd..</Text>  
+		</GameDBLocalizedString>
+		
+		<!-- Not use yet -->
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EMERG_EYEREMOVAL</LocID>                                    	
+			<Text>Enukleace oka</Text>  
+		</GameDBLocalizedString>
+
+		<!-- Not use yet -->
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EMERG_EYEREMOVAL_DESC</LocID>                        	
+			<Text>Enukleace je odstranění oka, které zanechává oční svaly a zbývající orbitální obsah beze změny. Tento typ oční chirurgie je indikován u řady očních nádorů, v očích, které utrpěly těžké trauma, a v očích, které jsou jinak slepé a bolestivé. \n\nPožadovaná místnost: Operační sál na Plastickém odd..</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_HAIRT</LocID>                                    	
+			<Text>Transplantace folikulární jednotky</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_HAIRT_DESC</LocID>                        	
+			<Text>Extrakce folikulární jednotky, někdy označovaná jednoduše jako FUE, je metoda transplantace vlasů, která ručně odstraňuje jednotlivé vlasové folikuly z pokožky hlavy. Po extrakci se chloupky implantují do plešatých nebo řídnoucích oblastí kolem hlavy.  \n\nPožadovaná místnost: Operační sál na Plastickém odd..</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_REPLANT</LocID>                                    	
+			<Text>Replantace</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_REPLANT_DESC</LocID>                        	
+			<Text>Replantace označuje chirurgické opětovné připojení části těla (jako je prst nebo ruka), která byla zcela odříznuta od těla. Cílem chirurgického zákroku je opětovné připojení a obnovení funkce u co největší části zraněné části.  \n\nPožadovaná místnost: Operační sál na Plastickém odd..</Text>  
+		</GameDBLocalizedString>
+	
+	<!-- CRP Export -->
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_WATCH_WAIT</LocID>                         
+			<Text>Sledujte a počkejte</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_WATCH_WAIT_DESC</LocID>                         
+			<Text>Sledování a čekání zahrnuje pečlivé sledování stavu pacienta bez jakékoli léčby, dokud se příznaky neobjeví nebo nezmění. Obecně v těchto situacích je preferovaným přístupem nechat tělo přirozeně se uzdravit, protože léčba může nést riziko komplikací. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_EPIPEN</LocID>                                    	
+			<Text>Autoinjektor epinefrinu</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_EPIPEN_DESC</LocID>                        	
+			<Text>Autoinjektor epinefrinu je lékařský prostředek pro vstřikování naměřené dávky nebo dávek epinefrinu pomocí technologie autoinjektoru. Nejčastěji se používá k léčbě anafylaxe. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_MRSA_TREATMENT_A</LocID>                                    	
+			<Text>Trimethoprim-sulfamethoxazol</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_MRSA_TREATMENT_A_DESC</LocID>                        	
+			<Text>Terapie první linie MRSA: Trimethoprim-Sulfamethoxazol (TMP-SMX; Bactrim DS, Septra DS. Sulfamethoprim-DS). Ukázalo se, že toto činidlo je vysoce účinné při léčbě Stafylokokku aureus rezistentního na meticilin. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_COMPRESSION_GARMENT</LocID>                                    	
+			<Text>Kompresní oděv</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_COMPRESSION_GARMENT_DESC</LocID>                        	
+			<Text>Nosit kompresní oděv po liposukci pomáhá tělu zotavit se a zvyšuje pohodlí pacientů během procesu hojení. Kompresní oděv pomáhá postupem času korigovat pytlovité nebo nepravidelné povrchové úpravy kůže způsobené operací. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_INTRA_LIPIDEMULSION</LocID>                                    	
+			<Text>Intravenózní lipidová emulze</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_INTRA_LIPIDEMULSION_DESC</LocID>                        	
+			<Text>Lipidová emulze nebo tuková emulze označuje lipidovou emulzi pro intravenózní použití u člověka. Často je označován značkou nejčastěji používané verze Intralipid, což je emulze sójového oleje, vaječných fosfolipidů a glycerinu a je k dispozici v 10%, 20% a 30% koncentraci. Intravenózní lipidová emulze je zavedenou a účinnou léčbou kardiovaskulárního kolapsu vyvolaného lokálním anestetikem. Převládající teorie mechanismu jeho působení spočívá v tom, že vytvořením rozšířené, intravaskulární lipidové fáze jsou nastoleny rovnováhy, které vedou léčivo z cílových tkání do nově vytvořené lipidového jímky. \n\nPožadovaná místnost: Běžná hospitalizace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_BOTOX</LocID>                                    	
+			<Text>Botulotoxin</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_BOTOX_DESC</LocID>                        	
+			<Text>Botulotoxin (Botox) je neurotoxický protein produkovaný bakterií Clostridium botulinum a příbuznými druhy. Zabraňuje uvolňování neurotransmiteru acetylcholinu z axonových zakončení na neuromuskulárním spojení a způsobuje tak ochablou paralýzu. I když je botulotoxin užitečný pro různé procedury plastické chirurgie, je nejjedovatější známou látkou. Intoxikace může nastat přirozeně v důsledku infekce rány nebo střeva nebo požitím předem připraveného toxinu v potravinách. Odhadovaná smrtelná dávka toxinu typu A pro člověka je 1,3–2,1 ng / kg intravenózně nebo intramuskulárně, 10–13 ng / kg při vdechování nebo 1 000 ng / kg při perorálním podání. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_ATROPINE_EYEDROP</LocID>                                    	
+			<Text>Atropinové oční kapky</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_ATROPINE_EYEDROP_DESC</LocID>                        	
+			<Text>Atropinové oční kapky patří do třídy léků nazývaných antimuskarinika. Používá se k dilataci (zvětšení) zornice oka a k dočasné paralýze čočky, aby váš lékař mohl vaše oko vyšetřit. Vložení cykloplegických léků, jako je atropin sulfát, do zdravého oka způsobuje rozmazané vidění a ztrátu schopnosti soustředit se na různé vzdálenosti, což nutí líné oko kompenzovat.  \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_EYE_PATCH</LocID>                                    	
+			<Text>Náplast přes oko</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_EYE_PATCH_DESC</LocID>                        	
+			<Text>Oční náplast funguje tak, že blokuje vidění silnějšího oka pacienta. To nutí slabší nebo „líné“ oko pracovat tvrději, aby se vidění v tomto oku zlepšilo.  \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CORTICOSTEROID_EYEDROPS</LocID>                                    	
+			<Text>Kortikosteroidy oční kapky</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CORTICOSTEROID_EYEDROPS_DESC</LocID>                        	
+			<Text>Oční kortikosteroidy (léky podobné kortizonu) se používají k prevenci trvalého poškození oka, které může nastat při určitých očních potížích nebo v důsledku chirurgického zákroku. Poskytují také úlevu od zarudnutí, podráždění a jiného nepohodlí. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CHEMPEEL_L</LocID>                                    	
+			<Text>Kůra kyseliny alfa-hydroxykyseliny</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CHEMPEEL_L_DESC</LocID>                        	
+			<Text>Alfa hydroxykyseliny (AHA) jsou obvykle odvozeny z citronové (citrusové plody), glykolové (cukrová třtina), mléčného (fermentované mléko), jablečné (jablka) a vinného (hrozny). Obecně se nejčastěji používají glykolová a kyselina mléčná. AHA jsou nejmírnější ze všech chemických peelingů. Jsou primárně prospěšné pro ošetření velmi jemných linek, suché a dehydratované pokožky, mírných nepravidelností pokožky a pigmentů a akné. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_SCLEROTHERAPY</LocID>                                    	
+			<Text>Skleroterapie</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_SCLEROTHERAPY_DESC</LocID>                        	
+			<Text>Skleroterapie je léčba, která zahrnuje injekci chemického roztoku do krevních cév, obvykle pavoučích žil nebo křečových žil na nohou. Skleroterapie dráždí stěny cév, takže je drží pohromadě. To vede k fibróze nebo zjizvení cévy. Nežádoucí žíly injikované sklerotizujícím roztokem se poté rozpouštějí po dobu několika týdnů, protože tělo přirozeně absorbuje ošetřenou žílu. Skleroterapie je neinvazivní procedura, která trvá jen asi 10 minut. Odstávka je minimální ve srovnání s invazivní operací křečových žil. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+	
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_SKIN_LT</LocID>                                    	
+			<Text>Kožní laserová terapie</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_SKIN_LT_DESC</LocID>                        	
+			<Text>Laserová terapie nebo laserový resurfacing je procedura, která používá laser ke zlepšení vzhledu pokožky nebo k ošetření drobných vad obličeje odstraněním vrstev kůže. Dva nejběžnější typy laserů s povrchovou úpravou jsou; Oxid uhličitý (CO2), tento typ laseru se používá k léčbě vrásek, jizev, bradavic a dalších stavů. Druhým typem je Erbium, tento typ laseru se používá k odstranění povrchních a středně hlubokých linií a vrásek na obličeji, rukou, krku a hrudi. Způsobuje méně vedlejších účinků než CO2 lasery.  \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CHE_INJECT</LocID>                                    	
+			<Text>Enzymové injekce (CCH)</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CHE_INJECT_DESC</LocID>                        	
+			<Text>Injekce typu enzymu, obvykle kolagenázy extrahované z C histolyticum, do napjaté šňůry dlaně pacienta může změkčit a oslabit, což umožňuje lékaři manipulovat s rukou ve snaze zlomit šňůru a narovnat prsty. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CORTICOSTEROID_INJECTIONS2</LocID>                                    	
+			<Text>Injekce kortikosteroidů</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CORTICOSTEROID_INJECTIONS2_DESC</LocID>                        	
+			<Text>Kortikosteroidy (také známé jako steroidy) jsou léky, které lze použít k léčbě zánětu. Když jsou kortikosteroidy injikovány do nebo kolem bolestivé oblasti (například kloubu nebo svalu), mohou zmírnit zánět v této oblasti, zmírnit bolest, snížit otok tkáně a zlepšit funkci a mobilitu. Lékař může injikovat roztok kortikosteroidů přímo do hypertrofické jizvy nebo keloidu, což může pomoci zmenšit jeho velikost. Steroidy porušují vazby mezi kolagenovými vlákny, což snižuje množství tkáně jizvy pod kůží.  \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CRYOSURGERY</LocID>                                    	
+			<Text>Kryochirurgie</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CRYOSURGERY_DESC</LocID>                        	
+			<Text>Kryochirurgie je typ operace, která zahrnuje použití extrémního chladu ke zničení abnormálních tkání, jako jsou nádory. Operace nejčastěji zahrnuje použití kapalného dusíku, i když lze použít i oxid uhličitý a argon. Kryochirurgie funguje tak, že využívá ničivou sílu teplot mrazu na buňky. Když jejich teplota klesne nad určitou úroveň, uvnitř buněk se začnou tvořit ledové krystaly a kvůli jejich nižší hustotě tyto buňky nakonec roztrhnou. Jakmile začnou zmrznout krevní cévy zásobující postiženou tkáň, dojde k dalšímu poškození maligního růstu.  \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+	
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_HYAACID_FILL</LocID>                                    	
+			<Text>Plnění kyselinou hyaluronovou</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_HYAACID_FILL_DESC</LocID>                        	
+			<Text>Injekční kyselina hyaluronová (HA) je typ dočasného dermálního plniva. Kyselina hyaluronová se přirozeně nachází v celém těle s nejvyšší koncentrací v kloubech, očích a pokožce. Kyselina hyaluronová v pokožce přitahuje vodu, což jí umožňuje více hydratovat pokožku. Injekční HA se používá ke snížení vzhledu jemných linek a vrásek, záhybů obličeje a k vytvoření struktury, struktury a objemu obličeje a rtů. Účinky injekční kyseliny hyaluronové se projeví okamžitě. \n\nPožadovaná místnost: Jakákoliv ordinace</Text>  
+		</GameDBLocalizedString>
+	
+	<!-- ### ### -->
+	<!-- ######################################## Content for V.x Added Below ######################################## -->
+	<!-- ### ### -->
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

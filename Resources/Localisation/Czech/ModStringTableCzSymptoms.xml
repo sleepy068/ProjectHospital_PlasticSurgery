@@ -1,0 +1,559 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_CZ_ADDON_PLASTICS_SYMPTOMS">
+	<LanguageCode>cz</LanguageCode>
+	<LanguageNameLocalized>Czech</LanguageNameLocalized>
+	<Contributors>
+	<Name>XiZyno</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- Plastic Surgery Mod -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C001</LocID>                                          	
+		<Text>Žádost pacienta (Zvětšení prsou)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C001_DESC</LocID>                   
+		<Text>Pacient vyjádřil, že chce kosmetické zvětšení prsou, které vylepší jeho vzhled.</Text>  
+	</GameDBLocalizedString>	
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_PLAS_NERVE_DAMAGE</LocID>                               
+		<Text>Pooperační neuropatická bolest</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_PLAS_NERVE_DAMAGE_DESC</LocID>                   
+		<Text>Pooperační neuropatická bolest (PONP) se může vyvinout, pokud byly během operace poškozeny nervy. Poškozené nervy nemohou správně přenášet signály z různých částí těla do mozku. Místo toho se tyto signály zveličují a způsobují chronickou bolest, která může přetrvávat měsíce nebo dokonce roky.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_UNDESIRED_RESULTS</LocID>                               
+		<Text>Nežádoucí výsledky</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_UNDESIRED_RESULTS_DESC</LocID>                   
+		<Text>Nepříznivé výsledky jsou nedílnou součástí provádění operací jakéhokoli druhu. Nežádoucí výsledky po léčbě se dostaví po dokončení operace nebo léčby a výsledek se liší od očekávání. To může vést k dalším komplikacím a zvýšenému stresu pro pacienta.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_S_SCAR_TISSUE</LocID>                               
+		<Text>Významná jizvová tkáň</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_S_SCAR_TISSUE_DESC</LocID>                   
+		<Text>Jizva je skvrna, která zůstala na kůži po zahojení rány nebo poranění povrchu kůže. Tvorba jizev nebo tkáně jizvy je běžnou součástí procesu hojení a nastává, když je kůže řezána v důsledku poranění nebo chirurgického zákroku. Růst jizevnaté tkáně je ovlivněn mnoha faktory, mezi něž patří: Závažnost původního poranění. Velikost, hloubka a umístění rány na těle. Přebytek tkáně jizvy, vrstvy hluboké, může významně snížit funkci a pohyb měsíce po operaci. To může mít negativní účinky a snížit spokojenost pacientů.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_CAPSULAR</LocID>                               
+		<Text>Kapsulární kontraktura</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_CAPSULAR_DESC</LocID>                   
+		<Text>Kapsulární kontraktura je komplikace zvětšení prsou, která se vyvíjí, když tkáň vnitřní jizvy vytvoří těsnou nebo stahující kapsli kolem prsního implantátu a stahuje ji, dokud se nestane deformovanou a tvrdou.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_BARSA_INFECTION</LocID>                               
+		<Text>Infekce prsního implantátu</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_BARSA_INFECTION_DESC</LocID>                   
+		<Text>V nominální hodnotě je bakteriální infekce problémem každého implantovatelného zdravotnického zařízení, včetně prsních implantátů. Příznaky infekce mohou zahrnovat vysokou horečku a bolest prsou, zarudnutí a/nebo otok. Pokud se zdá, že samotná antibiotika infekci nevyčistí, může být nutné, aby chirurg vyčistil infikovanou tkáň a implantát vyměnil nebo zcela odstranil.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_FAILED_BA</LocID>                               
+		<Text>Selhání zvětšení prsou</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_FAILED_BA_DESC</LocID>                   
+		<Text>Kvůli chirurgickým komplikacím pacient nemohl mít úspěšný výsledek kosmetické chirurgie. Z toho nebude mít radost. </Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_IMPLANT_EXTRUSION</LocID>                               
+		<Text>Vytlačení prsních implantátů</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_IMPLANT_EXTRUSION_DESC</LocID>                   
+		<Text>V relativně vzácných případech po operaci rekonstrukce implantátu prochází povrch implantátu nebo tkáňového expandéru kůží a stává se obnaženým. Tomu se říká „vytlačování". U pacienta se může vyvinout infekce, pokud má extrudovaný nebo obnažený implantát. Pokud je prsní implantát již extrudován nebo se chystá vytlačit, plastický chirurg jej bude muset odstranit nebo vyměnit pomocí korekčního chirurgického zákroku..</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_ABSCESS</LocID>                   
+		<Text>Absces</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C002</LocID>                                          	
+		<Text>Žádost pacienta (liposukce)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C002_DESC</LocID>                   
+		<Text>Pacient vyjádřil, že chce podstoupit liposukci, která zlepší jeho vzhled.</Text>  
+	</GameDBLocalizedString>	
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C003</LocID>                                          	
+		<Text>Žádost pacienta (Augmentační rhinoplastika)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C003_DESC</LocID>                   
+		<Text>Pacient vyjádřil, že chce augmentační rhinoplastiku ke zlepšení jeho vzhledu.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_NOSE_SEPTALPERF</LocID>                                          	
+		<Text>Perforace nosní přepážky</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_NOSE_SEPTALPERF_DESC</LocID>                   
+		<Text>Perforace nosní přepážky je zdravotní stav, při kterém se v nosní přepážce, kostní / chrupavkové stěně dělící nosní dutiny, vyvine díra nebo trhlina. Některé perforace mohou při vdechování způsobit krvácení, bolest a pískání. Pokud se uschne krev nebo strupy, můžete mít také potíže s dýcháním nosem. Mnoho perforací nemusí být uzavřeno, ale vážné nebo komplikované mohou vést k infekcím.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R001</LocID>                                          	
+		<Text>Blefarospasmus (hodnocení)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R001_DESC</LocID>                   
+		<Text>Neexistuje žádný zvláštní test na blefarospazmus. Diagnóza závisí na fyzickém vyšetření, anamnéze a vyloučení dalších možných příčin. Lékař vyhodnotil pacientovy příznaky a stanovil, že diagnóza je skutečně blefarospazmus.</Text>  
+	</GameDBLocalizedString>		
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_GLOBE_PERFORATION</LocID>                                          	
+		<Text>Perforace oční bulvy</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_GLOBE_PERFORATION_DESC</LocID>                   
+		<Text>K perforaci oční bulvy dochází, když je integrita vnějších membrán oka narušena tupým nebo pronikavým traumatem. Jakékoli poranění rohovky, bělma nebo obou plných tlouštěk je považováno za poranění otevřené bulvy a v akutním prostředí se k němu přistupuje stejným způsobem. Ruptura bulvy je oftalmologický akutní problém a pro maximalizaci funkčního výsledku je zásadní rychlá akce. Přestože je pozice bulvy v orbitě v mnoha situacích chráněna před zraněním, poškození zadního segmentu oka je spojeno s velmi vysokou frekvencí trvalé ztráty zraku.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_UNDESIRED_RESULTS</LocID>                                          	
+		<Text>Neuspokojivé vyrovnání očí</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_UNDESIRED_RESULTS_DESC</LocID>                   
+		<Text>Neuspokojivé vyrovnání očí po operaci je nejčastější komplikací při korekci strabismu a dalších problémů s nesprávným seřízením očí. Navzdory pečlivému předoperačnímu měření a využití běžných tabulek chirurgických dávek bude určité procento pacientů po operaci nadměrně korigováno nebo podkorigováno, což vyžaduje nápravné chirurgické zákroky ke zmírnění problému.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_CIC</LocID>                               
+		<Text>Cysta na spojivce</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_CIC_DESC</LocID>                   
+		<Text>Cysty na spojivce se vyskytují, když jsou buňky epitelu spojivky pohřbeny pod povrchem spojivky během operace. Tyto buňky se mohou časem množit a vytvářet subkonjunktivální cysty dny až roky po původní operaci. Konjunktivální plašení je častější po operaci a také po chirurgické resekci, kdy postup břicha svalu může posunout tlustší zadní Tenonovu kapsli blíže k limbu, kde je viditelnější.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_SLIPPED_MUSCLE</LocID>                               
+		<Text>Vyklouznutý sval</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_SLIPPED_MUSCLE_DESC</LocID>                   
+		<Text>Vyklouznuté svaly se vyvíjejí, když je svalová kapsle napuštěna, aniž by během operace strabismu byla zahrnuta svalovina nebo svalová šlacha. Když je tobolka znovu připojena k bělmu, šlacha a sval pak mohou volně vyklouznout z místa připojení.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C004</LocID>                               
+		<Text>Žádost pacienta (transplantace vlasů)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C004_DESC</LocID>                   
+		<Text>Pacient vyjádřil, že chce transplantaci vlasů, která by vylepšila jeho vzhled.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C005</LocID>                               
+		<Text>Žádost pacienta (chemický peeling)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C005_DESC</LocID>                   
+		<Text>Pacient vyjádřil, že chce chemický peeling ke zlepšení jeho vzhledu. Pacient si přeje podstoupit jen lehký peeling, který příliš nezatěžuje pokožku ani nevyžaduje dlouhodobou léčbu.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R002</LocID>                                          	
+		<Text>Špatně zarovnané oči</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R002_DESC</LocID>                   
+		<Text>Bylo potvrzeno, že pacient má nesprávně zarovnané oči.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R003</LocID>                                          	
+		<Text>Jednoduché křečové žíly</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R003_DESC</LocID>                   
+		<Text>Pacient má křečové žíly, ale naštěstí se zdají být poměrně jednoduché a postrádají příznaky vážnější diagnózy. Křečové žíly, které způsobují příznaky, by neměly být ignorovány a okamžitě léčeny, aby se zabránilo nepohodlí pacienta a pomohlo předcházet budoucím problémům.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C006</LocID>                                          	
+		<Text>Žádost o pacienta (pavoučí žíly)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C006_DESC</LocID>                   
+		<Text>Pacient vyjádřil, že požaduje postup k odstranění pavoučích žil (Teleangiektázie) z části nebo částí těla, aby se zlepšil jeho vzhled.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_M</LocID>                                          	
+		<Text>Trvale ohnutý prst</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_F</LocID>                                          	
+		<Text>Trvale ohnutý prst</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_DESC</LocID>                   
+		<Text>Prst pacienta je trvale ohnutý dovnitř směrem k dlani. Ohýbání je výsledkem silné tkáně, která tlačí prst do kontraktované polohy. Hodnocení naznačuje, že toto je příčina Dupuytrenovy kontrakce.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R005</LocID>                                          	
+		<Text>Hypertrofické jizvy</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R005_DESC</LocID>                   
+		<Text>Pacientovi se objevila hypertrofická jizva, která mu přináší určitý stupeň nepohodlí. I když tyto jizvy nejsou nebezpečné nebo život ohrožující náprava nepohodlí, pomůže zlepšit kvalitu života pacienta.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R006</LocID>                                          	
+		<Text>Keloidní zjizvení</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R006_DESC</LocID>                   
+		<Text>Pacientovi se objevila Keloidní jizva, která mu přináší určitý stupeň nepohodlí. I když tyto jizvy nejsou nebezpečné nebo život ohrožující, napravení nepohodlí pomůže zlepšit kvalitu života pacienta.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT001</LocID>                                          	
+		<Text>Ztráta číslice</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT001_DESC</LocID>                   
+		<Text>Jedna z číslic pacienta byla amputována kvůli nehodě nebo zranění.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C007</LocID>                               
+		<Text>Žádost pacienta (úprava pokožky)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C007_DESC</LocID>                   
+		<Text>Pacient vyjádřil, že chce botoxové injekce, které by mu pomohly upravit pokožku a zlepšit jeho vzhled.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C008</LocID>                               
+		<Text>Žádost pacienta (úprava pokožky)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C008_DESC</LocID>                   
+		<Text>Pacient vyjádřil, že chce injekce dermální výplně, které by mu pomohly upravit pokožku a zlepšit jeho vzhled.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C009</LocID>                               
+		<Text>Žádost pacienta (omlazení pleti)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C009_DESC</LocID>                   
+		<Text>Pacient vyjádřil, že chce laserový resurfacing, který by pomohl omladit pokožku a vylepšit její vzhled.</Text>  
+	</GameDBLocalizedString>
+				
+	<!-- CRP Export (Everything below will be exported to CRP after release) -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEROMA</LocID>                                          	
+		<Text>Seróm</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEROMA_DESC</LocID>                   
+		<Text>Seróm je hromadění tekutiny, která se hromadí pod povrchem vaší pokožky. Seromy se mohou vyvinout po chirurgickém zákroku, nejčastěji v místě chirurgického řezu nebo tam, kde byla odstraněna tkáň. Séróm může trvat několik týdnů, než se sám vstřebá. Nechat seróm vstřebat je sám o sobě nejlepší způsob, jak se léčit přirozeně, pokud nenastanou žádné komplikace.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_POSTOP_PAIN</LocID>                               
+		<Text>Pooperační bolest</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_POSTOP_PAIN_DESC</LocID>                   
+		<Text>Pooperační bolest je očekávané a dočasné zvýšení bolesti pozadí, ke kterému obvykle dochází po operaci. Pooperační bolest zůstává významným problémem pro pacienty a výzvou pro anesteziology a specialisty na medicínu pro akutní bolest. Přes pokroky v posledních dvou desetiletích se zvýšeným používáním multimodálních analgetických režimů, pokroky v regionální anestezii a používání kontinuálních analgetických infuzí po operaci se u některých podskupin pacientů vyvine chronická pooperační bolest. Špatně zvládnutá pooperační bolest může vést ke komplikacím a prodloužené rehabilitaci.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_M_SCAR_TISSUE</LocID>                               
+		<Text>Menší jizvová tkáň</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_M_SCAR_TISSUE_DESC</LocID>                   
+		<Text>Jizva je značka, která je ponechána na kůži po uzdravení rány nebo poranění povrchu kůže. Tvorba jizev nebo tkáně jizvy je běžnou součástí procesu hojení a nastává, když je kůže řezána v důsledku poranění nebo chirurgického zákroku. Růst jizevnaté tkáně je ovlivněn mnoha faktory, mezi něž patří: Závažnost původního poranění. Velikost, hloubka a umístění rány na těle.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MRSA_INFECTION</LocID>                               
+		<Text>Meticilin-rezistentní stafylokoková infekce</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MRSA_INFECTION_DESC</LocID>                   
+		<Text>Meticilin-rezistentní stafylokoková infekce (MRSA)je způsobena typem bakterií Staph, které se stávají rezistentními vůči mnoha antibiotikům používaným k léčbě běžných infekcí Staph. Ty se mohou rychle proměnit v hluboké, bolestivé abscesy, které vyžadují chirurgický odtok. Někdy bakterie zůstávají omezeny na kůži. Mohou se ale také zavrtat hluboko do těla a způsobit potenciálně život ohrožující infekce kostí, kloubů, chirurgických ran, krevního oběhu, srdečních chlopní a plic.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PULMONARY_EMBOLISM</LocID>                               
+		<Text>Plicní embolie</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PULMONARY_EMBOLISM_DESC</LocID>                   
+		<Text>Plicní embolie (PE) je zablokování tepny v plicích látkou, která se přestěhovala z jiného místa v těle krví (embolie). Plicní embolie je nejčastěji způsobena krevními sraženinami, které cestují z nohou nebo vzácně z jiných částí těla (hluboká žilní trombóza nebo DVT). Chirurgický zákrok zvyšuje pacientovo riziko plicní embolie. \n\nPožadovaná léčba: Kardiologie nebo JIP</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_LOCALPOISIONING</LocID>                               
+		<Text>Lokální otrava anestetikem</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_LOCALPOISIONING_DESC</LocID>                   
+		<Text>K lokální otravě anestetikem obvykle dochází v důsledku terapeutické chyby. Mezi situace vedoucí k toxicitě patří neúmyslná venózní nebo arteriální injekce a také příliš vysoká dávka požitých nebo topicky podávaných lokálních anestetik obsahujících přípravků. CNS je citlivější na účinky lokálních anestetik než srdeční systém a obecně se nejprve projeví příznaky toxicity.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_BAGGY_SKIN</LocID>                               
+		<Text>Asymetrický nebo „pytlovitý“ povrch kůže</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_BAGGY_SKIN_DESC</LocID>                   
+		<Text>Když je tuk odstraněn z pod kůži, někteří pacienti věří, že se jejich pokožka zmenší, aby se přizpůsobila jejich hladšímu a více tónovanému tělu. To však neplatí vždy, zejména v oblastech, kde je kůže výrazně poškozena. To je nejčastější v oblasti žaludku a gluteu, i když se může vyskytovat po celém těle. Pokud byla pokožka po delší dobu napjatá přes tukové zásoby, nemusí se napínat nebo smršťovat, když tukové zásoby již nejsou. Je nepravděpodobné, že by po liposukci došlo k rychlému napnutí jakékoli oblasti, která má například strie. Přebytečná a ochablá kůže je nejčastější příčinou pro dolíček po liposukci.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_WOUND_INFECTION2</LocID>                               
+		<Text>Infekce ran</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_WOUND_INFECTION2_DESC</LocID>                   
+		<Text>K infekci rány dochází, když v poškozené pokožce rány rostou bakterie.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RAPID_BLINKING</LocID>                               
+		<Text>Nadměrné mrkání</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RAPID_BLINKING_DESC</LocID>                   
+		<Text>Mrkání je reflex, to znamená, že to Vaše tělo dělá automaticky. Pokud chcete, můžete mrknout kdykoliv sami. Nadměrné mrkání je, když mrkáte více, než je záhodno. Nadměrné mrkání je způsobeno nadměrnou stimulací mrkacího reflexu. To je nejčastěji způsobeno cizím tělesem v oku. To může být stejně jednoduché jako zarůstající řasa, která se tře o přední část oční bulvy. Takže cokoli, co způsobí oděr rohovky, způsobuje nadměrné mrkání a zalévání ve snaze vymyt cizí těleso. Nadměrné mrkání může být také způsobeno alergickými reakcemi, které způsobují zalévání, svědění a zdrsnění spojivky. Existuje také mnoho dalších chorobných stavů spojených s nadměrným mrkáním. Léčba nadměrného mrkání závisí na základní příčině.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LAZY_EYE</LocID>                               
+		<Text>Amblyopie (Líné oko)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LAZY_EYE_DESC</LocID>                   
+		<Text>Amblyopia je porucha vývoje zraku, při které oko nedosáhne normální zrakové ostrosti, a to ani u brýlí na předpis nebo kontaktních čoček. Amblyopie, nazývaná také líné oko, začíná v kojeneckém věku a v raném dětství. Ve většině případů je postiženo pouze jedno oko.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_DIPLOPIA</LocID>                               
+		<Text>Diplopie (Dvojité vidění)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_DIPLOPIA_DESC</LocID>                   
+		<Text>Diplopie, také známa jako dvojité vidění,je simultánní vnímání dvou obrazů jednoho objektu, které mohou být posunuty vodorovně, svisle, úhlopříčně (tj. svisle i vodorovně) nebo vzájemně rotačně.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_CONJU_SCAR</LocID>                               
+		<Text>Spojivkové jizvy</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_CONJU_SCAR_DESC</LocID>                   
+		<Text>Spojivkové jizvy můžou být po operaci přetrvávajícím problémem. Místo návratu k typickému průsvitnému bílému vzhledu může spojivka zůstat chronicky hyperemická a růžová. Mnoho stavů může způsobit zjizvení spojivky, tenké průhledné membrány, která pokrývá oční bělmo a spodní stranu víček. Zjizvení poškozuje spojivku a brání jí v zadržování ochranné slizniční vrstvy, která pomáhá slzám ulpívat na povrchu.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FOLLICULITIS</LocID>                               
+		<Text>Folikulitida</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FOLLICULITIS_DESC</LocID>                   
+		<Text>Folikulitida je běžné kožní onemocnění, při kterém se vlasové folikuly zapálí. Je to obvykle způsobeno bakteriální nebo plísňovou infekcí. Zpočátku to může vypadat jako malé červené hrbolky nebo pupínky s bílou hlavou kolem vlasových folikulů - malé kapsy, ze kterých každý vlas roste.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MILD_AR</LocID>                               
+		<Text>Mírná alergická reakce</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MILD_AR_DESC</LocID>                   
+		<Text>Pacient měl mírnou alergickou reakci během nebo po operaci. Může to být reakce na některá použitá anestetika, podmínky prostředí, jiné druhy léků nebo materiálů použitých během operace nebo dokonce obvazy na rány.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_THPAFA</LocID>                               
+		<Text>Zesílení palmarové fascie</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_THPAFA_DESC</LocID>                   
+		<Text>Palmarová fascie je trojúhelníková struktura v dlani založená distálně. Po zesílení ztuhne a zkracuje se, prsty se stahují dovnitř směrem k dlani.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_BENT_DIGIT</LocID>                               
+		<Text>Ohnutá číslice ruky</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_BENT_DIGIT_DESC</LocID>                   
+		<Text>Pacientův prst je ohnutý dovnitř ruky, a zatímco má stále motorickou kontrolu nad prstem, není schopen ho navrátit do původní polohy.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_THICKCORD</LocID>                               
+		<Text>Prominentní šňůra</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_THICKCORD_DESC</LocID>                   
+		<Text>Pacient má na ruce vytvrzenou a silnou svalovou/tkáňovou šňůru.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DIMPLES</LocID>                               
+		<Text>Ďolíky v kůži</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DIMPLES_DESC</LocID>                   
+		<Text>Kůže pacienta má dolíkový vzhled, podobný povrchové struktuře pomerančové kůry nebo golfového míčku.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OOST</LocID>                               
+		<Text>Přerůstání zjizvené tkáně</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OOST_DESC</LocID>                   
+		<Text>K nadměrnému růstu jizvy dochází, když se v místě rány vytvoří příliš mnoho kolagenu. Jizva stále roste, i když se rána uzdravila.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING1</LocID>                               
+		<Text>Velmi lehké krvácení</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING1_DESC</LocID>                   
+		<Text>Pacient krvácí velmi slabě, obvykle nedochází ke změnám vitálních funkcí a tekutá resuscitace není obvykle nutná. Takové krvácení se obvykle zastaví samo.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING2</LocID>                               
+		<Text>Slabé krvácení</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING2_DESC</LocID>                   
+		<Text>Pacient lehce krvácí, obvykle nedochází ke změnám vitálních funkcí a resuscitace tekutinami obvykle není nutná. Může být nutné zastavit krvácení, aby se zabránilo dalším komplikacím.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING3</LocID>                               
+		<Text>Mírné krvácení</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING3_DESC</LocID>                   
+		<Text>Pacient krvácí poněkud mírně. Je nutné další pozorování.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING4</LocID>                               
+		<Text>Těžké krvácení</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING4_DESC</LocID>                   
+		<Text>Pacient silně krvácí, vynález je zásadní pro prevenci hypovolemického šoku.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING5</LocID>                               
+		<Text>Katastrofické krvácení</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING5_DESC</LocID>                   
+		<Text>Pacient silně krvácí, k záchraně života pacienta je nutný okamžitý zásah.</Text>  
+	</GameDBLocalizedString>
+	
+	<!-- ### ### -->
+	<!-- ######################################## Content for v1.03 Added Below ######################################## -->
+	<!-- ### ### -->
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_F_V2</LocID>                                          	
+		<Text>Trvale ohnutý prst</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_M_V2</LocID>                                          	
+		<Text>Trvale ohnutý prst</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

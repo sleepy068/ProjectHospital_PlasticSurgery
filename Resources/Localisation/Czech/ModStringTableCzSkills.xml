@@ -1,0 +1,45 @@
+<Database>
+	<GameDBStringTable ID="LOC_EN_ADDON_PLASTICS_SKILLS">
+	
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+    <Name>Sleepy068</Name>
+	</Contributors>
+        
+	<LocalizedStrings>
+            
+<!-- ### Skills ### -->
+			
+	<GameDBLocalizedString>      
+		<LocID>DPT_PLASTICS</LocID>                                          	
+		<Text>Plastická chirurgie</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SKILL_DOC_SPEC_PLAS</LocID>                   
+		<Text>Plastický chirurg (Konzultant)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SKILL_DOC_SPEC_PLAS_DESCR</LocID>                   
+		<Text>Plastická chirurg - konzultant poskytuje přístup ke specializovaným postupům pro detekci, diagnostiku a léčbu různých stavů, které mohou vyžadovat rekonstrukční chirurgický vynález nebo zpracování požadavků na kosmetickou chirurgii.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SKILL_DOC_SPEC_PLAS_SURGERY</LocID>                   
+		<Text>Specializovaný plastický chirurg</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SKILL_DOC_SPEC_PLAS_SURGERY_DESCR</LocID>                   
+		<Text>Specializovaný plastický chirurg je lékař, který se specializuje na invazivní kosmetiku (estetickou nebo související se vzhledem) a rekonstrukční chirurgii.</Text>  
+	</GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Vx.x.x.x Below ######################################## -->
+	<!-- ### ### -->
+	
+	</LocalizedStrings>	
+	</GameDBStringTable>
+</Database>

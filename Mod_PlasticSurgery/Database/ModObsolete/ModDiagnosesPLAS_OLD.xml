@@ -86,6 +86,7 @@
     <Tags>
         <Tag>disease</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Breast Reduction - Cosmetic  -->
@@ -131,6 +132,7 @@
     <Tags>
         <Tag>disease</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Refinement Rhinoplasty - Cosmetic (Nose Job) -->
@@ -173,6 +175,7 @@
     <Tags>
         <Tag>disease</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Blepharoplasty - Cosmetic -->
@@ -221,6 +224,7 @@
     <Tags>
         <Tag>disease</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 
 	<!-- Botulinum Toxin Therapy - Cosmetic (Skin Conditioning) -->
@@ -257,6 +261,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 
 	<!-- Dermal Fillers - Cosmetic (Skin Conditioning) -->
@@ -293,6 +298,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 
 	<!-- Dermabrasion - Cosmetic (Skin Resurfacing)-->
@@ -331,6 +337,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Chemical Peel - Cosmetic (Skin Rejuvenation)(Light Peel) -->
@@ -367,6 +374,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 
 	<!-- Chemical Peel - Cosmetic (Skin Rejuvenation)(Deep Peel) -->	
@@ -405,6 +413,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 
 	<!-- Reticular Veins - Cosmetic -->
@@ -501,6 +510,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Blepharospam (Severe) -->
@@ -563,6 +573,7 @@
     <Tags>
         <Tag>disease</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Reverted Strabismus -->
@@ -626,6 +637,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Dupuytren’s Contracture (Simple) Male 4 : Female 1 (More common in male) -->
@@ -685,6 +697,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Dupuytren’s Disease (Complex) -->
@@ -751,6 +764,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Varicose Veins (Complex) -->
@@ -830,6 +844,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Scar Revision (Keloid Scar)(Simple) -->
@@ -890,6 +905,7 @@
         <Tag>disease</Tag>
 		<Tag>clinic</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Scar Revision (Contracture) -->
@@ -949,6 +965,7 @@
     <Tags>
 		<Tag>trauma</Tag>
     </Tags>
+	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 	
 	<!-- Replantation (Amputated Toe) -->

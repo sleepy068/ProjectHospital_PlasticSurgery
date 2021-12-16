@@ -101,29 +101,6 @@
 	
 	</GameDBSymptom>
 	
-	<!-- Plastic Version of Abscess -->
-	<GameDBSymptom ID="SYM_PLAS_ABSCESS">
-        <DescriptionLocID>SYM_ABSCESS_DESCRIPTION</DescriptionLocID>
-        <DiscomfortLevel>None</DiscomfortLevel>
-        <PatientComplains>false</PatientComplains>
-        <Hazard>High</Hazard>
-
-        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
-        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
-        <CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
-        
-        <PatientMobility>IMOBILE</PatientMobility>
-        <Examinations>
-            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-        </Examinations>
-        <Treatments>
-            <TreatmentRef>TRT_CRP_INCISION_AND_DRAINAGE</TreatmentRef>
-        </Treatments>
-        <ShameLevel>0</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-        <IconIndex>1595</IconIndex>
-    </GameDBSymptom>
-		
 	<!-- ### Breast Surgery Focus ### -->
 	<!-- Capsular Contracture (The formation of tight scar tissue around the implant) -->
 	<GameDBSymptom ID="SYM_SLP_B_CAPSULAR">
@@ -214,29 +191,6 @@
 	
 	</GameDBSymptom>
 	
-	<!-- Fail Implant Surgery -->	
-	<GameDBSymptom ID="SYM_SLP_FAILED_BA">
-        <DescriptionLocID>SYM_SLP_FAILED_BA_DESC</DescriptionLocID>
-        <DiscomfortLevel>High</DiscomfortLevel>
-        <PatientComplains>true</PatientComplains>
-        <Hazard>Low</Hazard>
-        <PatientMobility>MOBILE</PatientMobility>
-		
-        <Examinations>
-			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
-            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-        </Examinations>
-		
-        <ShameLevel>20</ShameLevel>
-        <IsMainSymptom>false</IsMainSymptom>
-		
-		<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_025</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_026</CustomIconSmallAssetRef>
-		
-        <IconIndex>1</IconIndex>
-		
-		</GameDBSymptom>
-		
 	<!-- ### Nose Surgery Focus ### -->
 	<!-- Nasal Septal Perforation -->
 	<GameDBSymptom ID="SYM_SLP_NOSE_SEPTALPERF">

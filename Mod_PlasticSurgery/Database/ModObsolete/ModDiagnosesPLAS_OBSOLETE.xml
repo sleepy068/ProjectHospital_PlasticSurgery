@@ -6,5 +6,267 @@
 	or generate with new patients.
 	<Disabled>true</Disabled>
 	-->
+	
+	<!-- Breast Augmentation - Cosmetic (Breast Job) -->
+	<GameDBMedicalCondition ID="DIA_PLAS_C_BREAST_01">
+	<AbbreviationLocID>DIA_PLAS_C_BREAST_01_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
+	<MatchingGenderRef>GENDER_FEMALE</MatchingGenderRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_C001</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+		<TreatmentRef>TRT_SLP_AUGMENTATION_MAMMOPLASTY</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>3860</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_001</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_002</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+	<Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+	
+	<!-- Augmentation Rhinoplasty - Cosmetic (Nose Job) -->
+	<GameDBMedicalCondition ID="DIA_PLAS_C_NOSE_01">
+	<AbbreviationLocID>DIA_PLAS_C_NOSE_01_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_C003</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+		<TreatmentRef>TRT_SLP_RHINOPLASTY</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>4010</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_007</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_008</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+	<Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+	
+	<!-- Liposuction - Cosmetic  -->
+	<GameDBMedicalCondition ID="DIA_PLAS_C_STOMACH_01">
+	<AbbreviationLocID>DIA_PLAS_C_STOMACH_01_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_C002</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+		<TreatmentRef>TRT_SLP_SAL</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>2450</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_005</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_006</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+	<Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+	
+	<!-- Hair Transplantation - Cosmetic -->
+	<GameDBMedicalCondition ID="DIA_PLAS_C_HAIR_01">
+	<AbbreviationLocID>DIA_PLAS_C_HAIR_01_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_C004</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+		<TreatmentRef>TRT_SLP_HAIRT</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>1950</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_013</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_014</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+	<Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+	<!-- Strabismus (Verging into Ophthalmology) -->
+	<GameDBMedicalCondition ID="DIA_PLAS_R_EYE_02">
+	<AbbreviationLocID>DIA_PLAS_R_EYE_02_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_ULTRARARE</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_R002</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>80</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_BLURRED_VISION</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>70</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_EYE_PAIN</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>70</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>70</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_LAZY_EYE</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		<ExaminationRef>EXM_BASIC_VISUAL_TEST</ExaminationRef>
+		<ExaminationRef>EXM_OPHTHALMOSCOPY</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+		<TreatmentRef>TRT_CRP_ATROPINE_EYEDROP</TreatmentRef>
+		<TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+		<TreatmentRef>TRT_EYE_DROPS</TreatmentRef>
+		<TreatmentRef>TRT_SLP_PLAS_EYEMSURGERY</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>1740</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_011</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_012</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+	<Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+	
+	<!-- Replantation (Amputated Digit)(Guillotine-type) -->
+	<GameDBMedicalCondition ID="DIA_PLAS_R_T_REPLANT_01">
+	<AbbreviationLocID>DIA_PLAS_R_T_REPLANT_01_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_UNLIKELY</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_RT001</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_BLEEDING3</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_OPEN_WOUND</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>80</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PAIN</GameDBSymptomRef>
+        </GameDBSymptomRules>
+
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+		<TreatmentRef>TRT_ANTIHEMORRHAGICS</TreatmentRef>
+		<TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+		<TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
+		<TreatmentRef>TRT_SLP_PLAS_REPLANT</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>2100</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_027</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_028</CustomIconSmallAssetRef>
+		
+    <Tags>
+		<Tag>trauma</Tag>
+    </Tags>
+	<Disabled>true</Disabled>
+    </GameDBMedicalCondition>
 
 </Database>

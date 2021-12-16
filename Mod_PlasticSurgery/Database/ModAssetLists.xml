@@ -258,6 +258,114 @@ This section handles adding my custom diagonsis icons to the game. -->
 <!-- 
 ### Symptoms ### 
 This section handles adding my custom symptom icons to the game. -->
+
+
+<!-- 
+### Threatment ###
+This section handles adding my custom treatment icons to the game. -->
+
+<!-- 
+### Surgery ###
+This section handles adding my custom surgery icons to the game. -->
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_001">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_breast1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_002">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_breast1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_003">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_correct1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_004">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_correct1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_005">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_scar1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_006">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_scar1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_007">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_breast2a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_008">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_breast2b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_009">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_nose1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_010">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_nose1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_011">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_eye1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_012">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_eye1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_013">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_sl_emsurgery1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_014">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_sl_emsurgery1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_015">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_sl_hairtransplant1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_016">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_sl_hairtransplant1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_017">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_replant1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_018">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_replant1b.png</File> 
+</GameDBAsset>
+
+<!-- 
+### Examinations ### 
+This section handles adding my custom examination icons to the game. -->
+
+
+<!-- 
+### Obsolete(CRP) ### 
+Ported to CRP. -->
+<!--
 <GameDBAsset ID="ASSET_PLAS_SYM_ICON_001">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_slp_seroma1a.png</File> 
@@ -603,6 +711,7 @@ This section handles adding my custom symptom icons to the game. -->
 	<File>MOD_ROOT/sym_sl_bleeding1a.png</File> 
 </GameDBAsset>
 
+
 <GameDBAsset ID="ASSET_PLAS_SYM_ICON_070">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sym_sl_bleeding1b.png</File> 
@@ -648,10 +757,8 @@ This section handles adding my custom symptom icons to the game. -->
 	<File>MOD_ROOT/sym_sl_bleeding5b.png</File> 
 </GameDBAsset>
 
+==================================================
 
-<!-- 
-### Threatment ###
-This section handles adding my custom treatment icons to the game. -->
 <GameDBAsset ID="ASSET_PLAS_TRT_ICON_001">   
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/trt_slp_watchwait1a.png</File> 
@@ -802,102 +909,8 @@ This section handles adding my custom treatment icons to the game. -->
 	<File>MOD_ROOT/trt_sl_hydacid1b.png</File> 
 </GameDBAsset>
 
-<!-- 
-### Surgery ###
-This section handles adding my custom surgery icons to the game. -->
-<!-- Breast Based Surgery -->
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_001">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_breast1a.png</File> 
-</GameDBAsset>
 
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_002">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_breast1b.png</File> 
-</GameDBAsset>
+-->
 
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_003">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_correct1a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_004">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_correct1b.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_005">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_scar1a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_006">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_scar1b.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_007">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_breast2a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_008">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_breast2b.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_009">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_nose1a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_010">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_nose1b.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_011">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_eye1a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_012">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_eye1b.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_013">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_sl_emsurgery1a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_014">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_sl_emsurgery1b.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_015">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_sl_hairtransplant1a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_016">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_sl_hairtransplant1b.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_017">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_replant1a.png</File> 
-</GameDBAsset>
-
-<GameDBAsset ID="ASSET_PLAS_SUR_ICON_018">   
-	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
-	<File>MOD_ROOT/sur_slp_replant1b.png</File> 
-</GameDBAsset>
-
-<!-- 
-### Examinations ### 
-This section handles adding my custom examination icons to the game. -->
 
 </Database>

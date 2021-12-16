@@ -1,0 +1,316 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_ZH_ADDON_PLASTICS_TREATMENTS">
+	<LanguageCode>zh-Hans</LanguageCode>
+	<LanguageNameLocalized>简体中文</LanguageNameLocalized>
+	<Contributors>
+	<Name>LoiLok</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- Plastic Surgery Mod -->
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_AUGMENTATION_MAMMOPLASTY</LocID>                         
+			<Text>隆乳术</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_AUGMENTATION_MAMMOPLASTY_DESC</LocID>                         
+			<Text>隆胸是一项美容手术技术，使用乳房植入物和脂肪移植的乳房成形术来增加尺寸，改变形状并改变女性乳房的质地。 \ n \ n所需房间：整形外科的手术室。</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_NERVE_DECOM_SURGERY</LocID>                                    	
+			<Text>神经重建手术</Text>
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_NERVE_DECOM_SURGERY_DESC</LocID>                        	
+			<Text>神经重建手术或神经修复手术，包括探查受伤的神经并从神经末梢清除受伤的组织或疤痕，并从神经末梢切除受伤的组织或疤痕。之后，如果神经末端有足够的长度，可以在没有张力的情况下进行高质量的修复，就可以直接重新连接神经。\n\n所需房间：神经病学的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_CORRECTIVE_SURGERY</LocID>                                    	
+			<Text>矫正手术</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_CORRECTIVE_SURGERY_DESC</LocID>                        	
+			<Text>患者偶尔需要矫正手术并不少见，这是为了解决与先前手术相关的问题或并发症。解决这些问题将大大有助于提高患者的满意度，同时也会增加手术时间和进一步的并发症风险。\n\n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_SCAR_REVISION_SURGERY</LocID>                                    	
+			<Text>疤痕修复手术</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_SCAR_REVISION_SURGERY_DESC</LocID>                        	
+			<Text>疤痕修复术是改善或减少疤痕外观的手术。 它还可以恢复功能，并纠正由受伤，伤口，愈合不良或先前的手术引起的皮肤变化（毁容）。 \ n \ n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_IMPLANT_REMOVAL</LocID>                                    	
+			<Text>去除乳房植入物</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_IMPLANT_REMOVAL_DESC</LocID>                        	
+			<Text>乳房植入物感染通常是由金黄色葡萄球菌和凝固酶阴性葡萄球菌引起的。 有人报道革兰氏阴性杆菌与乳房植入物感染有关。 尽管很少见，但这种类型的感染通常需要去除植入物。 该手术去除了乳房植入物并清洁了植入物周围的组织。 通常需要跟进抗生素疗程。 \ n \ n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_CAPSULECTOMY</LocID>                                    	
+			<Text>包膜切除术</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_CAPSULECTOMY_DESC</LocID>                        	
+			<Text>包膜切除术是手术切除的疤痕组织或囊膜，在乳房植入物周围变厚并变硬。 胶囊由成纤维细胞，胶原蛋白和血管组成。 进行囊膜切开术应减轻不适感并改善患者乳房的外观和感觉。 \ n \ n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_PLAS_INCISION_AND_DRAINAGE</LocID>                                    	
+			<Text>切开引流</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_SAL</LocID>                                    	
+			<Text>抽吸辅助脂肪切除术（SAL）</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_SAL_DESC</LocID>                        	
+			<Text>抽脂术是一种侵入性手术，旨在通过去除脂肪的局部和不成比例的沉积来改善人体轮廓和比例。 吸脂一次可以清除多达5升的脂肪，而且相对安全。 吸脂辅助切除术（SAL）是通过真空抽吸从体内去除脂肪的地方。 SAL可以是干的，湿的或肿胀的（肿胀的吸脂术），具体取决于在手术开始之前注入手术部位的盐水（盐溶液）的体积。 \ n \ n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_RHINOPLASTY</LocID>                                    	
+			<Text>隆鼻术</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_RHINOPLASTY_DESC</LocID>                        	
+			<Text>鼻整形术，俗称鼻整形术，是一种矫正和重建鼻子的整形外科手术。整形手术有两种类型：修复鼻子的外形和功能的整形手术和改善鼻子外观的整容手术。\n\n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EYEMSURGERY</LocID>                                    	
+			<Text>眼肌手术</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EYEMSURGERY_DESC</LocID>                        	
+			<Text>眼肌手术是矫正斜视（眼错位）或眼球震颤（眼球摆动）的手术。 手术涉及移动一只或多只眼部肌肉以调节一只或多只眼睛的位置。 \ n \ n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EMERG_REPAIR</LocID>                                    	
+			<Text>急诊外科（整形）</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EMERG_REPAIR_DESC</LocID>                        	
+			<Text>急诊手术是指因外伤、急性疾病、慢性疾病的急性突然加重或外科手术或其他介入性手术的并发症而对生命、器官、肢体或组织造成急性威胁的手术\n\n重要提示：这项手术被认为是关键的，应该优先考虑。\n\n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<!-- Not use yet -->
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EMERG_EYEREMOVAL</LocID>                                    	
+			<Text>眼球摘除术</Text>  
+		</GameDBLocalizedString>
+
+		<!-- Not use yet -->
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_EMERG_EYEREMOVAL_DESC</LocID>                        	
+			<Text>眼球摘除术是一种眼科手术，使眼部肌肉和剩余的眼眶内容物保持完整。这种类型的眼科手术适用于许多眼部肿瘤，包括遭受严重创伤的眼睛，以及失明和疼痛的眼睛。\n\n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_HAIRT</LocID>                                    	
+			<Text>毛囊单位移植</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_HAIRT_DESC</LocID>                        	
+			<Text>毛囊单位移植（有时简称为FUE）是一种毛发移植手术的方法，可以从患者的头皮中手动去除单个毛囊。 提取后，将头发植入到头部周围的秃头或稀疏区域。 \ n \ n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_REPLANT</LocID>                                    	
+			<Text>再植</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_SLP_PLAS_REPLANT_DESC</LocID>                        	
+			<Text>再植指的是对已经从身体上完全切除的身体部位（例如手指，手或脚趾）进行外科手术再附着。 再植手术的目的是使尽可能多的受伤部位重新附着并恢复其功能。 \ n \ n所需房间：整形外科的手术室。</Text>  
+		</GameDBLocalizedString>
+	
+	<!-- CRP Export -->
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_WATCH_WAIT</LocID>                         
+			<Text>观察和等待</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_WATCH_WAIT_DESC</LocID>                         
+			<Text>观察和等待包括密切监视患者的状况，而不进行任何治疗，直到症状出现或改变。 通常，在这些情况下，让身体自然自愈是首选方法，因为治疗可能会带来并发症的风险。 \ n \ n所需房间：任何科室</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_EPIPEN</LocID>                                    	
+			<Text>肾上腺素自动注射器</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_EPIPEN_DESC</LocID>                        	
+			<Text>肾上腺素自动注射器是一种通过自动注射器技术注射一定剂量或多个剂量的肾上腺素的医疗设备。 它最常用于过敏反应的治疗。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_MRSA_TREATMENT_A</LocID>                                    	
+			<Text>甲氧苄啶磺胺甲恶唑</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_MRSA_TREATMENT_A_DESC</LocID>                        	
+			<Text>一线MRSA疗法：甲氧苄氨嘧啶-磺胺甲恶唑（TMP-SMX; Bactrim DS，Septra DS。磺胺甲氧嘧啶-DS）。 该试剂已显示出对耐甲氧西林金黄色葡萄球菌的治疗非常有效。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_COMPRESSION_GARMENT</LocID>                                    	
+			<Text>紧身衣</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_COMPRESSION_GARMENT_DESC</LocID>                        	
+			<Text>吸脂后穿压缩衣服有助于身体康复，并在愈合过程中增加患者的舒适感。 加压衣有助于纠正因手术引起的加班，松弛或不规则皮肤表面特征。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_INTRA_LIPIDEMULSION</LocID>                                    	
+			<Text>静脉脂质乳剂</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_INTRA_LIPIDEMULSION_DESC</LocID>                        	
+			<Text>脂质乳剂或脂肪乳剂是指用于人静脉内使用的脂质乳剂。 它通常以最常用的商标名Intralipid来指代，Intralipid是大豆油，鸡蛋磷脂和甘油的乳状液，浓度为10％，20％和30％。 静脉脂质乳剂是一种用于局部麻醉药诱发的心血管衰竭的有效治疗方法。 关于其作用机理的主要理论是，通过产生扩张的血管内脂质相，建立了平衡机制，该平衡机制将有问题的药物从靶组织驱动到新形成的“脂质池”中。 \ n \ n所需房间：任何常规住院治疗。</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_BOTOX</LocID>                                    	
+			<Text>肉毒杆菌毒素</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_BOTOX_DESC</LocID>                        	
+			<Text>肉毒杆菌毒素（Botox）是由肉毒梭菌和相关物种产生的一种神经毒性蛋白。 它阻止神经递质的轴突末端释放神经递质乙酰胆碱，从而导致松弛性麻痹。 肉毒杆菌毒素虽然可用于各种整形外科手术，但它是已知最剧毒的物质。 伤口或肠道感染或摄入食物中预先形成的毒素可导致自然中毒。 静脉或肌肉注射的人类A型毒素致死剂量估计为1.3–2.1 ng / kg，吸入时为10–13 ng / kg，或经口摄入时为1000 ng / kg。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_ATROPINE_EYEDROP</LocID>                                    	
+			<Text>阿托品滴眼液</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_ATROPINE_EYEDROP_DESC</LocID>                        	
+			<Text>阿托品滴眼剂属于一类药物，称为抗毒蕈碱剂。 它用于散瞳（扩大）眼睛的瞳孔并暂时使晶状体麻痹，以便您的医生可以检查您的眼睛。 将睫状肌麻痹药物（例如硫酸阿托品）放入健康的眼睛会导致视力模糊并失去聚焦在不同距离上的能力，从而迫使懒惰的眼睛进行补偿。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_EYE_PATCH</LocID>                                    	
+			<Text>眼罩</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_EYE_PATCH_DESC</LocID>                        	
+			<Text>眼罩可阻挡患者强壮视力的视线。 这迫使弱视者的眼睛更加努力地工作，从而使该只眼睛的视力得以改善。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CORTICOSTEROID_EYEDROPS</LocID>                                    	
+			<Text>皮质类固醇滴眼液</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CORTICOSTEROID_EYEDROPS_DESC</LocID>                        	
+			<Text>眼用皮质类固醇（可的松类药物）用于预防眼睛的永久性损伤，这种损伤可能由于某些眼部问题或由于手术而发生。 它们还可以缓解发红，刺激和其他不适感。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CHEMPEEL_L</LocID>                                    	
+			<Text>α-羟基酸皮</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CHEMPEEL_L_DESC</LocID>                        	
+			<Text>α羟基酸（AHA）通常来自柠檬酸（柑橘类水果），乙醇酸（甘蔗），乳酸（发酵乳），苹果酸（苹果）和酒石酸（葡萄）。 通常，乙醇酸和乳酸是最常用的两种。 AHA是所有化学果皮中最温和的。 它们主要有益于治疗细纹，干燥和干燥的皮肤，轻度皮肤和色素不规则以及痤疮。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_SCLEROTHERAPY</LocID>                                    	
+			<Text>硬化疗法</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_SCLEROTHERAPY_DESC</LocID>                        	
+			<Text>硬化疗法是指将化学溶液注入血管（通常是腿部的蜘蛛静脉或曲张静脉）中的治疗方法。 硬化疗法会刺激血管壁，使它们粘在一起。 这导致血管纤维化或疤痕形成。 随着身体自然吸收经处理的静脉，注射了硬化溶液的多余静脉随后会溶解数周。 硬化疗法是一种仅需约10分钟即可完成的非侵入性手术。 与侵入性静脉曲张手术相比，停机时间最少。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+	
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_SKIN_LT</LocID>                                    	
+			<Text>皮肤激光疗法</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_SKIN_LT_DESC</LocID>                        	
+			<Text>激光疗法或激光换肤是使用激光来改善皮肤外观或通过去除皮肤层来治疗面部细小瑕疵的疗法。 堆焊激光的两种最常见类型是： 二氧化碳（CO2），这种类型的激光用于治疗皱纹，疤痕，疣和其他情况。 第二种类型是Er，这种类型的激光用于去除面部，手，颈部和胸部的浅表和中等深度的线条和皱纹。 与CO2激光器相比，它产生的副作用更少。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CHE_INJECT</LocID>                                    	
+			<Text>酶注射（CCH）</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CHE_INJECT_DESC</LocID>                        	
+			<Text>将一种酶（通常是从溶组织梭状芽胞杆菌中提取的胶原酶）注射到患者手掌的拉紧绳中，可以使其软化和变弱，从而使医生能够操纵手以试图断开绳子并使手指伸直。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CORTICOSTEROID_INJECTIONS2</LocID>                                    	
+			<Text>皮质类固醇注射</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CORTICOSTEROID_INJECTIONS2_DESC</LocID>                        	
+			<Text>皮质类固醇（也称为类固醇）是可以用来治疗炎症的药物。当皮质类固醇注射到疼痛区域（如关节或肌肉）或周围时，它们可以减轻该区域的炎症，减轻疼痛，减轻组织肿胀，改善功能和活动能力。医生可以将皮质类固醇溶液直接注射到增生性瘢痕或瘢痕疙瘩中，这可能有助于缩小瘢痕疙瘩的大小。类固醇能破坏胶原纤维之间的结合，从而减少皮肤下疤痕组织的数量\n\n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CRYOSURGERY</LocID>                                    	
+			<Text>冷动手术</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_CRYOSURGERY_DESC</LocID>                        	
+			<Text>冷冻手术是一种手术，涉及使用极度寒冷来破坏异常组织，例如肿瘤。 尽管也可以使用二氧化碳和氩气，但外科手术通常涉及使用液氮。 冷冻手术通过利用冷冻温度对细胞的破坏力来工作。 当它们的温度下降到一定水平以下时，冰晶开始在细胞内部形成，并且由于其密度较低，最终将这些细胞撕裂。 一旦供应受影响的组织的血管开始冻结，将进一步损害恶性肿瘤的生长。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+	
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_HYAACID_FILL</LocID>                                    	
+			<Text>透明质酸填充剂</Text>  
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>TRT_CRP_HYAACID_FILL_DESC</LocID>                        	
+			<Text>注射用透明质酸（HA）是一种临时性皮肤填充剂。 透明质酸是人体中天然存在的，在关节，眼睛和皮肤中含量最高。 透明质酸在皮肤中会吸引水分，使皮肤变得更加水合。 可注射的HA用于减少细纹和皱纹，面部褶皱的出现，并为脸部和嘴唇创造结构，框架和体积。 注射透明质酸的效果立即可见。 \ n \ n所需房间：任何科室</Text>  
+		</GameDBLocalizedString>
+	
+	<!-- ### ### -->
+	<!-- ######################################## Content for V.x Added Below ######################################## -->
+	<!-- ### ### -->
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

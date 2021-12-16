@@ -5,10 +5,11 @@ Update v0.1.0.4
 Additions:
 
 Changes:
-Removed CRP Export Content
+Changed all surgeries to have a new naming format (makes things much easier long term).
+Removed already ported CRP content.
 
 Localisation:
-
+Added Chinese Localisation (v1.0.3
 
 Bug Fixes:
 

@@ -574,6 +574,7 @@
 	<AbbreviationLocID>DIA_PLAS_R_HAND_01_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_SL_PRETTYRARE</OccurrenceRef><!-- Real life is 5%, not 15% -->
+	<MatchingGenderRef>GENDER_MALE</MatchingGenderRef>
 	
 	<Symptoms>
         <GameDBSymptomRules>
@@ -633,6 +634,7 @@
 	<AbbreviationLocID>DIA_PLAS_R_HAND_01_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_SL_ULTRARARE</OccurrenceRef>
+	<MatchingGenderRef>GENDER_FEMALE</MatchingGenderRef>
 	
 	<Symptoms>
         <GameDBSymptomRules>

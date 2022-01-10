@@ -45,6 +45,36 @@
     </Tags>
     </GameDBMedicalCondition>
 	-->
+	<!-- ================================================================================= -->
+	<!-- ==================================== Inprogress ================================= -->
+	<!-- ================================================================================= -->
+	
+	<!-- a01 -->
+	<!-- Mastopexy - Cosmetic (Breast Lift) -->
+		<!-- Female Only -->	
+	
+	<!-- a02 -->
+	<!-- Septoplasty - Cosmetic (Nose Job) -->
+	
+	<!-- a03 -->
+	<!-- Replantation (Amputated Toe) -->
+		<!-- Surgery SUR_SLP_PLAS_REPLANT -->
+		
+	<!-- a04 -->
+	<!-- Reconstructive Rhinoplasty -->
+		<!-- 
+		Very Low Nose Bridge. A surgeon with little experience may have taken off too much of the nasal bone and cartilage. 
+			sym_lownosebridge_a01
+		Disproportionate Appearance 
+			sym_disapp_a02
+		Pinched Nostrils
+			sym_pinchednose_a03a
+		Tip of the Nose Is Too High
+		Difficulty of Breathing (Mix in, High %)
+		Incorrect Size of Nostrils
+		-->
+	
+	
 	
 	<!-- =============================================================================== -->
 	<!-- ==================================== Cosmetic ================================= -->
@@ -91,9 +121,6 @@
 	<!-- Breast Reduction - Cosmetic  -->
 		<!-- ASSET_PLAS_DIA_ICON_003 ASSET_PLAS_DIA_ICON_004 -->
 	
-	<!-- Mastopexy - Cosmetic (Breast Lift) -->
-		<!-- Female Only -->
-	
 	<!-- Gynecomastia Treatment - Cosmetic (Male Breast Reduction) -->
 		<!-- Male Only -->
 	
@@ -134,8 +161,6 @@
     </GameDBMedicalCondition>
 	
 	<!-- Refinement Rhinoplasty - Cosmetic (Nose Job) -->
-	
-	<!-- Septoplasty - Cosmetic (Nose Job) -->
 	
 	<!-- Cheek Enhancement - Cosmetic -->
 	
@@ -764,8 +789,6 @@
 	
 	<!-- Post-Traumatic Rhinoplasty -->
 	
-	<!-- Reconstructive Rhinoplasty -->
-	
 	<!-- Revision Rhinoplasty -->
 	
 	<!-- Deviated Septum -->
@@ -952,8 +975,6 @@
 		<Tag>trauma</Tag>
     </Tags>
     </GameDBMedicalCondition>
-	
-	<!-- Replantation (Amputated Toe) -->
 	
 	<!-- Replantation (Amputated Hand) -->
 	

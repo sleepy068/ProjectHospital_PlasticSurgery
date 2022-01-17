@@ -143,9 +143,54 @@
 		<Text>Replantation refers to the surgical reattachment of a body part (such as a finger, hand, or toe) that has been completely cut from the body. The goal of replantation surgery is to reattach and restore function to as much of the injured part as possible.  \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>  
 	</GameDBLocalizedString>
 	
-    <!-- ==================================================== -->
-	<!-- ============= Plastic Surgery vx.x.x.x ============= -->
-	<!-- ==================================================== -->
+    <!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.6 ============= -->
+	<!-- ================================================== -->
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_MASTOPEXY</LocID>                         
+		<Text>Mastopexy</Text>	
+	</GameDBLocalizedString>
+		
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_MASTOPEXY_DESC</LocID>                         
+		<Text>Mastopexy, or breast lift as it is commonly known, is a Cosmetic Surgery procedure designed to lift and re-contour sagging breasts or breasts that have lost volume. \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_SEPTOPLASTY</LocID>                         
+		<Text>Septoplasty</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_SEPTOPLASTY_DESC</LocID>                         
+		<Text>Septoplasty, or alternatively submucous septal resection and septal reconstruction, is a corrective surgical procedure done to straighten a deviated nasal septum – the nasal septum being the partition between the two nasal cavities. Ideally, the septum should run down the centre of the nose.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_PLAS_ENUCLEATION</LocID>                         
+		<Text>Enucleation</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_PLAS_ENUCLEATION_DESC</LocID>                         
+		<Text>Enucleation is the removal of the eye that leaves the eye muscles and remaining orbital contents intact. This type of ocular surgery is indicated for a number of ocular tumors, in eyes that have suffered severe trauma, and in eyes that are otherwise blind and painful. A spherical implant (artificial eyeball) is used to replace the removed eyeball.</Text>	
+	</GameDBLocalizedString>
+	
+	<!--
+	Translators, please ignore this:
+	Used to quickly add new localisation to the mod 
+		
+	<GameDBLocalizedString>      
+		<LocID>XYZ</LocID>                         
+		<Text></Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>XYZ_DESC</LocID>                         
+		<Text></Text>	
+	</GameDBLocalizedString>
+	-->
 	
 	</LocalizedStrings>
 	</GameDBStringTable>

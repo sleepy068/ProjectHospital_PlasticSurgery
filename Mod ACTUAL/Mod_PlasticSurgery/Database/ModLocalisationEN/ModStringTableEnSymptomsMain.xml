@@ -179,14 +179,127 @@
 		<Text>One of the patient's digits has been amputated due to an accident or injury.</Text>  
 	</GameDBLocalizedString>
 				
-	<!-- ==================================================== -->
-	<!-- ============= Plastic Surgery vx.x.x.x ============= -->
-	<!-- ==================================================== -->
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.6 ============= -->
+	<!-- ================================================== -->
 	<!-- ================= Cosmetic ================ -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C010</LocID>                         
+		<Text>Patient Request (Mastopexy)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C010_DESC</LocID>                         
+		<Text>The patient has expressed that they want a Mastopexy to enhance their appearance.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C011</LocID>                         
+		<Text>Patient Request (Septoplasty)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C011_DESC</LocID>                         
+		<Text>The patient has expressed that they want a Septoplasty to enhance their appearance.</Text>	
+	</GameDBLocalizedString>
+	
+	<!-- ================= Checkups ================ -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU001</LocID>                         
+		<Text>Checkup (Breast Augmentation)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU001_DESC</LocID>                         
+		<Text>The patient has a scheduled appointment with their doctor to follow up their recent Breast Augmentation surgery.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU002</LocID>                         
+		<Text>Checkup (Augmentation Rhinoplasty)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU002_DESC</LocID>                         
+		<Text>The patient has a scheduled appointment with their doctor to follow up their recent Augmentation Rhinoplasty surgery.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU003</LocID>                         
+		<Text>Checkup (Liposuction)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU003_DESC</LocID>                         
+		<Text>The patient has a scheduled appointment with their doctor to follow up their recent Liposuction surgery.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU004</LocID>                         
+		<Text>Checkup (Mastopexy)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU004_DESC</LocID>                         
+		<Text>The patient has a scheduled appointment with their doctor to follow up their recent Mastopexy surgery.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU005</LocID>                         
+		<Text>Checkup (Septoplasty)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU005_DESC</LocID>                         
+		<Text>The patient has a scheduled appointment with their doctor to follow up their recent Septoplasty surgery.</Text>	
+	</GameDBLocalizedString>
 	
 	<!-- ================= Reconstructive ================ -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R008</LocID>                         
+		<Text>Nasal Deformities</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R008_DESC</LocID>                         
+		<Text>The patient has nasal deformities that effect the aesthetics and functions of the nose.</Text>	
+	</GameDBLocalizedString>
 	
 	<!-- ================= Reconstructive Trauma ================ -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT002</LocID>                         
+		<Text>Amputated Toe</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT002_DESC</LocID>                         
+		<Text>One of the patient's toes has been amputated due to an accident or injury.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT003</LocID>                         
+		<Text>Irreparable Ocular Trauma</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT003_DESC</LocID>                         
+		<Text>One of the patient's eyes has been all but obliterated and will not be able to be recovered.</Text>	
+	</GameDBLocalizedString>
+	
+	<!--
+	Translators, please ignore this:
+	Used to quickly add new localisation to the mod 
+	
+	<GameDBLocalizedString>      
+		<LocID>XYZ</LocID>                         
+		<Text></Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>XYZ_DESC</LocID>                         
+		<Text></Text>	
+	</GameDBLocalizedString>
+	-->
 
 	
 	</LocalizedStrings>

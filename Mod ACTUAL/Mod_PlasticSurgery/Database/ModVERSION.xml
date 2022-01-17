@@ -1,0 +1,20 @@
+<Database>
+<!--
+
+Update v0.1.0.6
+Additions:
+Added 10 new Diagnosis (2 Cosmetic, 1 Reconstructive, 2 Trauma and 5 Checkups)
+Added 1 new Examination
+NEW CONTENT ONLY - Main Symptoms, Surgery, Samples, Testing and various other icons now have unique icons of their own just to add more flavour.
+
+Changes:
+
+
+Localisation:
+Adjusted DIA_PLAS_R_T_REPLANT_01_V2 Localisation (Make it more obvious the patient has the body part for the replantation).
+
+Bug Fixes:
+
+
+-->
+</Database>

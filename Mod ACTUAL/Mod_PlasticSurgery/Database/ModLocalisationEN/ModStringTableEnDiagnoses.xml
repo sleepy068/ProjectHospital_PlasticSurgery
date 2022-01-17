@@ -41,7 +41,7 @@
 		
 		<GameDBLocalizedString>      
 			<LocID>DIA_PLAS_R_EYE_01</LocID>                         
-			<Text>Blepharospam (R)(Mild)</Text>	
+			<Text>Blepharospasm (R)(Mild)</Text>	
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
@@ -111,7 +111,7 @@
 		
 		<GameDBLocalizedString>      
 			<LocID>DIA_PLAS_R_HAND_01_DESC</LocID>                         
-			<Text>Dupuytren contracture, also know as palmar fibromatosis, is characterized by a deformity of the hand in which the joints of one or more fingers cannot be fully straightened, it usually develops over years. The condition affects a layer of tissue that lies under the skin of your palm. Knots of tissue form under the skin — eventually creating a thick cord that can pull one or more fingers into a bent position. When simple, the condition can be relatively easy to correct without needing surgical intervention.</Text>	
+			<Text>Dupuytren contracture, also know as palmar fibromatosis, is characterised by a deformity of the hand in which the joints of one or more fingers cannot be fully straightened, it usually develops over years. The condition affects a layer of tissue that lies under the skin of your palm. Knots of tissue form under the skin — eventually creating a thick cord that can pull one or more fingers into a bent position. When simple, the condition can be relatively easy to correct without needing surgical intervention.</Text>	
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
@@ -136,12 +136,12 @@
 		
 		<GameDBLocalizedString>      
 			<LocID>DIA_PLAS_R_T_REPLANT_01_V2</LocID>                         
-			<Text>Amputated Digit (GT)(R)</Text>	
+			<Text>Amputated Digit (GT)(R)(HB)</Text>	
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
 			<LocID>DIA_PLAS_R_T_REPLANT_01_DESC</LocID>                         
-			<Text>Traumatic amputation is the loss of a body part that occurs as the result of an accident or injury. In this case, a digit on the patient's hand has been amputated and requires immediate medical attention to attempt to restore function to the hand and digit. Sharp, guillotine-type (GT) injuries with relatively uninjured surrounding tissue have the best post-replantation prognosis, with a success rate of 77%. Severe crush injuries (CI), multi-level injuries, and avulsion injuries often mangle soft tissue to the point of precluding rejoining of essential blood vessels, making replantation impossible. In such cases, revision amputation of the stump may be necessary.</Text>	
+			<Text>Traumatic amputation is the loss of a body part that occurs as the result of an accident or injury. In this case, a digit on the patient's hand has been amputated and requires immediate medical attention to attempt to restore function to the hand and digit. Sharp, guillotine-type (GT) injuries with relatively uninjured surrounding tissue have the best post-replantation prognosis, with a success rate of 77%. Severe crush injuries (CI), multi-level injuries, and avulsion injuries often mangle soft tissue to the point of precluding rejoining of essential blood vessels, making replantation impossible. In such cases, revision amputation of the stump may be necessary. The patient has arrived to the hospital with the severed body part (HB).</Text>	
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
@@ -174,10 +174,125 @@
 			<Text>Laser resurfacing is a facial rejuvenation procedure that uses a laser to improve the skin's appearance or treat minor facial flaws. Laser resurfacing can decrease the appearance of fine lines in the face. It can also treat loss of skin tone and improve the patient's complexion if they have scars or sun damage. Laser resurfacing can't eliminate excessive or sagging skin.</Text>	
 		</GameDBLocalizedString>
 		
-	<!-- ### ### -->
-	<!-- ######################################## Content for V.X Added Below ######################################## -->
-	<!-- ### ### -->
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.6 ============= -->
+	<!-- ================================================== -->
+	
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_BREAST_02</LocID>                         
+			<Text>Breast Lift (Mastopexy)C)</Text>	
+		</GameDBLocalizedString>
 		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_BREAST_02_DESC</LocID>                         
+			<Text>Breast lift, also known as mastopexy, is a procedure that raises and firms the breasts. The surgical procedure also reshapes the nipple-areola complex and lifts the breasts on the chest wall. The patient has expressed that they want a Breast Lift to enhance their appearance.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_NOSE_02</LocID>                         
+			<Text>Septoplasty (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_NOSE_02_DESC</LocID>                         
+			<Text>Septoplasty, or septal reconstruction, is a corrective surgical procedure done to straighten a deviated nasal septum – the nasal septum being the partition between the two nasal cavities. Ideally, the septum should run down the centre of the nose. The patient has expressed that they want a Septoplasty to enhance their appearance.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_REPLANT_02</LocID>                         
+			<Text>Amputated Toe (GT)(R)(HB)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_REPLANT_02_DESC</LocID>                         
+			<Text>Traumatic amputation is the loss of a body part that occurs as the result of an accident or injury. In this case, a toe on the patient's foot has been amputated and requires immediate medical attention to attempt to restore function to the foot and toe. Sharp, guillotine-type (GT) injuries with relatively uninjured surrounding tissue have the best post-replantation prognosis, with a success rate of 77%. Severe crush injuries (CI), multi-level injuries, and avulsion injuries often mangle soft tissue to the point of precluding rejoining of essential blood vessels, making replantation impossible. In such cases, revision amputation of the stump may be necessary. The patient has arrived to the hospital with the severed body part (HB).</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_NOSE_01</LocID>                         
+			<Text>Nasal Deformities</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_NOSE_01_DESC</LocID>                         
+			<Text>The patient's nose has structural defects that are causing issues both aesthetically and functionally.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_01</LocID>                         
+			<Text>Checkup: Breast Augmentation (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_01_DESC</LocID>                         
+			<Text>The patient has a follow up appointment with their doctor. The patient is following up a recent Breast Augmentation surgery and the doctor will check the wound, replace any dressings and remove any stitches, staples, adhesives or drains that are still in place if necessary.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_02</LocID>                         
+			<Text>Checkup: Augmentation Rhinoplasty (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_02_DESC</LocID>                         
+			<Text>The patient has a follow up appointment with their doctor. The patient is following up a recent Augmentation Rhinoplasty surgery and the doctor will check the wound, replace any dressings and remove any stitches, staples, adhesives or drains that are still in place if necessary.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_03</LocID>                         
+			<Text>Checkup: Liposuction (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_03_DESC</LocID>                         
+			<Text>The patient has a follow up appointment with their doctor. The patient is following up a recent Liposuction surgery and the doctor will check the wound, replace any dressings and remove any stitches, staples, adhesives or drains that are still in place if necessary.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_BLAST_01</LocID>                         
+			<Text>Blast-related Ocular Trauma (Irreparable) </Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_BLAST_01_DESC</LocID>                         
+			<Text>Blast-related ocular trauma comprises a specialised group of penetrating and blunt force injuries to the eye and its structure caused by the detonation of explosive materials. The patients eye is all but obliterated making recovery impossible and the situation critical. Emergency care and surgery will be required to prevent any further blood loss, infections and damage to surrounding tissue. </Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_04</LocID>                         
+			<Text>Checkup: Mastopexy (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_04_DESC</LocID>                         
+			<Text>The patient has a follow up appointment with their doctor. The patient is following up a recent Mastopexy surgery and the doctor will check the wound, replace any dressings and remove any stitches, staples, adhesives or drains that are still in place if necessary.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_05</LocID>                         
+			<Text>Checkup: Septoplasty (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_05_DESC</LocID>                         
+			<Text>The patient has a follow up appointment with their doctor. The patient is following up a recent Septoplasty surgery and the doctor will check the wound, replace any dressings and remove any stitches, staples, adhesives or drains that are still in place if necessary.</Text>	
+		</GameDBLocalizedString>
+		
+		
+		<!--
+		Translators, please ignore this:
+		Used to quickly add new localisation to the mod 
+		
+		<GameDBLocalizedString>      
+			<LocID>XYZ</LocID>                         
+			<Text></Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>XYZ_DESC</LocID>                         
+			<Text></Text>	
+		</GameDBLocalizedString>
+		-->
 	</LocalizedStrings>
 	</GameDBStringTable>
 </Database>

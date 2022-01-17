@@ -136,9 +136,133 @@
 		<Text>Slipped muscles develop when the muscular capsule is imbricated without including the muscle or muscle tendon during strabismus surgery. When the capsule is reattached to the sclera, the tendon and muscle are then free to slip posteriorally from the site of attachment.</Text>  
 	</GameDBLocalizedString>
 	
-	<!-- ==================================================== -->
-	<!-- ============= Plastic Surgery vx.x.x.x ============= -->
-	<!-- ==================================================== -->
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.6 ============= -->
+	<!-- ================================================== -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CSFRHINORRHEA</LocID>                         
+		<Text>Cerebrospinal Fluid (CSF) Rhinorrhea</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CSFRHINORRHEA_DESC</LocID>                         
+		<Text>Cerebrospinal fluid (CSF) rhinorrhea is a condition where the fluid that surrounds the brain leaks into the nose and sinuses. Head trauma, surgery, or even birth defects can make a hole in the membranes that hold this fluid. It then leaks into the nose or ear, causing a watery, runny nose.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NASAL_HEMATOMA</LocID>                         
+		<Text>Nasal Hematoma</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NASAL_HEMATOMA_DESC</LocID>                         
+		<Text>A nasal septal hematoma is a collection of blood within the septum of the nose. The septum is the part of the nose between the nostrils. An injury disrupts the blood vessels so that fluid and blood may collect under the lining.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LOW_NOSEBRIDGE</LocID>                         
+		<Text>Very Low Nose Bridge</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LOW_NOSEBRIDGE_DESC</LocID>                         
+		<Text>The patient has an exceptionally low nasal bridge. This can cause issues concerning the functionality of the nose.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DISPROPORT_APPEAR</LocID>                         
+		<Text>Disproportionate Appearance (Nose)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DISPROPORT_APPEAR_DESC</LocID>                         
+		<Text>The appearance and size of the patient's nose is noticeably difference from what would be considered normal.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PINCHED_NOSTRILS</LocID>                         
+		<Text>Pinched Nostrils</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PINCHED_NOSTRILS_DESC</LocID>                         
+		<Text>A pinched nasal tip refers to a nose that is excessively narrowed in the region of the tip. This type of nasal abnormality can arise as a congenital problem, meaning the patient was born with this or as a result of having had prior unsuccessful rhinoplasty surgery.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NOSETOOHIGH</LocID>                         
+		<Text>High Tip of the Nose</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_NOSETOOHIGH_DESC</LocID>                         
+		<Text>The patient's nose is pointed unusually high at the tip.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_UNEVEN_NOSTRILS</LocID>                         
+		<Text>Uneven Nostrils</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_UNEVEN_NOSTRILS_DESC</LocID>                         
+		<Text>One of the patient's nostrils is of a noticeably different size compared to the other.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEPHAROPTOSIS</LocID>                         
+		<Text>Blepharoptosis</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEPHAROPTOSIS_DESC</LocID>                         
+		<Text>Blepharoptosis, also known as ptosis, is a drooping of the upper eyelid that may affect one or both eyes. The eyelid may droop only slightly or may droop enough to cover the pupil and block vision.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OCULAR_EXTRUDE</LocID>                         
+		<Text>Ocular Contents Extruding from Globe</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OCULAR_EXTRUDE_DESC</LocID>                         
+		<Text>The patient's eye is extruding the internal contents of the globe of the eye.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OCULAR_MOTILITY</LocID>                         
+		<Text>Loss of Ocular Motility</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OCULAR_MOTILITY_DESC</LocID>                         
+		<Text>Loss of Ocular Motility, also know as Oculomotor Dysfunction, occurs when there is the absence or defect of controlled, voluntary, and purposeful eye movement.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_TISSUE_SHRAPNEL</LocID>                         
+		<Text>Tissue Shrapnel Damage</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_TISSUE_SHRAPNEL_DESC</LocID>                         
+		<Text>The patient has shallow tissue damage from shrapnel.</Text>	
+	</GameDBLocalizedString>
+	
+	<!--
+	Translators, please ignore this:
+	Used to quickly add new localisation to the mod 
+	
+	<GameDBLocalizedString>      
+		<LocID>XYZ</LocID>                         
+		<Text></Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>XYZ_DESC</LocID>                         
+		<Text></Text>	
+	</GameDBLocalizedString>
+	-->
 
 
 	</LocalizedStrings>

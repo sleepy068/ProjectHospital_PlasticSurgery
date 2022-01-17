@@ -11,9 +11,10 @@
 		Brusie (SYM_BRUISE)
 	-->
 	
-	<!-- ============================================= -->
+	<!-- ======================================== -->
+	<!-- ============= CORE CONTENT ============= -->
+	<!-- ======================================== -->
 	<!-- ============= Normal Treatments ============= -->
-	<!-- ============================================= -->
 	<!-- Fail Implant Surgery -->	
 	<GameDBSymptom ID="SYM_SLP_FAILED_BA">
         <DescriptionLocID>SYM_SLP_FAILED_BA_DESC</DescriptionLocID>
@@ -61,9 +62,7 @@
     </GameDBSymptom>
 		
 	
-	<!-- ============================================== -->
 	<!-- ============= Surgery Treatments ============= -->
-	<!-- ============================================== -->
 	<!-- ### Generic ### -->
 	<!-- Undesired Results -->
 	<GameDBSymptom ID="SYM_SLP_UNDESIRED_RESULTS_V2">
@@ -378,10 +377,316 @@
 	
 	</GameDBSymptom>
 	
-		
+	<!-- ============= Below Added v1.0.6 ============= -->
+	<!-- Nasal Hematoma (SURGERY COLLAPSE TRT) -->
+	<GameDBSymptom ID="SYM_CRP_NASAL_HEMATOMA">
+	<DescriptionLocID>SYM_CRP_NASAL_HEMATOMA_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>High</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>72</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_SLP_NOSE_SEPTALPERF_V2</CollapseSymptomRef>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>TRT_CRP_INCISION_AND_DRAINAGE</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_089</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_090</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Blepharoptosis (SURGERY TRT)-->
+	<GameDBSymptom ID="SYM_CRP_BLEPHAROPTOSIS">
+	<DescriptionLocID>SYM_CRP_BLEPHAROPTOSIS_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>SUR_SLP_CORRECTIVE_SURGERY</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_083</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_084</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
 	<!-- ====================================== -->
 	<!-- ============= CRP Export ============= -->
 	<!-- ====================================== -->
-
-
+	<!-- Cerebrospinal fluid (CSF) Rhinorrhea (Trauma) -->
+	<GameDBSymptom ID="SYM_CRP_CSFRHINORRHEA">
+	<DescriptionLocID>SYM_CRP_CSFRHINORRHEA_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>High</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_CRP_WOUND_INFECTION2</CollapseSymptomRef>
+	
+	<Examinations>
+		<ExaminationRef>EXM_CRP_ELECTROPHORESIS</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>TRT_CRP_HOSPITALISEDMONTIOR_L3</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_079</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_080</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Very Low Nose Bridge -->
+	<GameDBSymptom ID="SYM_CRP_LOW_NOSEBRIDGE">
+	<DescriptionLocID>SYM_CRP_LOW_NOSEBRIDGE_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef></TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_087</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_088</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Disproportionate Appearance (Nose) -->
+	<GameDBSymptom ID="SYM_CRP_DISPROPORT_APPEAR">
+	<DescriptionLocID>SYM_CRP_DISPROPORT_APPEAR_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef></TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_081</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_082</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Pinched Nostrils -->
+	<GameDBSymptom ID="SYM_CRP_PINCHED_NOSTRILS">
+	<DescriptionLocID>SYM_CRP_PINCHED_NOSTRILS_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef></TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>10</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_097</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_098</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Tip of the Nose Is Too High -->
+	<GameDBSymptom ID="SYM_CRP_NOSETOOHIGH">
+	<DescriptionLocID>SYM_CRP_NOSETOOHIGH_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef></TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_091</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_092</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Uneven Nostrils -->
+	<GameDBSymptom ID="SYM_CRP_UNEVEN_NOSTRILS">
+	<DescriptionLocID>SYM_CRP_UNEVEN_NOSTRILS_DESC</DescriptionLocID>
+	<DiscomfortLevel>Low</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef></TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>10</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_093</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_094</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Ocular Contents Extruding from Globe -->
+	<GameDBSymptom ID="SYM_CRP_OCULAR_EXTRUDE">
+	<DescriptionLocID>SYM_CRP_OCULAR_EXTRUDE_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef></TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_095</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_096</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Loss of Ocular Motility -->
+	<GameDBSymptom ID="SYM_CRP_OCULAR_MOTILITY">
+	<DescriptionLocID>SYM_CRP_OCULAR_MOTILITY_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef></TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_085</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_086</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
+	<!-- Tissue Shrapnel Damage -->
+	<GameDBSymptom ID="SYM_CRP_TISSUE_SHRAPNEL">
+	<DescriptionLocID>SYM_CRP_TISSUE_SHRAPNEL_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>High</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+	
+	<RiskOfCollapseStartHours>8</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_CRP_WOUND_INFECTION2</CollapseSymptomRef>
+	
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>TRT_CRP_SHALLOWDEBRISREMOVAL</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_SYM_ICON_099</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_PLAS_SYM_ICON_100</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
 </Database>

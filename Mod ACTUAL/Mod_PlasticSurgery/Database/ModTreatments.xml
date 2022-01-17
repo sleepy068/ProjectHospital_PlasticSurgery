@@ -2,5 +2,201 @@
 	<!-- Plastic Surgery Mod by Sleepy068 -->
 	<!-- Services DLC: <PharmacyPickup>true</PharmacyPickup> -->
 	
+	<!-- Hospitalised Monitoring L1 (Sleepy068)
+	TAGS: plastic surgery, iv, watch and wait at hospital,
+	DESC: Overnight monitoring of the patient at the hospital instead of at home (IV Script to try and keep patient there for x amount of hours) -->
+	<GameDBTreatment ID="TRT_CRP_HOSPITALISEDMONTIOR_L1">
+        <AbbreviationLocID>TRT_CRP_HOSPITALISEDMONTIOR_L1_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+
+            <!--TODO anim REPLACE WITH PROPER ANIMATIONS -->
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>50</Cost>
+        <IconIndex>2055</IconIndex>
+        <DurationHours>24</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_TRT_ICON_031</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_TRT_ICON_032</CustomIconSmallAssetRef>
+		
+    </GameDBTreatment>
 	
+	<!-- Hospitalised Monitoring L2 (Sleepy068)
+	TAGS: plastic surgery, iv, watch and wait at hospital,
+	DESC: 3 Days monitoring of the patient at the hospital instead of at home (IV Script to try and keep patient there for x amount of hours) -->
+	<GameDBTreatment ID="TRT_CRP_HOSPITALISEDMONTIOR_L2">
+        <AbbreviationLocID>TRT_CRP_HOSPITALISEDMONTIOR_L2_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+
+            <!--TODO anim REPLACE WITH PROPER ANIMATIONS -->
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>50</Cost>
+        <IconIndex>2055</IconIndex>
+        <DurationHours>72</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_TRT_ICON_033</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_TRT_ICON_034</CustomIconSmallAssetRef>
+		
+    </GameDBTreatment>
+	
+	<!-- Hospitalised Monitoring L3 (Sleepy068)
+	TAGS: plastic surgery, iv, watch and wait at hospital,
+	DESC: 7 Days monitoring of the patient at the hospital instead of at home (IV Script to try and keep patient there for x amount of hours) -->
+	<GameDBTreatment ID="TRT_CRP_HOSPITALISEDMONTIOR_L3">
+        <AbbreviationLocID>TRT_CRP_HOSPITALISEDMONTIOR_L3_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+
+            <!--TODO anim REPLACE WITH PROPER ANIMATIONS -->
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>50</Cost>
+        <IconIndex>2055</IconIndex>
+        <DurationHours>144</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_TRT_ICON_035</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_TRT_ICON_036</CustomIconSmallAssetRef>
+		
+    </GameDBTreatment>
+	
+	<!-- Shallow Debris Removal (Sleepy068)
+	TAGS: foreign object removal
+	DESC: Same as stock one but allowed anywhere to prevent any room issues. -->
+	<GameDBTreatment ID="TRT_CRP_SHALLOWDEBRISREMOVAL">
+        <AbbreviationLocID>TRT_CRP_SHALLOWDEBRISREMOVAL_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>any_office</Tag>
+				<Tag>CRP_MOD</Tag>
+                <Tag>any_inpatient_office</Tag>
+                <Tag>observation</Tag>
+                <Tag>icu</Tag>  
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn> <!--TODO tempAnim-->
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupLying>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <IconIndex>2298</IconIndex>
+        <DurationHours>0</DurationHours>
+        <SuccessRatePercent>100</SuccessRatePercent>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_TRT_ICON_037</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_TRT_ICON_038</CustomIconSmallAssetRef>
+		
+    </GameDBTreatment>
+
 </Database>

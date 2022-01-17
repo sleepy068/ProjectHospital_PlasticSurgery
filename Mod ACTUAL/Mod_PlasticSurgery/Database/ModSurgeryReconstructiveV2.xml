@@ -1012,5 +1012,158 @@
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
     </GameDBTreatment>
 	
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.6 ============= -->
+	<!-- ================================================== -->
+	
+	<!-- Enucleation -->
+	<GameDBTreatment ID="SUR_SLP_PLAS_ENUCLEATION">
+        <AbbreviationLocID>SUR_SLP_PLAS_ENUCLEATION_DESC</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_PLAS_SURGERY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredDoctorRoles>
+                <RoleRef>EMPL_ROLE_SURGERY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
+            </RequiredDoctorRoles>
+
+            <FallbackDoctorDepartments>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+                <DepartmentRef>DPT_ICU</DepartmentRef>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+            </FallbackDoctorDepartments>
+            
+            <RequiredNurseQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+            </RequiredNurseQualificationList>
+
+            <RequiredNurseRoles>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+            </RequiredNurseRoles>
+
+            <BedPositionsStaff>
+                <MainSurgeonPosition>HEAD_LEFT</MainSurgeonPosition>
+                <SurgeonAsistantPosition>NONE</SurgeonAsistantPosition>
+                <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
+                <SurgeryNursePosition>FEET_LEFT_UP</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT_UP</AssistantNursePosition>
+            </BedPositionsStaff>
+			
+			<Complications>
+                <Complication>
+                    <SymptomRef>SYM_PLAS_ABSCESS</SymptomRef>
+                    <ProbabilityPercent>6</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
+                    <ProbabilityPercent>8</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_BLEEDING_FROM_THE_WOUND</SymptomRef>
+                    <ProbabilityPercent>6</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>1</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_MILD_AR</SymptomRef>
+                    <ProbabilityPercent>5</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_POSTOP_PAIN</SymptomRef>
+                    <ProbabilityPercent>15</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>4</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_HEADACHE</SymptomRef>
+                    <ProbabilityPercent>50</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>15</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_BLEPHAROPTOSIS</SymptomRef>
+                    <ProbabilityPercent>25</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+            </Complications>
+
+            <RequiredRoomTags>
+                <Tag>operating_room</Tag>
+            </RequiredRoomTags>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>operating_table_head</Tag><!--0-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>operating_table_legs</Tag><!--1-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--2-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--3-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--4-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--5-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>warming_cabinet</Tag><!--6-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag><!--7-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>surgery_instruments</Tag><!--8-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>stool</Tag><!--9-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>anesthetic_machine</Tag><!--10-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>defibrillator</Tag><!--11-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>angio_viewer</Tag><!--12-->
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptTreatmentSurgeryLigiCauterization</ProcedureScript>
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
+        </Procedure>
+        <TreatmentType>SURGERY</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>2001</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SUR_ICON_019</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SUR_ICON_020</CustomIconSmallAssetRef>
+		
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</HospitalizationTreatmentRef>
+
+    </GameDBTreatment>
+	
 </Database>
   

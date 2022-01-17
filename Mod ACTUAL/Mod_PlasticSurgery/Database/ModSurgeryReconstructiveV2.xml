@@ -1057,8 +1057,8 @@
                 <MainSurgeonPosition>HEAD_LEFT</MainSurgeonPosition>
                 <SurgeonAsistantPosition>NONE</SurgeonAsistantPosition>
                 <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
-                <SurgeryNursePosition>FEET_LEFT_UP</SurgeryNursePosition>
-                <AssistantNursePosition>FEET_RIGHT_UP</AssistantNursePosition>
+                <SurgeryNursePosition>FEET_LEFT</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT</AssistantNursePosition>
             </BedPositionsStaff>
 			
 			<Complications>

@@ -164,7 +164,7 @@
 	
 	<GameDBLocalizedString>      
 		<LocID>SUR_SLP_SEPTOPLASTY_DESC</LocID>                         
-		<Text>Septoplasty, or alternatively submucous septal resection and septal reconstruction, is a corrective surgical procedure done to straighten a deviated nasal septum – the nasal septum being the partition between the two nasal cavities. Ideally, the septum should run down the centre of the nose.</Text>	
+		<Text>Septoplasty, or alternatively submucous septal resection and septal reconstruction, is a corrective surgical procedure done to straighten a deviated nasal septum – the nasal septum being the partition between the two nasal cavities. Ideally, the septum should run down the centre of the nose. \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>	
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
@@ -174,7 +174,7 @@
 	
 	<GameDBLocalizedString>      
 		<LocID>SUR_SLP_PLAS_ENUCLEATION_DESC</LocID>                         
-		<Text>Enucleation is the removal of the eye that leaves the eye muscles and remaining orbital contents intact. This type of ocular surgery is indicated for a number of ocular tumors, in eyes that have suffered severe trauma, and in eyes that are otherwise blind and painful. A spherical implant (artificial eyeball) is used to replace the removed eyeball.</Text>	
+		<Text>Enucleation is the removal of the eye that leaves the eye muscles and remaining orbital contents intact. This type of ocular surgery is indicated for a number of ocular tumors, in eyes that have suffered severe trauma, and in eyes that are otherwise blind and painful. A spherical implant (artificial eyeball) is used to replace the removed eyeball. \n\nImportance: This surgery is considered critical and should be a priority. \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>	
 	</GameDBLocalizedString>
 	
 	<!--

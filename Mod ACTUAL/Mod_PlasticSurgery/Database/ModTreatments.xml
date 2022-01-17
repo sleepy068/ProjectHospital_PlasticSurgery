@@ -144,7 +144,7 @@
 	TAGS: foreign object removal
 	DESC: Same as stock one but allowed anywhere to prevent any room issues. -->
 	<GameDBTreatment ID="TRT_CRP_SHALLOWDEBRISREMOVAL">
-        <AbbreviationLocID>TRT_CRP_SHALLOWDEBRISREMOVAL_DESCRIPTION</AbbreviationLocID>
+        <AbbreviationLocID>TRT_CRP_SHALLOWDEBRISREMOVAL_DESC</AbbreviationLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
@@ -187,7 +187,7 @@
             </AnimationSetupLying>
 
             <DressLevel>FULL</DressLevel>
-            <DressLevelAfter>FULL</DressLevelAfter>
+            <DressLevelAfter>CHEST_BANDAGE</DressLevelAfter>
         </Procedure>
         <TreatmentType>PROCEDURE</TreatmentType>
         <IconIndex>2298</IconIndex>

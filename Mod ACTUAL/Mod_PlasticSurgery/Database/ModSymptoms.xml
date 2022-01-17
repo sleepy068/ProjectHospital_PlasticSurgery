@@ -482,10 +482,6 @@
 		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
 	</Examinations>
 	
-	<Treatments>
-		<TreatmentRef></TreatmentRef>
-	</Treatments>
-	
 	<ShameLevel>20</ShameLevel>
 	<IsMainSymptom>false</IsMainSymptom>
 	
@@ -508,10 +504,6 @@
 		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
 		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
 	</Examinations>
-	
-	<Treatments>
-		<TreatmentRef></TreatmentRef>
-	</Treatments>
 	
 	<ShameLevel>20</ShameLevel>
 	<IsMainSymptom>false</IsMainSymptom>
@@ -536,10 +528,6 @@
 		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
 	</Examinations>
 	
-	<Treatments>
-		<TreatmentRef></TreatmentRef>
-	</Treatments>
-	
 	<ShameLevel>10</ShameLevel>
 	<IsMainSymptom>false</IsMainSymptom>
 	
@@ -562,11 +550,7 @@
 		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
 		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
 	</Examinations>
-	
-	<Treatments>
-		<TreatmentRef></TreatmentRef>
-	</Treatments>
-	
+
 	<ShameLevel>20</ShameLevel>
 	<IsMainSymptom>false</IsMainSymptom>
 	
@@ -590,10 +574,6 @@
 		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
 	</Examinations>
 	
-	<Treatments>
-		<TreatmentRef></TreatmentRef>
-	</Treatments>
-	
 	<ShameLevel>10</ShameLevel>
 	<IsMainSymptom>false</IsMainSymptom>
 	
@@ -616,11 +596,7 @@
 		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
 		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
 	</Examinations>
-	
-	<Treatments>
-		<TreatmentRef></TreatmentRef>
-	</Treatments>
-	
+
 	<ShameLevel>0</ShameLevel>
 	<IsMainSymptom>false</IsMainSymptom>
 	
@@ -643,10 +619,6 @@
 		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
 		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
 	</Examinations>
-	
-	<Treatments>
-		<TreatmentRef></TreatmentRef>
-	</Treatments>
 	
 	<ShameLevel>0</ShameLevel>
 	<IsMainSymptom>false</IsMainSymptom>

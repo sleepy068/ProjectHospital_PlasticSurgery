@@ -8,7 +8,7 @@ Added 1 new Examination
 NEW CONTENT ONLY - Main Symptoms, Surgery, Samples, Testing and various other icons now have unique icons of their own just to add more flavour.
 
 Changes:
-
+Changed nurse position for SUR_SLP_PLAS_EYEMSURGERY (Hopefully wont cause any issues in on-going saves but easy rollback if it does).
 
 Localisation:
 Adjusted DIA_PLAS_R_T_REPLANT_01_V2 Localisation (Make it more obvious the patient has the body part for the replantation).

@@ -48,40 +48,96 @@
 	<!-- ================================================================================== -->
 	<!-- ==================================== In-progress ================================= -->
 	<!-- ================================================================================== -->
-	
 
-	<!-- a08 -->	
-	<!-- Blast-related Ocular Trauma (Irreparable) 
-	DIA_PLAS_R_T_BLAST_01
-	ASSET_PLAS_DIA_ICON_049
-	ASSET_PLAS_MSYM_ICON_007
-	-->
-	<!-- 
-		TRT: sur_slp_enucleation01a ASSET_PLAS_SUR_ICON_019
-		SUR_SLP_PLAS_EMERG_EYEREMOVAL
-			COMPS:
-			COPY EYE MUSCLE SURG
-			ADD:
-				Blepharoptosis 
-					sym_droopyeyelid01b ASSET_PLAS_SYM_ICON_083
-					TRT: Corrective Surgery
-				SYM_Headache
-		MAIN (Irreparable Ocular Trauma)
-			sym_main_dia_slp_a08a
-		Ocular contents extruding from globe
-			sym_ocularextruding_a06a ASSET_PLAS_SYM_ICON_095
-		Loss of ocular motility 
-			sym_lossofeyemovement_a07a ASSET_PLAS_SYM_ICON_085
-		Tissue Shrapnel Damage
-			sym_tissueshrapdam01a ASSET_PLAS_SYM_ICON_099
-			TRT: Shallow Debris Removal
-				trt_skintweeser01a ASSET_PLAS_TRT_ICON_037
-		SYM_LOSS_OF_VISION
-		SYM_EYE_PAIN
-		CRP_BLEEDING 1 or 2
+	<!-- B01 -->
+	<!-- Cheek Augmentation - Cosmetic 
+	DIA_PLAS_C_CHEEK_01
+	
+	ASSET:
+		DIA:
+		CHKUP:
+		MAIN:
+		SUR/TRT: 
+		Facial Hematoma:
+		Infected Implant:
+		SUR Cheek Implant Removal:
+		Cheek Augmentation Failed:
 		
+	SYM: MAIN ONLY
+	
+	TRT: SUR_SLP_CHEEK_AUGMENTATION
 	-->
 	
+	<!-- B02 -->
+	<!-- Abdominoplasty - Cosmetic (Tummy Tuck)
+	DIA_PLAS_C_TUMMY_01
+	
+	ASSET:
+		DIA:
+		CHKUP:
+		MAIN:
+		SUR/TRT:
+		
+	SYM: MAIN ONLY
+	
+	TRT:
+		COMPS:
+		loss of umbilicus
+		
+	
+	-->
+	
+	<!-- B03 -->
+	<!-- Varicose Veins (Complex) 
+	DIA_PLAS_C_VEIN_02
+	
+	ASSET:
+		DIA:
+		MAIN:
+		SUR/TRT:
+	SYM:
+	
+	TRT: Ligation and Stripping
+		COMPS:
+		Chronic venous insufficiency
+		Blood stasis
+	-->
+	
+	
+	
+	<!-- B04 -->
+	<!-- Checkup: Cheek Enhancement
+	DIA_PLAS_C_CHECKUP_06
+	
+	ASSET:
+		DIA:
+		MAIN: As Above
+	TRT: TTR_DRSREC
+	-->
+	
+	<!-- B05 -->
+	<!-- Checkup: Abdominoplasty
+	DIA_PLAS_C_CHECKUP_07
+	
+	ASSET:
+		DIA:
+		MAIN: As Above
+	TRT: TTR_DRSREC
+	-->
+	
+	<!-- B06 -->
+	<!-- Venous Ulcer 
+	DIA_PLAS_C_VEIN_03
+	
+	ASSET:
+		DIA:
+		MAIN:
+		SUR/TRT:
+	SYM:
+	
+	TRT: Debridement 
+		COMPS:
+	-->
 
 	
 	
@@ -244,8 +300,6 @@
 	
 	<!-- Refinement Rhinoplasty - Cosmetic (Nose Job) -->
 	
-	<!-- Cheek Enhancement - Cosmetic -->
-	
 	<!-- Liposuction - Cosmetic  -->
 	<GameDBMedicalCondition ID="DIA_PLAS_C_STOMACH_01_V2">
 	<AbbreviationLocID>DIA_PLAS_C_STOMACH_01_DESC</AbbreviationLocID>
@@ -283,8 +337,6 @@
     </GameDBMedicalCondition>
 	
 	<!-- Blepharoplasty - Cosmetic -->
-	
-	<!-- Abdominoplasty - Cosmetic (Tummy Tuck) -->
 	
 	<!-- Rhytidectomy - Cosmetic (Face Lift) -->
 	
@@ -924,11 +976,6 @@
 		<Tag>clinic</Tag>
     </Tags>
     </GameDBMedicalCondition>
-	
-	<!-- Varicose Veins (Complex) -->
-	<!-- Ligation and Stripping -->
-		<!-- Chronic venous insufficiency -->
-		<!-- Blood stasis -->
 		
 	<!-- Thumb Arthritis -->
 	
@@ -936,8 +983,6 @@
 	
 	<!-- Revision Rhinoplasty -->
 	
-	<!-- Deviated Septum -->
-
 	<!-- Blepharoplasty - Reconstructive (Vision Issues) -->
 	
 	<!-- Chronic Breast Pain (From Previous Surgery) -->

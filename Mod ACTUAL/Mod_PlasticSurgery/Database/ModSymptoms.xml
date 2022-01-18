@@ -15,7 +15,7 @@
 	<!-- ============= CORE CONTENT ============= -->
 	<!-- ======================================== -->
 	<!-- ============= Normal Treatments ============= -->
-	<!-- Fail Implant Surgery -->	
+	<!-- Fail Implant Surgery (Breast Augmentation)-->	
 	<GameDBSymptom ID="SYM_SLP_FAILED_BA">
         <DescriptionLocID>SYM_SLP_FAILED_BA_DESC</DescriptionLocID>
         <DiscomfortLevel>High</DiscomfortLevel>
@@ -436,9 +436,65 @@
 	
 	</GameDBSymptom>
 	
+	<!-- ============= Below Added v1.0.7 ============= -->
+	<!-- Cheek Implant Infection -->
+	<GameDBSymptom ID="SYM_SLP_IMPLANT_INFECTION01">
+	<DescriptionLocID>SYM_SLP_IMPLANT_INFECTION01_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>High</Hazard>
+	
+	<PatientMobility>IMOBILE</PatientMobility>
+	
+	<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+	<RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+	<CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+	
+	<Examinations>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>SUR_SLP_PLAS_IMPLANT_REMOVAL_01</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>20</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<CustomIconBigAssetRef></CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+	
+	<IconIndex>1</IconIndex>
+	
+	</GameDBSymptom>
+		
+	<!-- Fail Implant Surgery (Cheek Augmentation)-->	
+	<GameDBSymptom ID="SYM_SLP_FAILED_CA01">
+        <DescriptionLocID>SYM_SLP_FAILED_CA01_DESC</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+		
+        <ShameLevel>20</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		
+		<CustomIconBigAssetRef></CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+		
+        <IconIndex>1</IconIndex>
+		
+		</GameDBSymptom>
+		
 	<!-- ====================================== -->
 	<!-- ============= CRP Export ============= -->
 	<!-- ====================================== -->
+	<!-- ============= Below Added v1.0.6 ============= -->
 	<!-- Cerebrospinal fluid (CSF) Rhinorrhea (Trauma) -->
 	<GameDBSymptom ID="SYM_CRP_CSFRHINORRHEA">
 	<DescriptionLocID>SYM_CRP_CSFRHINORRHEA_DESC</DescriptionLocID>
@@ -661,4 +717,33 @@
 	
 	</GameDBSymptom>
 	
+	<!-- ============= Below Added v1.0.7 ============= -->
+	<!-- Facial Hematoma  -->
+	<GameDBSymptom ID="SYM_CRP_FACE_HEMATOMA">
+	<DescriptionLocID>SYM_CRP_FACE_HEMATOMA_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Medium</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>TRT_CRP_INCISION_AND_DRAINAGE</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef></CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
 </Database>
+

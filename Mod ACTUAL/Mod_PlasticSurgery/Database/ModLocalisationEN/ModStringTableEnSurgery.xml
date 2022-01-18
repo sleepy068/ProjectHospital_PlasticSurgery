@@ -58,7 +58,7 @@
 
 	<GameDBLocalizedString>      
 		<LocID>SUR_SLP_PLAS_IMPLANT_REMOVAL_DESC</LocID>                        	
-		<Text>Breast implant infections are usually caused by Staphylococcus aureus and coagulase-negative staphylococci. Gram-negative bacilli are rarely reported to be involved in breast implant infections. Although rare, infections of this type generally require the implants to be removed. This surgery removes the breast implants and cleans the tissue around the implants. Follow-up anti-biotic courses are normally required. \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>  
+		<Text>Breast implant infections are usually caused by Staphylococcus aureus and coagulase-negative staphylococci. Gram-negative bacilli are rarely reported to be involved in breast implant infections. Although rare, infections of this type generally require the implants to be removed. This surgery removes the breast implants and cleans the tissue around the implant site. Follow-up anti-biotic courses are normally required. \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>  
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
@@ -175,6 +175,30 @@
 	<GameDBLocalizedString>      
 		<LocID>SUR_SLP_PLAS_ENUCLEATION_DESC</LocID>                         
 		<Text>Enucleation is the removal of the eye that leaves the eye muscles and remaining orbital contents intact. This type of ocular surgery is indicated for a number of ocular tumors, in eyes that have suffered severe trauma, and in eyes that are otherwise blind and painful. A spherical implant (artificial eyeball) is used to replace the removed eyeball. \n\nImportance: This surgery is considered critical and should be a priority. \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>	
+	</GameDBLocalizedString>
+	
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.7 ============= -->
+	<!-- ================================================== -->
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_CHEEK_AUGMENTATION</LocID>                         
+		<Text>Cheek Augmentation</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_CHEEK_AUGMENTATION_DESC</LocID>                         
+		<Text>Cheek augmentation surgery, also known as cheek implant surgery is a procedure where your plastic surgeon inserts a solid implant over your cheekbone which enhances your facial contour by making your cheeks look fuller providing an overall better definition to your face. \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_PLAS_IMPLANT_REMOVAL_01</LocID>                         
+		<Text>Cheek Implant Infection</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_PLAS_IMPLANT_REMOVAL_01_DESC</LocID>                         
+		<Text>Cheek implant infections are usually caused by Staphylococcus aureus and coagulase-negative staphylococci. Although rare, infections of this type generally require the implants to be removed. This surgery removes the cheek implants and cleans the tissue around the implant site. Follow-up anti-biotic courses are normally required. \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>	
 	</GameDBLocalizedString>
 	
 	<!--

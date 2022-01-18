@@ -278,6 +278,29 @@
 			<Text>The patient has a follow up appointment with their doctor. The patient is following up a recent Septoplasty surgery and the doctor will check the wound, replace any dressings and remove any stitches, staples, adhesives or drains that are still in place if necessary.</Text>	
 		</GameDBLocalizedString>
 		
+		<!-- ================================================== -->
+		<!-- ============= Plastic Surgery v1.0.7 ============= -->
+		<!-- ================================================== -->
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHEEK_01</LocID>                         
+			<Text>Cheek Augmentation (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHEEK_01_DESC</LocID>                         
+			<Text>Cheek augmentation, also sometimes called cheek implants, are inserted to enhance cheekbones or to make the cheeks fuller. Like other types of plastic surgery procedures, cheek augmentation can make the patient's face appear more youthful or balance their facial features.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_TUMMY_01</LocID>                         
+			<Text>Abdominoplasty (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_TUMMY_01_DESC</LocID>                         
+			<Text>Abdominoplasty or "tummy tuck" is a cosmetic surgery procedure used to make the abdomen thinner and more firm. The surgery involves the removal of excess skin and fat from the middle and lower abdomen in order to tighten the muscle and fascia of the abdominal wall.</Text>	
+		</GameDBLocalizedString>
 		
 		<!--
 		Translators, please ignore this:

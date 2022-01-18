@@ -428,6 +428,26 @@
                     <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
+                    <SymptomRef>SYM_CRP_M_SCAR_TISSUE</SymptomRef>
+                    <ProbabilityPercent>22</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE_V2</SymptomRef>
+                    <ProbabilityPercent>4</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_SLP_UNDESIRED_RESULTS_V2</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_LI_LOCALPOISIONING</SymptomRef>
+                    <ProbabilityPercent>7</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
                     <SymptomRef>SYM_HYPOVOLEMIC_SHOCK</SymptomRef>
                     <ProbabilityPercent>2</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
@@ -443,19 +463,9 @@
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
-                    <SymptomRef>SYM_NUMBNESS</SymptomRef> <!-- 10 -->
+                    <SymptomRef>SYM_NUMBNESS</SymptomRef>
                     <ProbabilityPercent>10</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>4</ProbabilityPercentMaxSkillLevel>
-                </Complication>
-				<Complication>
-                    <SymptomRef>SYM_CRP_M_SCAR_TISSUE</SymptomRef>
-                    <ProbabilityPercent>22</ProbabilityPercent>
-                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
-                </Complication>
-				<Complication>
-                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE_V2</SymptomRef>
-                    <ProbabilityPercent>4</ProbabilityPercent>
-                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
                     <SymptomRef>SYM_BRUISE</SymptomRef>
@@ -466,11 +476,6 @@
                     <SymptomRef>SYM_CRP_PULMONARY_EMBOLISM</SymptomRef>
                     <ProbabilityPercent>2</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
-                </Complication>
-				<Complication>
-                    <SymptomRef>SYM_CRP_LI_LOCALPOISIONING</SymptomRef>
-                    <ProbabilityPercent>7</ProbabilityPercent>
-                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
                 </Complication>
 				<Complication>
                     <SymptomRef>SYM_CRP_LI_BAGGY_SKIN</SymptomRef>
@@ -1319,6 +1324,408 @@
 		<CustomIconBigAssetRef>ASSET_PLAS_SUR_ICON_023</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_PLAS_SUR_ICON_024</CustomIconSmallAssetRef>
 		
+    </GameDBTreatment>
+    
+	<!-- Cheek Augmentation -->
+	<GameDBTreatment ID="SUR_SLP_CHEEK_AUGMENTATION">
+        <AbbreviationLocID>SUR_SLP_CHEEK_AUGMENTATION_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_PLAS_SURGERY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredDoctorRoles>
+                <RoleRef>EMPL_ROLE_SURGERY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
+            </RequiredDoctorRoles>
+			
+			<FallbackDoctorDepartments>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+                <DepartmentRef>DPT_ICU</DepartmentRef>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+            </FallbackDoctorDepartments>
+
+            <RequiredNurseQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+            </RequiredNurseQualificationList>
+
+            <RequiredNurseRoles>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+            </RequiredNurseRoles>
+
+            <RequiredRoomTags>
+                <Tag>operating_room</Tag>
+            </RequiredRoomTags>
+
+            <BedPositionsStaff>
+                <MainSurgeonPosition>HEAD_LEFT</MainSurgeonPosition>
+                <SurgeonAsistantPosition>NONE</SurgeonAsistantPosition>
+                <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
+                <SurgeryNursePosition>FEET_LEFT_UP</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT_UP</AssistantNursePosition>
+            </BedPositionsStaff>
+
+            <Complications>
+                <Complication>
+                    <SymptomRef>SYM_PLAS_ABSCESS</SymptomRef>
+                    <ProbabilityPercent>12</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
+                    <ProbabilityPercent>12</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_BLEEDING_FROM_THE_WOUND</SymptomRef>
+                    <ProbabilityPercent>16</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>1</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_MILD_AR</SymptomRef>
+                    <ProbabilityPercent>5</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_SEROMA</SymptomRef>
+                    <ProbabilityPercent>12</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_SLP_PLAS_NERVE_DAMAGE_V2</SymptomRef>
+                    <ProbabilityPercent>5</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_POSTOP_PAIN</SymptomRef>
+                    <ProbabilityPercent>20</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_M_SCAR_TISSUE</SymptomRef>
+                    <ProbabilityPercent>20</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE_V2</SymptomRef> <!-- 10 -->
+                    <ProbabilityPercent>5</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_SLP_UNDESIRED_RESULTS_V2</SymptomRef> <!-- More common for cheek augmentation -->
+                    <ProbabilityPercent>15</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_LI_LOCALPOISIONING</SymptomRef> <!-- 12 / This and above are possible for most plastic surgeries -->
+                    <ProbabilityPercent>7</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_NUMBNESS</SymptomRef>
+                    <ProbabilityPercent>40</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>10</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_ITCHING</SymptomRef>
+                    <ProbabilityPercent>60</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>30</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_SWELLING</SymptomRef>
+                    <ProbabilityPercent>60</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>20</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_FACE_HEMATOMA</SymptomRef>
+                    <ProbabilityPercent>8</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_SLP_IMPLANT_INFECTION01</SymptomRef>
+                    <ProbabilityPercent>3</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+            </Complications>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>operating_table_head</Tag><!--0-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>operating_table_legs</Tag><!--1-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--2-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--3-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--4-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--5-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--6-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--7-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>warming_cabinet</Tag><!--8-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag><!--9-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>surgery_instruments</Tag><!--10-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>electrocautery_machine</Tag><!--11-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>stool</Tag><!--12-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>anesthetic_machine</Tag><!--13-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>defibrillator</Tag><!--14-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>succion_machine</Tag><!--15-->
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptTreatmentSurgeryLigiCauterization</ProcedureScript>
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
+        </Procedure>
+        <TreatmentType>SURGERY</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1945</IconIndex>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+		
+		<CustomIconBigAssetRef></CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+		
+    </GameDBTreatment>
+    
+	<!-- Abdominoplasty -->
+	<GameDBTreatment ID="SUR_SLP_ABDOMINOPLASTY">
+        <AbbreviationLocID>SUR_SLP_ABDOMINOPLASTY_DESC</AbbreviationLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_PLAS_SURGERY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+
+                <!-- needs to be last so the anesthesiologist doesn't get selected as assistant-->
+                <SkillRef>SKILL_DOC_SPEC_PLAS</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredDoctorRoles>
+                <RoleRef>EMPL_ROLE_SURGERY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ANESTHESIOLOGY</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_ASSIST</RoleRef>
+            </RequiredDoctorRoles>
+			
+			<FallbackDoctorDepartments>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+                <DepartmentRef>DPT_ICU</DepartmentRef>
+                <DepartmentRef>DPT_DEFAULT</DepartmentRef>
+            </FallbackDoctorDepartments>
+
+            <RequiredNurseQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+            </RequiredNurseQualificationList>
+
+            <RequiredNurseRoles>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+                <RoleRef>EMPL_ROLE_SURGERY_NURSE</RoleRef>
+            </RequiredNurseRoles>
+
+            <RequiredRoomTags>
+                <Tag>operating_room</Tag>
+            </RequiredRoomTags>
+
+            <BedPositionsStaff>
+                <MainSurgeonPosition>BODY_LEFT</MainSurgeonPosition>
+                <SurgeonAsistantPosition>BODY_RIGHT</SurgeonAsistantPosition>
+                <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
+                <SurgeryNursePosition>FEET_LEFT</SurgeryNursePosition>
+                <AssistantNursePosition>FEET_RIGHT</AssistantNursePosition>
+            </BedPositionsStaff>
+
+            <Complications>
+                <Complication>
+                    <SymptomRef>SYM_PLAS_ABSCESS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+                <Complication>
+                    <SymptomRef>SYM_WOUND_INFECTION</SymptomRef>
+                    <ProbabilityPercent>18</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_BLEEDING_FROM_THE_WOUND</SymptomRef>
+                    <ProbabilityPercent>8</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ANAPHYLACTIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>1</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_MILD_AR</SymptomRef>
+                    <ProbabilityPercent>5</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_POSTOP_PAIN</SymptomRef>
+                    <ProbabilityPercent>20</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>5</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_M_SCAR_TISSUE</SymptomRef>
+                    <ProbabilityPercent>22</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>3</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_SLP_S_SCAR_TISSUE_V2</SymptomRef>
+                    <ProbabilityPercent>4</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_SLP_UNDESIRED_RESULTS_V2</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_LI_LOCALPOISIONING</SymptomRef>
+                    <ProbabilityPercent>7</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>2</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_HYPOVOLEMIC_SHOCK</SymptomRef>
+                    <ProbabilityPercent>2</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_PLEURAL_EFFUSION</SymptomRef>
+                    <ProbabilityPercent>5</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_ASCITES</SymptomRef>
+                    <ProbabilityPercent>5</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_NUMBNESS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>4</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_BRUISE</SymptomRef>
+                    <ProbabilityPercent>50</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>20</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_PULMONARY_EMBOLISM</SymptomRef>
+                    <ProbabilityPercent>2</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_LI_BAGGY_SKIN</SymptomRef>
+                    <ProbabilityPercent>70</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>30</ProbabilityPercentMaxSkillLevel>
+                </Complication>
+            </Complications>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>operating_table_head</Tag><!--0-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>operating_table_legs</Tag><!--1-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--2-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--3-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubbing_sink</Tag><!--4-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--5-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--6-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>scrubs_shelf</Tag><!--7-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>warming_cabinet</Tag><!--8-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag><!--9-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>surgery_instruments</Tag><!--10-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>electrocautery_machine</Tag><!--11-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>stool</Tag><!--12-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>anesthetic_machine</Tag><!--13-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>defibrillator</Tag><!--14-->
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>succion_machine</Tag><!--15-->
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptTreatmentSurgery</ProcedureScript>
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
+        </Procedure>
+        <TreatmentType>SURGERY</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1945</IconIndex>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
     </GameDBTreatment>
     
 </Database>

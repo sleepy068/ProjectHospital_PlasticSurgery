@@ -68,7 +68,7 @@
             
 	<GameDBLocalizedString>      
 		<LocID>SYM_SLP_FAILED_BA_DESC</LocID>                   
-		<Text>Due to surgery complications, the patient has been unable to have a sucessful cosmetic surgery outcome. They will not be happy about this. </Text>  
+		<Text>Due to surgery complications, the patient has been unable to have a successful cosmetic surgery outcome. They will not be happy about this. </Text>  
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
@@ -149,12 +149,12 @@
 		<Text>Cerebrospinal fluid (CSF) rhinorrhea is a condition where the fluid that surrounds the brain leaks into the nose and sinuses. Head trauma, surgery, or even birth defects can make a hole in the membranes that hold this fluid. It then leaks into the nose or ear, causing a watery, runny nose.</Text>	
 	</GameDBLocalizedString>
 	
-	<GameDBLocalizedString>      
+	<GameDBLocalizedString> <!-- NOT FOR CRP -->     
 		<LocID>SYM_CRP_NASAL_HEMATOMA</LocID>                         
 		<Text>Nasal Hematoma</Text>	
 	</GameDBLocalizedString>
 	
-	<GameDBLocalizedString>      
+	<GameDBLocalizedString> <!-- NOT FOR CRP -->  
 		<LocID>SYM_CRP_NASAL_HEMATOMA_DESC</LocID>                         
 		<Text>A nasal septal hematoma is a collection of blood within the septum of the nose. The septum is the part of the nose between the nostrils. An injury disrupts the blood vessels so that fluid and blood may collect under the lining.</Text>	
 	</GameDBLocalizedString>
@@ -210,12 +210,12 @@
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLEPHAROPTOSIS</LocID>                         
+		<LocID>SYM_CRP_BLEPHAROPTOSIS</LocID> <!-- NOT FOR CRP -->                         
 		<Text>Blepharoptosis</Text>	
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
-		<LocID>SYM_CRP_BLEPHAROPTOSIS_DESC</LocID>                         
+		<LocID>SYM_CRP_BLEPHAROPTOSIS_DESC</LocID> <!-- NOT FOR CRP -->                    
 		<Text>Blepharoptosis, also known as ptosis, is a drooping of the upper eyelid that may affect one or both eyes. The eyelid may droop only slightly or may droop enough to cover the pupil and block vision.</Text>	
 	</GameDBLocalizedString>
 	
@@ -247,6 +247,40 @@
 	<GameDBLocalizedString>      
 		<LocID>SYM_CRP_TISSUE_SHRAPNEL_DESC</LocID>                         
 		<Text>The patient has shallow tissue damage from shrapnel.</Text>	
+	</GameDBLocalizedString>
+	
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.6 ============= -->
+	<!-- ================================================== -->
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FACE_HEMATOMA</LocID>                         
+		<Text>Facial Hematoma</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FACE_HEMATOMA_DESC</LocID>                         
+		<Text>A facial hematoma is a collection of blood within the face. An injury disrupts the blood vessels so that fluid and blood may collect under the lining.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_IMPLANT_INFECTION01</LocID>                         
+		<Text>Cheek Implant Infection</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_IMPLANT_INFECTION01_DESC</LocID>                         
+		<Text>The patient has developed an infection around a recent cheek implant. Such an infection is serious and the implant will need to be removed and the wound cleaned.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_FAILED_CA01</LocID>                               
+		<Text>Failed Cheek Augmentation</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_FAILED_CA01_DESC</LocID>                   
+		<Text>Due to surgery complications, the patient has been unable to have a successful cosmetic surgery outcome. They will not be happy about this. </Text>  
 	</GameDBLocalizedString>
 	
 	<!--

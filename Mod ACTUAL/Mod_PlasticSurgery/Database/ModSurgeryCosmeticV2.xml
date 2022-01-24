@@ -1665,6 +1665,11 @@
                     <ProbabilityPercent>70</ProbabilityPercent>
                     <ProbabilityPercentMaxSkillLevel>30</ProbabilityPercentMaxSkillLevel>
                 </Complication>
+				<Complication>
+                    <SymptomRef>SYM_CRP_LOSS_OF_UMBILICUS</SymptomRef>
+                    <ProbabilityPercent>10</ProbabilityPercent>
+                    <ProbabilityPercentMaxSkillLevel>1</ProbabilityPercentMaxSkillLevel>
+                </Complication>
             </Complications>
 
             <RequiredEquipmentList>

@@ -264,12 +264,12 @@
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
-		<LocID>SYM_SLP_IMPLANT_INFECTION01</LocID>                         
+		<LocID>SYM_SLP_IMPLANT_INFECTION01</LocID> <!-- NOT FOR CRP -->                          
 		<Text>Cheek Implant Infection</Text>	
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
-		<LocID>SYM_SLP_IMPLANT_INFECTION01_DESC</LocID>                         
+		<LocID>SYM_SLP_IMPLANT_INFECTION01_DESC</LocID> <!-- NOT FOR CRP -->                          
 		<Text>The patient has developed an infection around a recent cheek implant. Such an infection is serious and the implant will need to be removed and the wound cleaned.</Text>	
 	</GameDBLocalizedString>
 	
@@ -280,7 +280,17 @@
             
 	<GameDBLocalizedString>      
 		<LocID>SYM_SLP_FAILED_CA01_DESC</LocID>                   
-		<Text>Due to surgery complications, the patient has been unable to have a successful cosmetic surgery outcome. They will not be happy about this. </Text>  
+		<Text>Due to surgery complications, the patient has been unable to have a successful cosmetic surgery outcome. They will not be happy about this.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LOSS_OF_UMBILICUS</LocID>                               
+		<Text>Loss of Umbilicus</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LOSS_OF_UMBILICUS_DESC</LocID>                   
+		<Text>Loss of the umbilicus or naval results in the loss of a person's belly button. While this will cause no health issues it might make a person embarrassed especially if it was a complication of abdominal surgery.</Text>  
 	</GameDBLocalizedString>
 	
 	<!--

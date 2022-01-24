@@ -745,5 +745,28 @@
 	
 	</GameDBSymptom>
 	
+	<!-- Loss of Umbilicus  -->
+	<GameDBSymptom ID="SYM_CRP_LOSS_OF_UMBILICUS">
+	<DescriptionLocID>SYM_CRP_LOSS_OF_UMBILICUS_DESC</DescriptionLocID>
+	<DiscomfortLevel>Medium</DiscomfortLevel>
+	<PatientComplains>true</PatientComplains>
+	<Hazard>Low</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+	</Examinations>
+	
+	<ShameLevel>30</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef></CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+	
 </Database>
 

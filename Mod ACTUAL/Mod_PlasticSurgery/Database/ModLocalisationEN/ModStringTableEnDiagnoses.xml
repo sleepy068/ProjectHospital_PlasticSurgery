@@ -302,6 +302,50 @@
 			<Text>Abdominoplasty or "tummy tuck" is a cosmetic surgery procedure used to make the abdomen thinner and more firm. The surgery involves the removal of excess skin and fat from the middle and lower abdomen in order to tighten the muscle and fascia of the abdominal wall.</Text>	
 		</GameDBLocalizedString>
 		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_02</LocID>                         
+			<Text>Varicose Veins (Complex)(R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_02</LocID>                         
+			<Text>Varicose veins are twisted, enlarged veins. Any superficial vein may become varicosed, but the veins most commonly affected are those in the legs. For many patients, varicose veins are simply a cosmetic concern. For other patients, varicose veins can cause aching pain and discomfort and may lead to more-serious problems.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_03</LocID>                         
+			<Text>Venous Ulcer (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_03_DESC</LocID>                         
+			<Text>Venous ulcers, also referred to as stasis, insufficiency or varicose ulcers, are the result of malfunctioning venous valves causing pressure in the veins to increase. These typically occur along the medial or lateral distal (lower) leg. The resulting venous hypertension causes blood pooling when it is not as efficiently pumped back towards the heart, otherwise known as venous insufficiency. Eventual breakdown of tissues due to lack of oxygen and nutrients, specifically, deposits around the capillaries of the protein fibrin, which normally plays a role in clotting, prevent oxygen and nutrients from flowing to the surrounding muscle and tissue and in turn lead to necrosis and ulceration (Fibrin Cuff Theory).</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_06</LocID>                         
+			<Text>Checkup: Cheek Augmentation (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_06_DESC</LocID>                         
+			<Text>The patient has a follow up appointment with their doctor. The patient is following up a recent Cheek Augmentation surgery and the doctor will check the wound, replace any dressings and remove any stitches, staples, adhesives or drains that are still in place if necessary.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_07</LocID>                         
+			<Text>Checkup: Abdominoplasty (C)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_CHECKUP_07_DESC</LocID>                         
+			<Text>The patient has a follow up appointment with their doctor. The patient is following up a recent Abdominoplasty surgery and the doctor will check the wound, replace any dressings and remove any stitches, staples, adhesives or drains that are still in place if necessary.</Text>	
+		</GameDBLocalizedString>
+		
+		<!-- ================================================== -->
+		<!-- ============= Plastic Surgery v1.0.x ============= -->
+		<!-- ================================================== -->
+		
 		<!--
 		Translators, please ignore this:
 		Used to quickly add new localisation to the mod 
@@ -315,7 +359,9 @@
 			<LocID>XYZ_DESC</LocID>                         
 			<Text></Text>	
 		</GameDBLocalizedString>
+		
 		-->
+	
 	</LocalizedStrings>
 	</GameDBStringTable>
 </Database>

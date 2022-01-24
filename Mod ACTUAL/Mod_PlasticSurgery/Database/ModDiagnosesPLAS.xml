@@ -60,7 +60,7 @@
 		SUR/TRT: 
 		Facial Hematoma:
 		Infected Implant:
-		SUR Cheek Implant Removal:
+			SUR Cheek Implant Removal:
 		Cheek Augmentation Failed:
 		
 	SYM: MAIN ONLY
@@ -89,7 +89,34 @@
 	
 	<!-- B03 -->
 	<!-- Varicose Veins (Complex) 
-	DIA_PLAS_C_VEIN_02
+	DIA_PLAS_R_VEIN_02
+	
+	ASSET:
+		DIA:
+		MAIN:
+		SUR/TRT:
+		
+	SYM: COPY VARICOSE
+	ADD:
+		Burning sensation
+		Skin discoloration
+		SYM_EDEMA
+		ulceration
+		Chronic venous insufficiency
+		Blood stasis
+	
+	TRT: Endovenous laser therapy
+		COMPS:
+		Ecchymosis 
+		Muscle Pain
+		Superficial phlebitis
+		neurologic injuries
+		skin burns
+		
+	-->
+	<!-- B06 -->
+	<!-- Venous Ulcer 
+	DIA_PLAS_R_VEIN_03
 	
 	ASSET:
 		DIA:
@@ -97,13 +124,9 @@
 		SUR/TRT:
 	SYM:
 	
-	TRT: Ligation and Stripping
+	TRT: Debridement 
 		COMPS:
-		Chronic venous insufficiency
-		Blood stasis
 	-->
-	
-	
 	
 	<!-- B04 -->
 	<!-- Checkup: Cheek Enhancement
@@ -123,20 +146,6 @@
 		DIA:
 		MAIN: As Above
 	TRT: TTR_DRSREC
-	-->
-	
-	<!-- B06 -->
-	<!-- Venous Ulcer 
-	DIA_PLAS_C_VEIN_03
-	
-	ASSET:
-		DIA:
-		MAIN:
-		SUR/TRT:
-	SYM:
-	
-	TRT: Debridement 
-		COMPS:
 	-->
 
 	

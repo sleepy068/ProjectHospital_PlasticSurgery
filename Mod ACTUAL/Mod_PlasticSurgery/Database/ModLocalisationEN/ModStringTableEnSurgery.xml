@@ -201,6 +201,16 @@
 		<Text>Cheek implant infections are usually caused by Staphylococcus aureus and coagulase-negative staphylococci. Although rare, infections of this type generally require the implants to be removed. This surgery removes the cheek implants and cleans the tissue around the implant site. Follow-up anti-biotic courses are normally required. \n\nRequired room: Operating room at Plastic Surgery dpt.</Text>	
 	</GameDBLocalizedString>
 	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_ABDOMINOPLASTY</LocID>                         
+		<Text>Abdominoplasty</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SUR_SLP_ABDOMINOPLASTY_DESC</LocID>                         
+		<Text>Abdominoplasty or "tummy tuck" is a cosmetic surgery procedure used to make the abdomen thinner and more firm. The surgery involves the removal of excess skin and fat from the middle and lower abdomen in order to tighten the muscle and fascia of the abdominal wall.</Text>	
+	</GameDBLocalizedString>
+	
 	<!--
 	Translators, please ignore this:
 	Used to quickly add new localisation to the mod 

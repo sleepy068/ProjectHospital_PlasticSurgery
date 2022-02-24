@@ -308,7 +308,7 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>      
-			<LocID>DIA_PLAS_R_VEIN_02</LocID>                         
+			<LocID>DIA_PLAS_R_VEIN_02_DESC</LocID>                         
 			<Text>Varicose veins are twisted, enlarged veins. Any superficial vein may become varicosed, but the veins most commonly affected are those in the legs. For many patients, varicose veins are simply a cosmetic concern. For other patients, varicose veins can cause aching pain and discomfort and may lead to more-serious problems.</Text>	
 		</GameDBLocalizedString>
 		

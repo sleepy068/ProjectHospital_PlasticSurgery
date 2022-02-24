@@ -1,21 +1,16 @@
 <Database>
 <!--
 
-Update v0.1.0.7
+Update v0.1.0.8
 
 Additions:
 
 
 Changes:
-Reduced MRSA Infection complication chance for SUR_SLP_PLAS_IMPLANT_REMOVAL from 60/40 to 60/10 (A higher skilled surgeon will have a much better chance cleaning the infection during surgery).
-Added the complication SYM_SLP_UNDESIRED_RESULTS_V2 to SUR_SLP_SAL (Rearranged the complications too, just a visual thing, nothing removed and won't effect saves)
 
 Localisation:
-Fixed spelling mistake with SYM_SLP_FAILED_BA_DESC
-Touched up SYM_SLP_BARSA_INFECTION_V2 to make things a bit clearer what is happening to the player.
 
 Bug Fixes:
-Check Septoplasty (Needs 5 surgeon staff, might only need 4)(Maybe just give the 5th a spot)
 
 -->
 </Database>

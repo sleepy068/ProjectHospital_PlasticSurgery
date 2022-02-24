@@ -696,8 +696,156 @@
 	<!-- ================================================== -->
 	<!-- ============= Plastic Surgery v1.0.7 ============= -->
 	<!-- ================================================== -->
+	<!-- Patient Request (Cheek Augmentation) -->
+	<GameDBSymptom ID="SYM_PLAS_C012">
+        <DescriptionLocID>SYM_PLAS_C012_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>SUR_SLP_CHEEK_AUGMENTATION</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_MSYM_ICON_009</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_MSYM_ICON_010</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
 	
+	<!-- Patient Request (Abdominoplasty) -->
+	<GameDBSymptom ID="SYM_PLAS_C013">
+        <DescriptionLocID>SYM_PLAS_C013_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>SUR_SLP_ABDOMINOPLASTY</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_MSYM_ICON_011</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_MSYM_ICON_012</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
 	
+	<!-- Complex Varicose Veins -->
+	<GameDBSymptom ID="SYM_PLAS_R009">
+        <DescriptionLocID>SYM_PLAS_R009_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>SUR_SLP_PLAS_ENDOVENOUS_LASER_AB</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_MSYM_ICON_013</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_MSYM_ICON_014</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
 	
+	<!-- Venous Ulcer -->
+	<GameDBSymptom ID="SYM_PLAS_R010">
+        <DescriptionLocID>SYM_PLAS_R010_DESC</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>SUR_SLP_PLAS_SURGICAL_DEBRIDEMENT</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_MSYM_ICON_015</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_MSYM_ICON_016</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Checkup (Cheek Augmentation) -->
+	<GameDBSymptom ID="SYM_PLAS_CKU006">
+        <DescriptionLocID>SYM_PLAS_CKU006_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_057</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_058</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
+	
+	<!-- Checkup (Abdominoplasty) -->
+	<GameDBSymptom ID="SYM_PLAS_CKU007">
+        <DescriptionLocID>SYM_PLAS_CKU007_DESC</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+		
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+		
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+		
+        <IconIndex>1</IconIndex>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_059</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_060</CustomIconSmallAssetRef>
+		
+    </GameDBSymptom>
 	
 </Database>

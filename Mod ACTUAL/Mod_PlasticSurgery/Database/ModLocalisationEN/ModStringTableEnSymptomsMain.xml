@@ -286,6 +286,70 @@
 		<Text>One of the patient's eyes has been all but obliterated and will not be able to be recovered.</Text>	
 	</GameDBLocalizedString>
 	
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.7 ============= -->
+	<!-- ================================================== -->
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C012</LocID>                         
+		<Text>Patient Request (Cheek Augmentation)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C012_DESC</LocID>                         
+		<Text>The patient has expressed that they want a Cheek Augmentation to enhance their appearance.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C013</LocID>                         
+		<Text>Patient Request (Abdominoplasty)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C013_DESC</LocID>                         
+		<Text>The patient has expressed that they want a Abdominoplasty to enhance their appearance.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R009</LocID>                                          	
+		<Text>Complex Varicose Veins</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R009_DESC</LocID>                   
+		<Text>The patient has varicose veins and unfortunately they appear to be rather complex and have the signs or symptoms of a more serious diagnosis. Varicose veins that cause symptoms should not be ignored and treated promptly to prevent patient discomfort and to help prevent future issues.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R010</LocID>                                          	
+		<Text>Venous Ulceration</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R010_DESC</LocID>                   
+		<Text>The patient has an abnormal wound caused by damaged veins.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU006</LocID>                         
+		<Text>Checkup (Cheek Augmentation)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU006_DESC</LocID>                         
+		<Text>The patient has a scheduled appointment with their doctor to follow up their recent Cheek Augmentation surgery.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU007</LocID>                         
+		<Text>Checkup (Abdominoplasty)</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_CKU007_DESC</LocID>                         
+		<Text>The patient has a scheduled appointment with their doctor to follow up their recent Abdominoplasty surgery.</Text>	
+	</GameDBLocalizedString>
+	
 	<!--
 	Translators, please ignore this:
 	Used to quickly add new localisation to the mod 

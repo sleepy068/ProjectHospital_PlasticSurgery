@@ -293,6 +293,76 @@
 		<Text>Loss of the umbilicus or naval results in the loss of a person's belly button. While this will cause no health issues it might make a person embarrassed especially if it was a complication of abdominal surgery.</Text>  
 	</GameDBLocalizedString>
 	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BURNING_SENSE</LocID>                         
+		<Text>Burning Sensation</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BURNING_SENSE_DESC</LocID>                         
+		<Text>The patient is experiencing a painful burning sensation.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SKIN_DISCOLOURATION</LocID>                         
+		<Text>Skin Discolouration</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SKIN_DISCOLOURATION_DESC</LocID>                         
+		<Text>The patient has patches of skin that noticeably differ from their normal skin tone.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ULCERATION</LocID>                         
+		<Text>Ulceration</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ULCERATION_DESC</LocID>                         
+		<Text>Ulceration is the development or formation of an ulcer on a part of the body. Following ulceration, the affected area may bleed or produce unpleasant discharges. Ulceration on the skin can cause a painful sore that is prone to infection and the formation of pus.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CVI</LocID>                         
+		<Text>Chronic Venous Insufficiency</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_CVI_DESC</LocID>                         
+		<Text>Chronic venous insufficiency occurs when the leg veins don't allow blood to flow back up to the heart. Normally, the valves in veins make sure that blood flows toward the heart. But when these valves don't work well, blood can also flow backwards. This can cause blood to collect (pool) in the legs.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ECCHYMOSIS</LocID>                         
+		<Text>Ecchymosis</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_ECCHYMOSIS_DESC</LocID>                         
+		<Text>Ecchymosis is a skin discoloration that results from bleeding underneath the skin. Unlike a bruise, Ecchymosis isn't caused by a blow or impact that ruptured blood vessels.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SF_THROMBOPHLEBITIS</LocID>                         
+		<Text>Superficial Thrombophlebitis</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SF_THROMBOPHLEBITIS_DESC</LocID>                         
+		<Text>Superficial thrombophlebitis (STP) refers to inflammation and clot formation in the superficial vein which runs under the skin. It commonly occurs in the varicose veins of the leg, but it can also occur in any superficial vein after an injury.</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SKINBURN_MILD</LocID>                         
+		<Text>First Degree Burn</Text>	
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SKINBURN_MILD_DESC</LocID>                         
+		<Text>A first-degree burn is also called a superficial burn or wound. It's an injury that affects the first layer of the skin.</Text>	
+	</GameDBLocalizedString>
+	
 	<!--
 	Translators, please ignore this:
 	Used to quickly add new localisation to the mod 

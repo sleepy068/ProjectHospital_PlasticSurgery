@@ -166,11 +166,7 @@
             </RequiredEquipmentList>
 
             <RequiredRoomTags>
-				<Tag>any_office</Tag>
-				<Tag>CRP_MOD</Tag>
-                <Tag>any_inpatient_office</Tag>
-                <Tag>observation</Tag>
-                <Tag>icu</Tag>  
+                <Tag>examinations_basic_equipment</Tag>
             </RequiredRoomTags>
 
             <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>

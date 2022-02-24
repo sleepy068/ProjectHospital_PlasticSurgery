@@ -103,7 +103,6 @@
 		SYM_EDEMA
 		ulceration
 		Chronic venous insufficiency
-		Blood stasis
 	
 	TRT: Endovenous laser therapy
 		COMPS:
@@ -114,6 +113,7 @@
 		skin burns
 		
 	-->
+	
 	<!-- B06 -->
 	<!-- Venous Ulcer 
 	DIA_PLAS_R_VEIN_03
@@ -129,7 +129,7 @@
 	-->
 	
 	<!-- B04 -->
-	<!-- Checkup: Cheek Enhancement
+	<!-- Checkup: Cheek Augmentation
 	DIA_PLAS_C_CHECKUP_06
 	
 	ASSET:
@@ -229,12 +229,6 @@
     </Tags>
     </GameDBMedicalCondition>
 	
-	<!-- Breast Reduction - Cosmetic  -->
-		<!-- ASSET_PLAS_DIA_ICON_003 ASSET_PLAS_DIA_ICON_004 -->
-	
-	<!-- Gynecomastia Treatment - Cosmetic (Male Breast Reduction) -->
-		<!-- Male Only -->
-	
 	<!-- Augmentation Rhinoplasty - Cosmetic (Nose Job) -->
 	<GameDBMedicalCondition ID="DIA_PLAS_C_NOSE_01_V2">
 	<AbbreviationLocID>DIA_PLAS_C_NOSE_01_DESC</AbbreviationLocID>
@@ -307,8 +301,6 @@
     </Tags>
     </GameDBMedicalCondition>
 	
-	<!-- Refinement Rhinoplasty - Cosmetic (Nose Job) -->
-	
 	<!-- Liposuction - Cosmetic  -->
 	<GameDBMedicalCondition ID="DIA_PLAS_C_STOMACH_01_V2">
 	<AbbreviationLocID>DIA_PLAS_C_STOMACH_01_DESC</AbbreviationLocID>
@@ -344,16 +336,6 @@
         <Tag>disease</Tag>
     </Tags>
     </GameDBMedicalCondition>
-	
-	<!-- Blepharoplasty - Cosmetic -->
-	
-	<!-- Rhytidectomy - Cosmetic (Face Lift) -->
-	
-	<!-- Forehead Lift - Cosmetic -->
-	
-	<!-- Brow Lift - Cosmetic -->
-	
-	<!-- Lip Augmentation - Cosmetic -->
 	
 	<!-- Hair Transplantation - Cosmetic -->
 	<GameDBMedicalCondition ID="DIA_PLAS_C_HAIR_01_V2">
@@ -463,8 +445,6 @@
     </Tags>
     </GameDBMedicalCondition>
 
-	<!-- Dermabrasion - Cosmetic (Skin Resurfacing)-->
-	
 	<!-- Laser Resurfacing - Cosmetic (Skin Rejuvenation) -->
 	<GameDBMedicalCondition ID="DIA_PLAS_C_SKIN_04">
 	<AbbreviationLocID>DIA_PLAS_C_SKIN_04_DESC</AbbreviationLocID>
@@ -537,8 +517,6 @@
     </Tags>
     </GameDBMedicalCondition>
 
-	<!-- Chemical Peel - Cosmetic (Skin Rejuvenation)(Deep Peel) -->	
-	
 	<!-- Spider Veins - Cosmetic -->
 	<GameDBMedicalCondition ID="DIA_PLAS_C_VEIN_01">
 	<AbbreviationLocID>DIA_PLAS_C_VEIN_01_DESC</AbbreviationLocID>
@@ -575,6 +553,100 @@
     </Tags>
     </GameDBMedicalCondition>
 
+	<!-- Cheek Augmentation - Cosmetic -->
+	<GameDBMedicalCondition ID="DIA_PLAS_C_CHEEK_01">
+	<AbbreviationLocID>DIA_PLAS_C_CHEEK_01_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_ULTRARARE</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_C012</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+		<TreatmentRef>SUR_SLP_CHEEK_AUGMENTATION</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>4430</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_055</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_056</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+    </GameDBMedicalCondition>
+	
+	<!-- Abdominoplasty - Cosmetic (Tummy Tuck) -->
+	<GameDBMedicalCondition ID="DIA_PLAS_C_TUMMY_01">
+	<AbbreviationLocID>DIA_PLAS_C_TUMMY_01_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_ULTRARARE</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_C013</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+		<TreatmentRef>SUR_SLP_ABDOMINOPLASTY</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>4500</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_061</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_062</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+    </GameDBMedicalCondition>
+	
+	<!-- Breast Reduction - Cosmetic  -->
+		<!-- ASSET_PLAS_DIA_ICON_003 ASSET_PLAS_DIA_ICON_004 -->
+	
+	<!-- Gynecomastia Treatment - Cosmetic (Male Breast Reduction) -->
+		<!-- Male Only -->
+	
+	<!-- Refinement Rhinoplasty - Cosmetic (Nose Job) -->
+	
+	<!-- Blepharoplasty - Cosmetic -->
+	
+	<!-- Rhytidectomy - Cosmetic (Face Lift) -->
+	
+	<!-- Forehead Lift - Cosmetic -->
+	
+	<!-- Brow Lift - Cosmetic -->
+	
+	<!-- Lip Augmentation - Cosmetic -->
+	
+	<!-- Dermabrasion - Cosmetic (Skin Resurfacing)-->
+	
+	<!-- Chemical Peel - Cosmetic (Skin Rejuvenation)(Deep Peel) -->	
+	
 	<!-- Reticular Veins - Cosmetic -->
 		<!-- Sclerotherapy -->
 	
@@ -674,8 +746,6 @@
     </Tags>
     </GameDBMedicalCondition>
 	
-	<!-- Hyperhidrosis -->
-	
 	<!-- Blepharospasm (Mild) -->
 	<GameDBMedicalCondition ID="DIA_PLAS_R_EYE_01">
 	<AbbreviationLocID>DIA_PLAS_R_EYE_01_DESC</AbbreviationLocID>
@@ -733,11 +803,7 @@
 		<Tag>clinic</Tag>
     </Tags>
     </GameDBMedicalCondition>
-	
-	<!-- Blepharospasm (Severe) -->
-	<!-- Myectomy -->
-	<!-- Facial Spasms, SYM_EYE_PAIN -->
-	
+		
 	<!-- Strabismus (Verging into Ophthalmology) -->
 	<GameDBMedicalCondition ID="DIA_PLAS_R_EYE_02_V2">
 	<AbbreviationLocID>DIA_PLAS_R_EYE_02_DESC</AbbreviationLocID>
@@ -795,11 +861,7 @@
         <Tag>disease</Tag>
     </Tags>
     </GameDBMedicalCondition>
-	
-	<!-- Reverted Strabismus -->
-		<!-- Repeat TRT_SLP_PLAS_EYEMSURGERY Surgery -->
-		<!-- Medical History: Strabismus (new CRP exam Medical Records Check/interview) -->
-	
+		
 	<!-- Dupuytren’s Contracture (Simple) Male 4 : Female 1 (More common in male) -->
 	<GameDBMedicalCondition ID="DIA_PLAS_R_HAND_01_M">
 	<AbbreviationLocID>DIA_PLAS_R_HAND_01_DESC</AbbreviationLocID>
@@ -920,11 +982,6 @@
     </Tags>
     </GameDBMedicalCondition>
 	
-	<!-- Dupuytren’s Disease (Complex) -->
-	
-	<!-- Stenosing Tenosynovitis (Trigger Finger) -->
-		<!-- Pain -->
-	
 	<!-- Varicose Veins (Simple) -->
 	<GameDBMedicalCondition ID="DIA_PLAS_R_VEIN_01">
 	<AbbreviationLocID>DIA_PLAS_R_VEIN_01_DESC</AbbreviationLocID>
@@ -986,23 +1043,89 @@
     </Tags>
     </GameDBMedicalCondition>
 		
-	<!-- Thumb Arthritis -->
+	<!-- Varicose Veins (Complex) -->
+	<GameDBMedicalCondition ID="DIA_PLAS_R_VEIN_02">
+	<AbbreviationLocID>DIA_PLAS_R_VEIN_02_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
 	
-	<!-- Post-Traumatic Rhinoplasty -->
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_R009</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>90</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_SWELLING</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>80</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PAIN</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>65</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_MUSCLE_PAIN</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_BRUISE</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_ITCHING</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>70</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_BURNING_SENSE</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>70</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_SKIN_DISCOLOURATION</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_CVI</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_EDEMA</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
 	
-	<!-- Revision Rhinoplasty -->
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		<ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
+		<ExaminationRef>EXM_MRI</ExaminationRef>
+		<ExaminationRef>EXM_FAST</ExaminationRef>
+        <ExaminationRef>EXM_USG</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+		<TreatmentRef>TRT_COLD_TILING</TreatmentRef>
+		<TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+		<TreatmentRef>TRT_NSAIDS</TreatmentRef>
+		<TreatmentRef>TRT_ANTIHISTAMINES</TreatmentRef>
+		<TreatmentRef>TRT_ANTI_INFLAMMATORY_CREAM</TreatmentRef>
+		<TreatmentRef>TRT_CRP_COMPRESSION_GARMENT</TreatmentRef>
+		<TreatmentRef>TRT_DIURETICS</TreatmentRef>
+		<TreatmentRef>SUR_SLP_PLAS_ENDOVENOUS_LASER_AB</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>950</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
 	
-	<!-- Blepharoplasty - Reconstructive (Vision Issues) -->
-	
-	<!-- Chronic Breast Pain (From Previous Surgery) -->
-	
-	<!-- Breast Implant Rupture (Replacement) -->
-		<!-- Corrective Breast Surgery -->
-		<!-- silicone granulomas -->
-			
-	<!-- Breast Implant Rupture (Removal) -->
-		<!-- Corrective Breast Surgery -->
-		<!-- silicone granulomas -->
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_063</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_064</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+    </GameDBMedicalCondition>
 		
 	<!-- Scar Revision (Hypertrophic Scar)(Simple) -->
 	<GameDBMedicalCondition ID="DIA_PLAS_R_SCAR_01">
@@ -1116,6 +1239,122 @@
     </Tags>
     </GameDBMedicalCondition>
 	
+	<!-- Venous Ulcer -->
+	<GameDBMedicalCondition ID="DIA_PLAS_R_VEIN_03">
+	<AbbreviationLocID>DIA_PLAS_R_VEIN_03_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_R010</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>90</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_SWELLING</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>80</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PAIN</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>65</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_MUSCLE_PAIN</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_BRUISE</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_ITCHING</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>70</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_BURNING_SENSE</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>70</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_SKIN_DISCOLOURATION</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>80</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_RASH</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_OPEN_WOUND</GameDBSymptomRef>
+        </GameDBSymptomRules>
+
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		<ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
+		<ExaminationRef>EXM_MRI</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+		<TreatmentRef>TRT_COLD_TILING</TreatmentRef>
+		<TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+		<TreatmentRef>TRT_NSAIDS</TreatmentRef>
+		<TreatmentRef>TRT_ANTIHISTAMINES</TreatmentRef>
+		<TreatmentRef>TRT_ANTI_INFLAMMATORY_CREAM</TreatmentRef>
+		<TreatmentRef>TRT_STEROID_TOPICAL_CREAM</TreatmentRef>
+		<TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
+		<TreatmentRef>SUR_SLP_PLAS_SURGICAL_DEBRIDEMENT</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>950</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_065</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_066</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+    </GameDBMedicalCondition>
+	
+	<!-- Blepharospasm (Severe) -->
+	<!-- Myectomy -->
+	<!-- Facial Spasms, SYM_EYE_PAIN -->
+
+	<!-- Reverted Strabismus -->
+		<!-- Repeat TRT_SLP_PLAS_EYEMSURGERY Surgery -->
+		<!-- Medical History: Strabismus (new CRP exam Medical Records Check/interview) -->
+
+	<!-- Dupuytren’s Disease (Complex) -->
+	
+	<!-- Stenosing Tenosynovitis (Trigger Finger) -->
+		<!-- Pain -->
+	
+	<!-- Hyperhidrosis -->
+	
+	<!-- Thumb Arthritis -->
+	
+	<!-- Post-Traumatic Rhinoplasty -->
+	
+	<!-- Revision Rhinoplasty -->
+	
+	<!-- Blepharoplasty - Reconstructive (Vision Issues) -->
+	
+	<!-- Chronic Breast Pain (From Previous Surgery) -->
+	
+	<!-- Breast Implant Rupture (Replacement) -->
+		<!-- Corrective Breast Surgery -->
+		<!-- silicone granulomas -->
+			
+	<!-- Breast Implant Rupture (Removal) -->
+		<!-- Corrective Breast Surgery -->
+		<!-- silicone granulomas -->
+		
 	<!-- Scar Revision (Contracture) -->
 
 	<!-- ============================================================================================ -->
@@ -1488,5 +1727,78 @@
     </Tags>
     </GameDBMedicalCondition>
 
+	<!-- Checkup - Cheek Augmentation - Cosmetic -->
+	<GameDBMedicalCondition ID="DIA_PLAS_C_CHECKUP_06">
+	<AbbreviationLocID>DIA_PLAS_C_CHECKUP_06_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_UNCOMMON</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_CKU006</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>300</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_057</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_058</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+		<Tag>clinic</Tag>
+    </Tags>
+    </GameDBMedicalCondition>
+
+	<!-- Checkup - Abdominoplasty - Cosmetic -->
+	<GameDBMedicalCondition ID="DIA_PLAS_C_CHECKUP_07">
+	<AbbreviationLocID>DIA_PLAS_C_CHECKUP_07_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_UNCOMMON</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_CKU007</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>300</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_059</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_060</CustomIconSmallAssetRef>
+		
+    <Tags>
+        <Tag>disease</Tag>
+		<Tag>clinic</Tag>
+    </Tags>
+    </GameDBMedicalCondition>
+
+	
 	
 </Database>

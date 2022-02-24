@@ -1157,7 +1157,7 @@
 
             <BedPositionsStaff>
                 <MainSurgeonPosition>HEAD_LEFT</MainSurgeonPosition>
-                <SurgeonAsistantPosition>NONE</SurgeonAsistantPosition>
+                <SurgeonAsistantPosition>HEAD_RIGHT</SurgeonAsistantPosition>
                 <AnesthesiologistPosition>NONE</AnesthesiologistPosition>
                 <SurgeryNursePosition>FEET_LEFT_UP</SurgeryNursePosition>
                 <AssistantNursePosition>FEET_RIGHT_UP</AssistantNursePosition>
@@ -1326,6 +1326,10 @@
 		
     </GameDBTreatment>
     
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.7 ============= -->
+	<!-- ================================================== -->
+	
 	<!-- Cheek Augmentation -->
 	<GameDBTreatment ID="SUR_SLP_CHEEK_AUGMENTATION">
         <AbbreviationLocID>SUR_SLP_CHEEK_AUGMENTATION_DESC</AbbreviationLocID>
@@ -1522,8 +1526,8 @@
         <IconIndex>1945</IconIndex>
         <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
 		
-		<CustomIconBigAssetRef></CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef></CustomIconSmallAssetRef>
+		<CustomIconBigAssetRef>ASSET_PLAS_SUR_ICON_025</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SUR_ICON_026</CustomIconSmallAssetRef>
 		
     </GameDBTreatment>
     
@@ -1727,6 +1731,10 @@
             <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
             <EquipmentFromAnyDepartment>true</EquipmentFromAnyDepartment>
         </Procedure>
+		
+		<CustomIconBigAssetRef>ASSET_PLAS_SUR_ICON_033</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PLAS_SUR_ICON_034</CustomIconSmallAssetRef>
+		
         <TreatmentType>SURGERY</TreatmentType>
         <Cost>100</Cost>
         <IconIndex>1945</IconIndex>

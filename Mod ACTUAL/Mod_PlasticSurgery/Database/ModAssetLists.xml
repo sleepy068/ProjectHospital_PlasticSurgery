@@ -357,6 +357,68 @@ This section handles adding my custom diagonsis icons to the game. -->
 	<File>MOD_ROOT/sym_main_dia_slp_a10b.png</File> 
 </GameDBAsset>
 
+<!-- Below Added v1.0.7 -->
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_055">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_cheek01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_056">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_cheek01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_057">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_CHKUPcheek01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_058">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_CHKUPcheek01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_059">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_CHKUPtummy01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_060">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_CHKUPtummy01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_061">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_tummy01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_062">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_tummy01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_063">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_varvein01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_064">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_varvein01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_065">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_venousulcer01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_DIA_ICON_066">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/dia_slp_venousulcer01b.png</File> 
+</GameDBAsset>
+
 <!-- 
 ### Symptoms ### 
 This section handles adding my custom symptom icons to the game. -->
@@ -473,6 +535,119 @@ This section handles adding my custom symptom icons to the game. -->
 	<File>MOD_ROOT/sym_tissueshrapdam01b.png</File> 
 </GameDBAsset>
 
+<!-- Below Added v1.0.7 -->
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_101">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_cheeckfailed01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_102">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_cheeckfailed01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_103">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_infectedsurgery1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SYM_ICON_104">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_infectedsurgery1b.png</File> 
+</GameDBAsset>
+
+<!-- Below Added v1.0.7 TO EXPORT TO CRP -->
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_001">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_burningsense01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_002">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_burningsense01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_003">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_chronicvenousins01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_004">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_chronicvenousins01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_005">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_ecchymosis01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_006">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_ecchymosis01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_007">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_facebruise1a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_008">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_facebruise1b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_009">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_firstdegreeburn01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_010">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_firstdegreeburn01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_011">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_lossofumb01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_012">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_lossofumb01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_013">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_skindiscolour01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_014">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_skindiscolour01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_015">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_thrombophlebitis01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_016">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_thrombophlebitis01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_017">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_ucleration01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_CRP_A_SYM_ICON_018">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sym_slp_ucleration01b.png</File> 
+</GameDBAsset>
 <!-- 
 ### Main Symptoms ### 
 This section handles adding my custom main symptom icons to the game. -->
@@ -519,6 +694,45 @@ This section handles adding my custom main symptom icons to the game. -->
 	<File>MOD_ROOT/sym_main_dia_slp_a08b.png</File> 
 </GameDBAsset>
 
+<GameDBAsset ID="ASSET_PLAS_MSYM_ICON_009">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/main_sym_slp_cheek01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_MSYM_ICON_010">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/main_sym_slp_cheek01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_MSYM_ICON_011">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/main_sym_slp_tummy01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_MSYM_ICON_012">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/main_sym_slp_tummy01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_MSYM_ICON_013">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/main_sym_slp_varvein01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_MSYM_ICON_014">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/main_sym_slp_varvein01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_MSYM_ICON_015">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/main_sym_slp_venousulcer01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_MSYM_ICON_016">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/main_sym_slp_venousulcer01b.png</File> 
+</GameDBAsset>
 <!-- 
 ### Treatment ###
 This section handles adding my custom treatment icons to the game. -->
@@ -689,6 +903,59 @@ This section handles adding my custom surgery icons to the game. -->
 	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
 	<File>MOD_ROOT/sur_slp_septoplasty02b.png</File> 
 </GameDBAsset>
+
+<!-- Below Added v1.0.7 -->
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_025">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_cheek01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_026">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_cheek01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_027">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_cheekfail01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_028">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_cheekfail01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_029">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_debridement01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_030">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_debridement01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_031">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_laser01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_032">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_laser01b.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_033">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_tummy01a.png</File> 
+</GameDBAsset>
+
+<GameDBAsset ID="ASSET_PLAS_SUR_ICON_034">   
+	<Type>TEXTURE_CUSTOM_SPRITE</Type>               
+	<File>MOD_ROOT/sur_slp_tummy01b.png</File> 
+</GameDBAsset>
+
 <!-- 
 ### Examinations ### 
 This section handles adding my custom examination icons to the game. -->

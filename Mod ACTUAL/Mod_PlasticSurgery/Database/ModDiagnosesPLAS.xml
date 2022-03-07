@@ -1044,7 +1044,7 @@
     </GameDBMedicalCondition>
 		
 	<!-- Varicose Veins (Complex) -->
-	<GameDBMedicalCondition ID="DIA_PLAS_R_VEIN_02">
+	<GameDBMedicalCondition ID="DIA_PLAS_R_VEIN_02_V2">
 	<AbbreviationLocID>DIA_PLAS_R_VEIN_02_DESC</AbbreviationLocID>
 	<Duration>0</Duration>
 	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
@@ -1052,7 +1052,7 @@
 	<Symptoms>
         <GameDBSymptomRules>
             <ProbabilityPercent>100</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_PLAS_R009</GameDBSymptomRef>
+            <GameDBSymptomRef>SYM_PLAS_R009_V2</GameDBSymptomRef>
         </GameDBSymptomRules>
 		<GameDBSymptomRules>
             <ProbabilityPercent>90</ProbabilityPercent>
@@ -1088,7 +1088,7 @@
         </GameDBSymptomRules>
 		<GameDBSymptomRules>
             <ProbabilityPercent>50</ProbabilityPercent>
-            <GameDBSymptomRef>SYM_EDEMA</GameDBSymptomRef>
+            <GameDBSymptomRef>SYM_CRP_EDEMA</GameDBSymptomRef>
         </GameDBSymptomRules>
     </Symptoms>
 	
@@ -1110,7 +1110,7 @@
 		<TreatmentRef>TRT_ANTIHISTAMINES</TreatmentRef>
 		<TreatmentRef>TRT_ANTI_INFLAMMATORY_CREAM</TreatmentRef>
 		<TreatmentRef>TRT_CRP_COMPRESSION_GARMENT</TreatmentRef>
-		<TreatmentRef>TRT_DIURETICS</TreatmentRef>
+		<TreatmentRef>TRT_CRP_DIURETICS</TreatmentRef>
 		<TreatmentRef>SUR_SLP_PLAS_ENDOVENOUS_LASER_AB</TreatmentRef>
     </Treatments>
 		

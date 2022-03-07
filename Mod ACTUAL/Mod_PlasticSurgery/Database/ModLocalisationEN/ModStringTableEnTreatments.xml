@@ -53,6 +53,15 @@
 		<Text>Removal of shallow debris and foreign objects embedded in the patient's skin or face and disinfecting the effected areas.</Text>	
 	</GameDBLocalizedString>
 	
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.8 ============= -->
+	<!-- ================================================== -->
+	
+	<GameDBLocalizedString>      
+		<LocID>TRT_CRP_DIURETICS</LocID>                         
+		<Text>Diuretics</Text>	
+	</GameDBLocalizedString>
+	
 	<!--
 	Translators, please ignore this:
 	Used to quickly add new localisation to the mod 

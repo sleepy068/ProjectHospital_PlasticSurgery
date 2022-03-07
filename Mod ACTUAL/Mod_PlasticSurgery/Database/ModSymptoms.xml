@@ -948,5 +948,24 @@
 	
 	</GameDBSymptom>
 	
+	<!-- ============= Below Added v1.0.7.1 ============= -->
+	<GameDBSymptom ID="SYM_CRP_EDEMA">
+        <DescriptionLocID>SYM_EDEMA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_CRP_DIURETICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>50</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1585</IconIndex>
+    </GameDBSymptom>
+	
 </Database>
 

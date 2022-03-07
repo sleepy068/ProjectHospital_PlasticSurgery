@@ -363,6 +363,15 @@
 		<Text>A first-degree burn is also called a superficial burn or wound. It's an injury that affects the first layer of the skin.</Text>	
 	</GameDBLocalizedString>
 	
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.8 ============= -->
+	<!-- ================================================== -->
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EDEMA</LocID>                         
+		<Text>Edema</Text>	
+	</GameDBLocalizedString>
+	
 	<!--
 	Translators, please ignore this:
 	Used to quickly add new localisation to the mod 

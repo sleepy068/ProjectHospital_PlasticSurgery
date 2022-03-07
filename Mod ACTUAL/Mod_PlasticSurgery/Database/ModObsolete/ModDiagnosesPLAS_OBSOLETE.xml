@@ -269,4 +269,89 @@
 	<Disabled>true</Disabled>
     </GameDBMedicalCondition>
 
+	<!-- Varicose Veins (Complex) -->
+	<GameDBMedicalCondition ID="DIA_PLAS_R_VEIN_02">
+	<AbbreviationLocID>DIA_PLAS_R_VEIN_02_DESC</AbbreviationLocID>
+	<Duration>0</Duration>
+	<OccurrenceRef>OCCURRENCE_SL_VERYRARE</OccurrenceRef>
+	
+	<Symptoms>
+        <GameDBSymptomRules>
+            <ProbabilityPercent>100</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PLAS_R009</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>90</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_SWELLING</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>80</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_PAIN</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>65</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_MUSCLE_PAIN</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_BRUISE</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_ITCHING</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>70</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_BURNING_SENSE</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>70</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_SKIN_DISCOLOURATION</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_CRP_CVI</GameDBSymptomRef>
+        </GameDBSymptomRules>
+		<GameDBSymptomRules>
+            <ProbabilityPercent>50</ProbabilityPercent>
+            <GameDBSymptomRef>SYM_EDEMA</GameDBSymptomRef>
+        </GameDBSymptomRules>
+    </Symptoms>
+	
+    <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		<ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
+		<ExaminationRef>EXM_MRI</ExaminationRef>
+		<ExaminationRef>EXM_FAST</ExaminationRef>
+        <ExaminationRef>EXM_USG</ExaminationRef>
+		<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>		
+    </Examinations>
+		
+    <Treatments>
+		<TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+		<TreatmentRef>TRT_COLD_TILING</TreatmentRef>
+		<TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+		<TreatmentRef>TRT_NSAIDS</TreatmentRef>
+		<TreatmentRef>TRT_ANTIHISTAMINES</TreatmentRef>
+		<TreatmentRef>TRT_ANTI_INFLAMMATORY_CREAM</TreatmentRef>
+		<TreatmentRef>TRT_CRP_COMPRESSION_GARMENT</TreatmentRef>
+		<TreatmentRef>TRT_DIURETICS</TreatmentRef>
+		<TreatmentRef>SUR_SLP_PLAS_ENDOVENOUS_LASER_AB</TreatmentRef>
+    </Treatments>
+		
+    <DepartmentRef>DPT_PLASTICS</DepartmentRef>
+    <InsurancePayment>950</InsurancePayment>
+		
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_PLAS_DIA_ICON_063</CustomIconBigAssetRef>
+    <CustomIconSmallAssetRef>ASSET_PLAS_DIA_ICON_064</CustomIconSmallAssetRef>
+	
+	<Disabled>true</Disabled>
+    <Tags>
+        <Tag>disease</Tag>
+    </Tags>
+    </GameDBMedicalCondition>
+
 </Database>

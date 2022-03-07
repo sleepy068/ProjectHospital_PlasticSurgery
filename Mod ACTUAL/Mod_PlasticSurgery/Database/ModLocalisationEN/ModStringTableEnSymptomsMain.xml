@@ -350,6 +350,11 @@
 		<Text>The patient has a scheduled appointment with their doctor to follow up their recent Abdominoplasty surgery.</Text>	
 	</GameDBLocalizedString>
 	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R009_V2</LocID>                                          	
+		<Text>Complex Varicose Veins</Text>  
+	</GameDBLocalizedString>
+	
 	<!--
 	Translators, please ignore this:
 	Used to quickly add new localisation to the mod 

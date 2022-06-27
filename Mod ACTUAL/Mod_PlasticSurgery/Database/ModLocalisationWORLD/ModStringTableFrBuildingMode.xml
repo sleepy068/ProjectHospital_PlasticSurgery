@@ -1,0 +1,46 @@
+<Database>
+
+<GameDBStringTable ID="LOC_FR_ADDON_PLAS_BUILDING_MODE">
+<LanguageCode>fr</LanguageCode>
+<LanguageNameLocalized>Français</LanguageNameLocalized>
+<Contributors>
+<Name>blackstar91560fr</Name>
+</Contributors>
+
+<LocalizedStrings>
+	<GameDBLocalizedString>      
+		<LocID>ROOM_TYPE_PLAS_OFFICE</LocID>                          	
+		<Text>Bureau de Chirurgie Plastique</Text>   
+	</GameDBLocalizedString>
+	<GameDBLocalizedString>      
+		<LocID>ROOM_TYPE_PLAS_OFFICE_DESCRIPTION</LocID>              	
+		<Text>Bureau d'un docteur spécialité en chirurgie plastique, reconstructrice et esthétique. Nécessite:\n1x Doctor</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>
+		<LocID>ROOM_TYPE_INPATIENT_PLAS_OFFICE</LocID>                               
+		<Text>Unité de diagnostic</Text>   
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>ROOM_TYPE_INPATIENT_PLAS_OFFICE_DESC</LocID>                   
+		<Text>L'unité de diagnostic du département de Chirurgie Plastique permet l'examination et le traitement des patients hospitalités. \n\nMin. Staff requirements: \n1x Doctor \n(Personnel based in On-call room)</Text>
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>OBJECT_DECAL_MOD_PLAS</LocID>       			
+		<Text>Plastic Surgery A</Text>  
+	</GameDBLocalizedString>
+			
+    <GameDBLocalizedString>      
+		<LocID>OBJECT_DECAL_PLAS_DESC</LocID>       
+		<Text>Wall decal</Text>  
+	</GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content for VX Added Below ######################################## -->
+	<!-- ### ### -->
+
+</LocalizedStrings>
+</GameDBStringTable>
+</Database>

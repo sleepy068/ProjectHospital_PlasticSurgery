@@ -1,0 +1,559 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_FR_ADDON_PLASTICS_SYMPTOMS">
+	<LanguageCode>fr</LanguageCode>
+	<LanguageNameLocalized>Français</LanguageNameLocalized>
+	<Contributors>
+	<Name>blackstar91560fr</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	<!-- Plastic Surgery Mod -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C001</LocID>                                          	
+		<Text>Requête de la patiente (Mammoplastie d'augmentation)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C001_DESC</LocID>                   
+		<Text>La patiente a exprimé sa volonté d'une mammoplastie d'augmentation à but esthétique pour améliorer son apparence.</Text>  
+	</GameDBLocalizedString>	
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_PLAS_NERVE_DAMAGE</LocID>                               
+		<Text>Douleur neuropathique post-opératoire</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_PLAS_NERVE_DAMAGE_DESC</LocID>                   
+		<Text>Les douleurs neuropathiques post-opératoires (DNPO) peuvent se développer si des nerfs sont endommagés durant un intervention. Les nerfs lésés ne peuvent pas transmettre correctement de signaux depuis plusieurs parties du corps vers le cerveau. Au lieu de cela, ces signaux deviennent exagérés causant une douleur chronique qui peut persister des mois ou des années.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_UNDESIRED_RESULTS</LocID>                               
+		<Text>Effets indésirables</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_UNDESIRED_RESULTS_DESC</LocID>                   
+		<Text>Les effets indésirables sont des risques de toute chirurgie. Ils apparaissent après une intervention ou un traitement et ne sont pas le résultat escompté.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_S_SCAR_TISSUE</LocID>                               
+		<Text>Tissus cicatriciel significatif</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_S_SCAR_TISSUE_DESC</LocID>                   
+		<Text>Une cicatrice est une marque qui est laissée sur la peau après une blessure sur la peau après sa guérison. La formation de cicatrices ou tissu cicatriciel est un processus normal de la guérison et apparait quand la peau est coupée à cause d'une blessure ou d'une intervention chirurgicale. La taille, la profondeur et la localisation de la blessure influe sur le sévérité de la cicatrice. L'excès de tissu cicatriciel pour significativement réduire la fonction et les mouvement des mois après la chirurgie. Cela peut avoir des effets néatifs et diminuer la satisfaction des patients.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_CAPSULAR</LocID>                               
+		<Text>Contraction capsulaire</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_CAPSULAR_DESC</LocID>                   
+		<Text>La contraction capsulaire est une complication de la mammoplastie d'augmenation qui se développe quand du tissu cicatriciel interne forme une capsule serrée ou constrictive autour de la prothèse mammaire, la serrant jusqu'à ce qu'elle devienne difforme et dure.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_BARSA_INFECTION</LocID>                               
+		<Text>Infection de la prothèse mammaire</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_BARSA_INFECTION_DESC</LocID>                   
+		<Text>Les infections bactériennes sont un problème pour tout dispositif médical implantable incluant les prothèse mammaires. Les symptômes d'une infection peut inclure une forte fièvre et des douleurs mammaires, des rougeurs et/ou des suintements. Si les antibiotiques seuls ne détruisent pas l'infection, le chirurgien devra nettoyer les tissus infectés et remplacer ou retirer l'implant.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_FAILED_BA</LocID>                               
+		<Text>Mammoplastie ratée</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_FAILED_BA_DESC</LocID>                   
+		<Text>A cause de complications durant l'intervention, la patient n'a pas pu avoir un résultat probant de sa chirurgie esthétique. Elle ne sera pas contente.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_IMPLANT_EXTRUSION</LocID>                               
+		<Text>Extrusion de l'implant mammaire</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_B_IMPLANT_EXTRUSION_DESC</LocID>                   
+		<Text>Dans de rares cas après une mammoplastie, la surface de l'implant ou du tissue traverse la peau et est exposé à la surface. Cela s'appelle une extrusion. La patiente peut développer une infection. Si la prothèse mammaire est déjà extrudée ou proche, le chirurgien va devoir la retirer ou la remplacer via une chirurgie de correction.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_ABSCESS</LocID>                   
+		<Text>Abcès</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C002</LocID>                                          	
+		<Text>Requête du patient (Liposuccion)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C002_DESC</LocID>                   
+		<Text>Le patient a exprimé sa volonté d'effectuer une liposuccion pour améliorer son apparence.</Text>  
+	</GameDBLocalizedString>	
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C003</LocID>                                          	
+		<Text>Requête du patient (Rhinoplastie d'augmentation)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C003_DESC</LocID>                   
+		<Text>Le patient a exprimé sa volonté d'effectuer une rhinoplastie d'augmentation pour améliorer son apparence.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_NOSE_SEPTALPERF</LocID>                                          	
+		<Text>Perforation du septum nasal</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_NOSE_SEPTALPERF_DESC</LocID>                   
+		<Text>Une perforation du septum nasal est une pathologie dans laquelle le septum nasal (paroi cartilagineuse et osseuse qui divise les cavités nasales) développe un trou ou un fissure. Certaines perforations peut causer des saignements, de la douleur, un sifflement quand on inspire. Si du sang séché ou des croutes se forment, il peut également avoir des troubles de la respiration. La plupart des perforations n'ont pas besoin d'être fermées mais les perforations sérieuses ou compliquées peut conduire à des infections.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R001</LocID>                                          	
+		<Text>Blépharospame</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R001_DESC</LocID>                   
+		<Text>Il n'y a pas de tests pour le blépharospasme, le diagnostic est clinique et repose sur l'interrogatoire et les antécédents médicaux.</Text>  
+	</GameDBLocalizedString>		
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_GLOBE_PERFORATION</LocID>                                          	
+		<Text>Perforation du globe occulaire</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_GLOBE_PERFORATION_DESC</LocID>                   
+		<Text>Les perforations du glove occulaire arrivent lorsque les membranes de l'oeil sont dissociées par un traumatisme contondant ou pénétrant. Toute blessure à la cornée, sclère ou les deux est considérée comme perforation et l'approche est la même. La rupture du globe est une urgence ophtalmologique. Bien que la position du globe le protège dans de nombreuses situations des blessures, les lésions du segment postérieur de l'oeil est associé a une perte définitive de la vision.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_UNDESIRED_RESULTS</LocID>                                          	
+		<Text>Aligment des yeux insatisfaisant</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_UNDESIRED_RESULTS_DESC</LocID>                   
+		<Text>La complication la plus commune des chirurgies de correction de strabisme est un alignement insatisfaisant des yeux. Malgré des soigneuses mesures pré-opératives, un certain pourcentage de patient seront "surcorrigés" ou "sous corrigés" après la chirurgie, cela nécessite une seconde opération pour corriger cela.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_CIC</LocID>                               
+		<Text>Kyste d'inclusion conjonctival</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_CIC_DESC</LocID>                   
+		<Text>Le kyste d'inclusion conjonctival survient quand les cellules épithéliales conjonctivales sont enterrées sous la surface conjonctivale durant la chirurgie. Ces cellules peuvent se multiplier avec le temps et créer un kyste sous-conjonctival des jours ou des années après la chirurgie.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_SLIPPED_MUSCLE</LocID>                               
+		<Text>Glissement du muscle</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_SLP_EYE_SLIPPED_MUSCLE_DESC</LocID>                   
+		<Text>Cette condition se développe quand la capsule musculaire est imbriquée sans inclure le muscle ou le tendon durant une chirurgie de strabisme. Quand la capsule est réattachée à la sclère, le tendon et le muscle sont libres de glisser postérieurement depuis le site d'attachement.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C004</LocID>                               
+		<Text>Requête du patient (Transplantation capillaire)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C004_DESC</LocID>                   
+		<Text>Le patient souhaite une transplantation capillaire pour améliorer son apparence.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C005</LocID>                               
+		<Text>Requête du patient (Peel Chimique)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C005_DESC</LocID>                   
+		<Text>Le patient a exprimé sa volonté de recevoir un Peel chimique pour améliorer son apparence. Le patient souhaite seulement un léger peel, donc ne nécessitant pas un traitement à lon terme.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R002</LocID>                                          	
+		<Text>Yeux mal alignés</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R002_DESC</LocID>                   
+		<Text>Le patient a des yeux mal alignés.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R003</LocID>                                          	
+		<Text>Varices simples</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R003_DESC</LocID>                   
+		<Text>Le patient a des varices mais heuresement elles ont l'air d'être plutôt simples et ne présentent pas de signes ou symptômes d'un diagnostic plus sérieux. Les varices qui causent des symptômes ne doivent pas être ignorée et doivent être traitées rapidement pour prévenir l'inconfort du patient et pour prévenir des problèmes futurs.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C006</LocID>                                          	
+		<Text>Requête du patient (Télangiectasies)</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C006_DESC</LocID>                   
+		<Text>Le patient a exprimé sa volonté d'une procédure qui fera disparaître ses télangiectasies pour améliorer son apparence.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_M</LocID>                                          	
+		<Text>Flexion irréductibke des doigts</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_F</LocID>                                          	
+		<Text>Flexion irréductibke des doigts</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_DESC</LocID>                   
+		<Text>Le doigt du patient est fléchi de manière permanente. Cette flexion est le résultat d'un épaississement du tissu fibreux forçant la flexion du doigt dans une position contracturée. L'examen clinique suggère que c'est la cause d'une maladie de Dupuytren.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R005</LocID>                                          	
+		<Text>Cicatrices hypertrophiques</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R005_DESC</LocID>                   
+		<Text>Le patient se présente avec des cicatrices hypertrophiques qui lui cause de l'inconfort. Alors que ces cicatrices ne sont pas dangereuses, corriger l'inconfort va aider à améliorer la qualité de vie du patient.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R006</LocID>                                          	
+		<Text>Cicatrices chéloïdes</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R006_DESC</LocID>                   
+		<Text>Le patient se présente avec des cicatrices chéloïdes qui lui cause de l'inconfort. Alors que ces cicatrices ne sont pas dangereuses, corriger l'inconfort va aider à améliorer la qualité de vie du patient.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT001</LocID>                                          	
+		<Text>Perte d'un doigt</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_RT001_DESC</LocID>                   
+		<Text>Un des doigts du patient a été amputé suite à un accident.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C007</LocID>                               
+		<Text>Requête du patient (Conditionnement de la peau)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C007_DESC</LocID>                   
+		<Text>Le patient a exprimé sa volonté d'avoir des injections de botox pour améliorer la condition de sa peau.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C008</LocID>                               
+		<Text>Requête du patient (Conditionnement de la peau)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C008_DESC</LocID>                   
+		<Text>Le patient a exprimé sa volonté d'avoir de faire des remplissages cutanés pour améliorer la condition de sa peau.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C009</LocID>                               
+		<Text>Requête du patient (Rajeunissement de la peau)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_C009_DESC</LocID>                   
+		<Text>Le patient a exprimé sa volonté d'obtenir un resurfaçage laser pour rajeunir sa peau et améliorer son apparence.</Text>  
+	</GameDBLocalizedString>
+				
+	<!-- CRP Export (Everything below will be exported to CRP after release) -->
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEROMA</LocID>                                          	
+		<Text>Sérome</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_SEROMA_DESC</LocID>                   
+		<Text>Un sérome est une collection de fluide qui se forme sous la surface de la peau. Les séromes peuvent se développer après une intervention chirurgicale, le plus souvent sur le site de l'incision ou à des endroits où des tissus ont été retirés. Le sérome peut prendre plusieurs semaines pour se résorber. Laisser le sérome se résorber lui même est la meilleure façon de le guérir.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_POSTOP_PAIN</LocID>                               
+		<Text>Douleur post-opératoire</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_POSTOP_PAIN_DESC</LocID>                   
+		<Text>Les douleurs post-opératoire sont anticipées et augmentent temporairement les douleurs de fond qui apparaissent après une intervention.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_M_SCAR_TISSUE</LocID>                               
+		<Text>Tissu cicatriciel mineur</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_M_SCAR_TISSUE_DESC</LocID>                   
+		<Text>Une cicatrice est une marque laissée sur la peau après qu'une blessure sur la surface de la peau ait cicatrisé. La formation de cicatrice est une part normale de la guérisonet apparait quand la peau est coupée due à une chirurgie ou une blessure. La croissance de la cicatrice est influencée par de nombreux facteurs: sévérité de la blessure, taille, profondeur et localisation de la blessure.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MRSA_INFECTION</LocID>                               
+		<Text>Infection au Stapylocoque doré résistant</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MRSA_INFECTION_DESC</LocID>                   
+		<Text>L'infection au Methicillin-resistant Staphylococcus aureus (MRSA) est causée par un type de staphylocoque qui est devenue résistante à de nombreux antibiotiques utilisés pour traiter les infections ordinaires au staphylocoques. Ils peuvent rapidement tourner en un profond et douloureux abcès qui requiert un drainage chirurgical. Parfois la bactérie reste confiné sur la peau mais parfois elle peut être plus profond dans le corps causant potentiellement des infections engageant le pronostic vital dans les os, articulations, incisions chirurgicales, la circulation sanguine, les valves cardiaques et les poumons.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PULMONARY_EMBOLISM</LocID>                               
+		<Text>Embolie pulmonaire</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_PULMONARY_EMBOLISM_DESC</LocID>                   
+		<Text>Une embolie pulmonaire (EP) est un blocage d'une artère pulmonaire par une substance qui provient d'un autre endroit du corps et circulant dans la circulation sanguine (l'embole). La plupart du temps, l'EP est causée par des caillots de sang qui proviennent des jambes (thromboses veineuses profondes). La chirurgie augmente le risque d'embolie pulmonaire. \n\nLe traitement requiert: Département de cardiologie ou soins intensifs.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_LOCALPOISIONING</LocID>                               
+		<Text>Intoxication à l'anesthésique local</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_LOCALPOISIONING_DESC</LocID>                   
+		<Text>Les intoxications aux anesthésiques locaux surviennent généralement suite à une erreur thérapeutique. Le système nerveux central est le premier touché par ces intoxications, les symptômes sont donc principalement neurologiques.</Text>  
+	</GameDBLocalizedString>
+
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_BAGGY_SKIN</LocID>                               
+		<Text>Surface cutanée asymétrique</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LI_BAGGY_SKIN_DESC</LocID>                   
+		<Text>Quand de la graisse est retirée de sous la peau, certains patients pensent que leur peau va rétrécir pour s'adapter à leur corps plus lisse et plus tonique. Pourtant, ce n'est pas tout le temps de cas surtout dans les zones où la peau est significativement endommagée. C'est plus commun dans la zone de l'estomac ou des fessieurs même si cela peut arriver sur tout le corps.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_WOUND_INFECTION2</LocID>                               
+		<Text>Blessure infectée</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_WOUND_INFECTION2_DESC</LocID>                   
+		<Text>Une infection d'une blessure survient quand des germs comme de bactéries se développent sur la peau endommagée d'une blessure.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RAPID_BLINKING</LocID>                               
+		<Text>Clignements d'yeux excessifs</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_RAPID_BLINKING_DESC</LocID>                   
+		<Text>Le clignement d'oeil est un réflexe, ce qui signifie que le corps le fait automatiquement. On peut également cligner des yeux volontairement. L'excès de clignement est causé par une sur-stimulation du réflexe de clignement. C'est très communément dû à un corps étranger dans l'oeil. Cela peut être également dû à des réactions allergiques. Le traitement dépend de la cause.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LAZY_EYE</LocID>                               
+		<Text>Amblyopie (Oeil feignant)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_LAZY_EYE_DESC</LocID>                   
+		<Text>L'amblyopie est un défaut du développement de la vision dans lequel un oeil ne réussit pas à obtenir son acuité maximale même avec des lunettes ou des lentilles. Appelée également "oeil feignant", l'amblyopie débute durant la jeune enfance, dans la plupart des cas un seul oeil est touché.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_DIPLOPIA</LocID>                               
+		<Text>Diplopie (Vision double)</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_DIPLOPIA_DESC</LocID>                   
+		<Text>La diplopie, appelée également vision double, est la perception simultanée de deux images d'un objet unique.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_CONJU_SCAR</LocID>                               
+		<Text>Cicatrices conjonctivales</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_EYE_CONJU_SCAR_DESC</LocID>                   
+		<Text>Les cicatrices conjonctivales peuvent être un problème persistant après une chirurgie. Au lieu de revenir à la typique apparence blanche et translucide, la conjonctive peut rester chroniquement hyperhémique et rose.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FOLLICULITIS</LocID>                               
+		<Text>Folliculite</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_FOLLICULITIS_DESC</LocID>                   
+		<Text>La folliculite est une pathologie cutanée fréquente qui est liée à l'inflammation des follicules pileux. C'est fréquemment dû à une infection bactérienne ou fongique. A première vue, cela ressemble à de petits boutons rouges.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MILD_AR</LocID>                               
+		<Text>Réaction allergique bénigne</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_MILD_AR_DESC</LocID>                   
+		<Text>Le patient a eu un réaction allergique bénigne pendant ou après l'intervention. Cela peut être une réaction aux anesthésiques, conditions environnementales, autres médicaments ou matériaux utilisés durant la chirurgie.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_THPAFA</LocID>                               
+		<Text>Epaississsement de l'aponévrose palmaire</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_THPAFA_DESC</LocID>                   
+		<Text>L'aponévrose palmaire est une structure triangulaire dans la paume basée distalement. Quand elle est épaissie, elle devient serrée et raccourcie, contractant les doigts vers l'intérieur de la paume.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_BENT_DIGIT</LocID>                               
+		<Text>Flexion du doigt</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_BENT_DIGIT_DESC</LocID>                   
+		<Text>Le patient présente une flexion d'un ou plusieurs doigts bien qu'il garde le contrôle moteur du ou des doigts.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_THICKCORD</LocID>                               
+		<Text>Tendon proéminent</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_H_THICKCORD_DESC</LocID>                   
+		<Text>Le patient a des tendons durcis et épaissis sur les mains.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DIMPLES</LocID>                               
+		<Text>Capitonnage de la peau</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_DIMPLES_DESC</LocID>                   
+		<Text>L'aspect de la peau du patient est capitonné comme la peau d'une orange ou la surface d'une balle de golf.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OOST</LocID>                               
+		<Text>Surcroissance de tissu cicatriciel</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_OOST_DESC</LocID>                   
+		<Text>La surcroissance de tissu cicatriciel apparait quand trop de collagène est produit sur le site d'une blessure. La cicatrice continue de grandir, même après la guérison de la blessure.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING1</LocID>                               
+		<Text>Saignement très léger</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING1_DESC</LocID>                   
+		<Text>Le patient saigne très légèrement, il n'y a pas de changement dans les constantes vitales et un remplissage vasculaire n'est pas nécessaire. Ce genre de saignement s'arrête de lui même.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING2</LocID>                               
+		<Text>Saignement léger</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING2_DESC</LocID>                   
+		<Text>Le patient saigne légèrement, il n'y a pas de changement dans les constantes vitales et un remplissage vasculaire n'est pas nécessaire. Stopper le saignement est nécessaire pour prévenir des complications plus sérieuses.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING3</LocID>                               
+		<Text>Saignement modéré</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING3_DESC</LocID>                   
+		<Text>Le patient saigne modérément, une intervention est nécessaire pour prévenir un choc hypovolémique.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING4</LocID>                               
+		<Text>Hémorraghie sévère</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING4_DESC</LocID>                   
+		<Text>Le patient saigne abondément, une intervention est critique pour prévenir un choc hypovolémique.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING5</LocID>                               
+		<Text>Hémorraghie massive</Text>  
+	</GameDBLocalizedString>
+            
+	<GameDBLocalizedString>      
+		<LocID>SYM_CRP_BLEEDING5_DESC</LocID>                   
+		<Text>Le patient saigne abondément, une intervention immédiate est requise pour sauver sa vie.</Text>  
+	</GameDBLocalizedString>
+	
+	<!-- ### ### -->
+	<!-- ######################################## Content for v1.03 Added Below ######################################## -->
+	<!-- ### ### -->
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_F_V2</LocID>                                          	
+		<Text>Permanently Bent Finger</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SYM_PLAS_R004_M_V2</LocID>                                          	
+		<Text>Permanently Bent Finger</Text>  
+	</GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

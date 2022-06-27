@@ -1,0 +1,194 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+	<GameDBStringTable ID="LOC_FR_ADDON_PLASTICS_DIAGNOSES">
+	<LanguageCode>fr</LanguageCode>
+	<LanguageNameLocalized>Français</LanguageNameLocalized>
+	<Contributors>
+	<Name>blackstar91560fr</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+	
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_BREAST_01</LocID>                         
+			<Text>Mammoplastie d'augmentation (E)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_BREAST_01_DESC</LocID>                         
+			<Text>La mammoplastie d'augmentation peut être une intervention esthétique (E) ou reconstructrice (R) dans le cas d'une chirurgie de reconstruction mammaire. L'intervention nécessite la mise en place d'implants mammaires (ou prothèses), la taille des implants dépend des envies de la patiente, de l'anatomie mammaire, l'épaisseur de la peau et son élasticité. La patiente a exprimé son envie d'une mammoplastie à but esthétique.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_STOMACH_01</LocID>                         
+			<Text>Liposuccion (E)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_STOMACH_01_DESC</LocID>                         
+			<Text>La liposuccion, appelée également lipectomie ou lipoplastie est une intervention qui améliore les contours du corps et ses proportions par l'enlèvement d'excès de dépots de lipides. Les endroits les plus ciblés sont les cuisses, les fesses, le ventre, les bras, le cou et sous le menton. Habituellement, les liposuccions pour de petits volumes sont effectués en ambulatoire tandis que les plus gros volumes nécessitent une hospitalisation pour surveiller les niveaux de fluides et si le patient souffre d'une autre conditon médicale. Le patient a exprimé son envie d'une liposuccion à but esthétique (E).</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_NOSE_01</LocID>                         
+			<Text>Rhinoplastie d'augmentation (E)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_NOSE_01_DESC</LocID>                         
+			<Text>La rhinoplastie d'augmentation est une intervention qui modifie l'apparence du nez. Le but d'une rhinoplastie est de modifier l'apparence du nez, améliorer la respiration ou les deux. Cette intervention chirurgicale. Cette intervention implique souvent également un remodelage des nez courbés ou d'affiner les nez larges.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_01</LocID>                         
+			<Text>Blépharospasme (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_01_DESC</LocID>                         
+			<Text>Le blépharospasme est une contraction anormale des muscles des paupières. Le blépharospasme bénin essentiel est une condition bilatérale et une forme de dystonie conduisant à des fermetures des paupières épisodiques. Dans la plupart des cas bénins, la toxine botulique (Botox) est un traitement communément admis. Cela prend entre un et quatres jours pour que le botox commence à faire effet. L'effet complet prend habituellement une semaine et dure souvent jusqu'à quatre mois.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_02</LocID>                         
+			<Text>Strabisme (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_EYE_02_DESC</LocID>                         
+			<Text>Le strabisme est une condition dans laquelle les yeux ne s'allignent pas entre eux lorsque le patient regarde une objet. L'oeil concentré sur un objet peut ne pas être le même. Le strabisme peut être constant ou n'apparaissant qu'occasionellement. S'il est présent durant une grande partie de l'enfance, il peut résulter en amblyopie ou la perte de la perception de la profondeur. Bien qu'il est souvent considérer comme une pathologie de l'enfance, l'incidence du strabisme est en fait plus grande chez l'adulte.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_HAIR_01</LocID>                         
+			<Text>Transplantation capillaire (E)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_HAIR_01_DESC</LocID>                         
+			<Text>La transplantation capillaire est une technique chirurgicale qui retire les follicules capillaire d'une partie "donneuse" du corps pour la greffer sur une partie chauve du corps. La technique est principalement utilisée pour traiter la calvitie. Dans cette intervention peu invasive, des greffons contenant les follicules capillaires sont génétiquement résistant à la calvitie (comme à l'arrière du crâne) sont transplantés sur une partie chauve de crâne. La transplantation capillaire peut également être utilisé pour restorer les cils, sourcils, barbes, poils pubiens, poils du torse.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_01</LocID>                         
+			<Text>Peel Chimique (E)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_01_DESC</LocID>                         
+			<Text>Le peel chimique est une forme de traitement qui utilise des solutions chimiques pour corriger des imperfections de la peau, rides et pigmentation inégale de la peau. Dans ce traitement, une solution chimique est appliquée sur la peau qui la fait "cloquer" et finalement peler. La nouvelle peau est d'habitude douce et moins ridée par rapport à l'ancienne peau.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_01</LocID>                         
+			<Text>Varices (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_VEIN_01_DESC</LocID>                         
+			<Text>Les veines variqueuses sont des veines tordues, élargies. N'importe quelle veine superficielle peut devenir des varices, mais les varices les plus fréquentes sont dans les jambes. Pour beaucoup de patients, les varices sont simplement un problème esthétique. Pour d'autres, elles causent des douleurs et de l'inconfort et peut conduire à des problèmes plus sérieux.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_VEIN_01</LocID>                         
+			<Text>Télangiectasies (E)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_VEIN_01_DESC</LocID>                         
+			<Text>Les télangiectasies, ou angiomes stellaires, sont des grappes de petits vaisseaux sanguins qui se développent de manière très proche de la surface de la peau. Elles sont souvent rouges, bleues ou violettes et elles ont l'apparence d'une toile d'araignée. Elles sont communément trouvées sur le visage et les jambes.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_M</LocID>                         
+			<Text>Maladie de Dupuytren (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_F</LocID>                         
+			<Text>Maladie de Dupuytren (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_DESC</LocID>                         
+			<Text>La maladie de Dupuytren ou contracture de Dupuytren ou fibromatose palmaire est caractérérisée par une difformité de la main dans laquelle les articulations d'un ou plusieurs doigts ne peuvent plus s'extendre totalement. Cette condition affecte une couche de tissue qui se situe sous la peau de la paume qui se nomme l'aponévrose palmaire. Des noeuds de tissue se forment sous la peau et forment finalement une épaisse corde qui tire un ou plusieurs doigt dans une position de flexion. Au début de la maladie, le traitement est simple et ne nécessite pas d'intervention chirurgicale.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_01</LocID>                         
+			<Text>Cicatrice Hypertrophique (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_01_DESC</LocID>                         
+			<Text>Une cicatrice hypertrophique est une cicatrice épaissie, large, élevée qui se développe où la peau a été blessée. Les cicatrices sont fréquentes durant le processus de guérison d'une blessure, mais une hypertrophique est le résultat d'une réponse anormale à un traumatisme ou une blessure. Les cicatrices sont une complication fréquente des brûlures mais peuvent se former également après des piercings, coupures ou meme l'acné. Elles sont similaires aux cicatrices de chéloïde mais tendent à être plus bénignes et ne s'expandent pas au delà des bordures de la blessure originale. Les cicatrices ne sont pas dangereuses et ne mettent pas en jeu le pronostic vital. Elles peuvent être douloureuse, irritantesn ou seulement un problème cosmétique.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_02</LocID>                         
+			<Text>Cicatrice de chéloïde (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_SCAR_02_DESC</LocID>                         
+			<Text>Les cicatrices de chéloïde sont un type de cicatrice arrivant quand la peau a cicatrisé après une blessure. Elles grandissent pour devenir bien plus large que la blessure originale qui a causé la cicatrice. Tout ce qui cause une cicatrice peut déclencher une chéloïde.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_REPLANT_01</LocID>                         
+			<Text>Amputation digitale (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_T_REPLANT_01_DESC</LocID>                         
+			<Text>Une amputation traumatique est la perte d'une partie du corps qui résulte d'un accident. Dans ce cas, un doigt de la main du patient a été amputé et nécessite une attention médicale immédiate pour tenter de restaurer la fonction de la main et du doigt. Les doigts qui ont été tranchés nets sont ceux qui ont le plus de probabilité de restauration de leurs fonctions en post-opératoire contraitement aux amputations par écrasement, dans ce cas le rattachement du doigt à la main est impossible.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_02</LocID>                         
+			<Text>Injections de toxine botulique (E)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_02_DESC</LocID>                         
+			<Text>Les injections de botox sont utilisés pour diminuer l'apparition de rides sur le visage. Les injections bloquent certaines voies nerveuses, principalement celles qui permettent la contraction des muscles. L'usage le plus commun de ces injections est pour paralyser temporairement les muscles faciaux qui causent des rides sur le front et autour des yeux.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_03</LocID>                         
+			<Text>Remplissages cutanés (E)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_03_DESC</LocID>                         
+			<Text>Les remplissages cutanés sont des injections de matériels sous la peau pour réduire l'apparition de rides sur le visage, et ils peuvent être utilisés pour améliorer les contours faciaux par addition de volume dans les joues et les lèvres. Les produits de remplissage cutané sont biodégradables, ce qui signifie qu'ils vont naturellement disparaitre dans le corps. La longévité du produit peut varier selon la marque, l'épaisseur et la localisation de la zone traitée.</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_04</LocID>                         
+			<Text>Rajeunissement de la peau (Resurfaçage laser)(E)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_C_SKIN_04_DESC</LocID>                         
+			<Text>Le resurfaçage laser est une technique de rajeunissement de la peau qui utilise un laser pour améliorer l'apparence de la peau ou traiter des imperfections mineures de la peau. Le resurfaçage laser peut diminuer l'apparence de fines lignes sur le visage. Cela peut également traiter des pertes des tons de la peau et améliorer l'aspect du patient s'il a des cicatrices.</Text>	
+		</GameDBLocalizedString>
+		
+	<!-- ### ### -->
+	<!-- ######################################## Content for v1.03 Added Below ######################################## -->
+	<!-- ### ### -->
+	
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_F_V2</LocID>                         
+			<Text>Maladie de Dupuytren (R)</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>      
+			<LocID>DIA_PLAS_R_HAND_01_M_V2</LocID>                         
+			<Text>Maladie de Dupuytren(R)</Text>	
+		</GameDBLocalizedString>
+		
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

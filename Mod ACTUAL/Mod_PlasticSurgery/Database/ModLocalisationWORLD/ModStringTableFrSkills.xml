@@ -1,0 +1,45 @@
+<Database>
+	<GameDBStringTable ID="LOC_FR_ADDON_PLASTICS_SKILLS">
+	
+	<LanguageCode>fr</LanguageCode>
+	<LanguageNameLocalized>Français</LanguageNameLocalized>
+	<Contributors>
+    <Name>blackstar91560fr</Name>
+	</Contributors>
+        
+	<LocalizedStrings>
+            
+<!-- ### Skills ### -->
+			
+	<GameDBLocalizedString>      
+		<LocID>DPT_PLASTICS</LocID>                                          	
+		<Text>Chirurgie Plastique</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SKILL_DOC_SPEC_PLAS</LocID>                   
+		<Text>Chirurgien plasticien consultant</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SKILL_DOC_SPEC_PLAS_DESCR</LocID>                   
+		<Text>La chirurgie plastique donne accès à des interventions spécialisées pour la détection, le diagnostic et le traitement de pathologies variées qui peut nécessiter de la chirurgie reconstructrice ou procéder à des requête de chirurgie esthétique.</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SKILL_DOC_SPEC_PLAS_SURGERY</LocID>                   
+		<Text>Chirurgien plasticien</Text>  
+	</GameDBLocalizedString>
+	
+	<GameDBLocalizedString>      
+		<LocID>SKILL_DOC_SPEC_PLAS_SURGERY_DESCR</LocID>                   
+		<Text>Un chirurgien plasticien est un médecin qui se spécialise dans les interventions invasives de reconstruction et d'esthétique.</Text>  
+	</GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Vx.x.x.x Below ######################################## -->
+	<!-- ### ### -->
+	
+	</LocalizedStrings>	
+	</GameDBStringTable>
+</Database>

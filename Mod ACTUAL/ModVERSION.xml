@@ -1,16 +1,18 @@
 <Database>
 <!--
-
+Most of these Fixes are Thanks to Rob Sassoon, a legendary player that continued to support modders with finding bugs.
 Update v0.1.0.8
 
 Additions:
-
+Added CRP TRT_CRP_DIURETICS to ensure players can treat this with DIA_PLAS_R_VEIN_02_V2
 
 Changes:
 Changed Complex Varicose Veins Edema and treatment to a CRP version (treatment anywhere)
+Minor change with SUR_SLP_CHEEK_AUGMENTATION to ensure no issues with surgery action
 
 Localisation:
 Added an outdated French Translation (Was provided awhile ago, somehow I missed actually adding it in)
+Actually Fixed Loc! issue with SYM_SLP_FAILED_BA
 
 Bug Fixes:
 

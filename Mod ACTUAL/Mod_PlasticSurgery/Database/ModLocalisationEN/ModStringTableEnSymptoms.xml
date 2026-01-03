@@ -62,7 +62,7 @@
 	</GameDBLocalizedString>
 	
 	<GameDBLocalizedString>      
-		<LocID>SYM_SLP_FAILED_BA_V2</LocID>                               
+		<LocID>SYM_SLP_FAILED_BA</LocID>                               
 		<Text>Failed Breast Augmentation</Text>  
 	</GameDBLocalizedString>
             

@@ -1,0 +1,360 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+    <GameDBStringTable ID="LOC_TH_ADDON_PLASTICS_SYMPTOMS">
+    <LanguageCode>th</LanguageCode>
+    <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+    <Contributors>
+    <Name>TonWazza</Name>
+    </Contributors>
+
+    <LocalizedStrings>
+	<!-- =========================================== -->
+	<!-- ============= Plastic Surgery ============= -->
+	<!-- =========================================== -->
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_PLAS_NERVE_DAMAGE_V2</LocID>                         
+        <Text>อาการปวดประสาทหลังผ่าตัด</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_PLAS_NERVE_DAMAGE_DESC</LocID>                   
+        <Text>อาการปวดประสาทหลังผ่าตัด (PONP) สามารถเกิดขึ้นได้หากเส้นประสาทได้รับความเสียหายระหว่างการผ่าตัด เส้นประสาทที่เสียหายไม่สามารถส่งสัญญาณจากส่วนต่างๆ ของร่างกายไปยังสมองได้อย่างถูกต้อง แต่สัญญาณเหล่านี้จะถูกขยายให้รุนแรงขึ้น ทำให้เกิดอาการปวดเรื้อรังที่อาจคงอยู่นานหลายเดือนหรือหลายปี</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_UNDESIRED_RESULTS_V2</LocID>                         
+        <Text>ผลลัพธ์ที่ไม่พึงประสงค์</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_UNDESIRED_RESULTS_DESC</LocID>                   
+        <Text>ผลลัพธ์ที่ไม่น่าพอใจเป็นส่วนหนึ่งของการทำศัลยกรรมทุกประเภท ผลลัพธ์ที่ไม่พึงประสงค์หลังการรักษาเกิดขึ้นหลังจากเสร็จสิ้นการผ่าตัดหรือการรักษา และผลลัพธ์ที่ได้แตกต่างไปจากที่คาดไว้ สิ่งนี้อาจนำไปสู่ภาวะแทรกซ้อนเพิ่มเติมและความเครียดที่เพิ่มขึ้นสำหรับผู้ป่วย</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_S_SCAR_TISSUE_V2</LocID>                         
+        <Text>เนื้อเยื่อแผลเป็นจำนวนมาก</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_S_SCAR_TISSUE_DESC</LocID>                   
+        <Text>แผลเป็นคือรอยที่เหลืออยู่บนผิวหนังหลังจากบาดแผลหรือการบาดเจ็บที่ผิวหนังหายดีแล้ว การก่อตัวของแผลเป็นหรือเนื้อเยื่อแผลเป็นเป็นส่วนปกติของกระบวนการรักษา และเกิดขึ้นเมื่อผิวหนังถูกตัดเนื่องจากการบาดเจ็บหรือการผ่าตัด การเติบโตของเนื้อเยื่อแผลเป็นได้รับอิทธิพลจากหลายปัจจัย ได้แก่ ความรุนแรงของการบาดเจ็บเดิม ขนาด ความลึก และตำแหน่งของแผลบนร่างกาย เนื้อเยื่อแผลเป็นส่วนเกินที่หนาหลายชั้นสามารถลดการทำงานและการเคลื่อนไหวได้อย่างมากหลังการผ่าตัดหลายเดือน สิ่งนี้อาจส่งผลเสียและลดความพึงพอใจของผู้ป่วย</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_B_CAPSULAR_V2</LocID>                         
+        <Text>พังผืดหดรัดรอบซิลิโคน</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_B_CAPSULAR_DESC</LocID>                   
+        <Text>พังผืดหดรัด (Capsular contracture) เป็นภาวะแทรกซ้อนของการเสริมหน้าอกที่เกิดขึ้นเมื่อเนื้อเยื่อแผลเป็นภายในก่อตัวเป็นแคปซูลที่แน่นหรือบีบรัดรอบถุงซิลิโคนเสริมหน้าอก บีบจนหน้าอกเสียรูปทรงและแข็ง</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_BARSA_INFECTION_V2</LocID>                         
+        <Text>การติดเชื้อที่ซิลิโคนเสริมหน้าอก</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_BARSA_INFECTION_DESC</LocID>                   
+        <Text>โดยทั่วไปแล้ว การติดเชื้อแบคทีเรียเป็นปัญหาสำหรับอุปกรณ์การแพทย์ที่ฝังในร่างกายทุกชนิด รวมถึงซิลิโคนเสริมหน้าอก อาการของการติดเชื้ออาจรวมถึงไข้สูงและปวดเต้านม แดง และ/หรือบวม หากดูเหมือนว่ายาปฏิชีวนะเพียงอย่างเดียวไม่สามารถกำจัดเชื้อได้ ศัลยแพทย์อาจจำเป็นต้องล้างเนื้อเยื่อที่ติดเชื้อและเปลี่ยนหรือนำซิลิโคนออกทั้งหมด</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_FAILED_BA</LocID>                         
+        <Text>การเสริมหน้าอกล้มเหลว</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_FAILED_BA_DESC</LocID>                   
+        <Text>เนื่องจากภาวะแทรกซ้อนจากการผ่าตัด ผู้ป่วยจึงไม่ได้รับผลลัพธ์จากการศัลยกรรมความงามที่ประสบความสำเร็จ พวกเขาจะไม่พอใจกับสิ่งนี้</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_B_IMPLANT_EXTRUSION_V2</LocID>                         
+        <Text>ซิลิโคนทะลุ</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_B_IMPLANT_EXTRUSION_DESC</LocID>                   
+        <Text>ในกรณีที่พบได้ค่อนข้างยากหลังการผ่าตัดเสริมหน้าอก พื้นผิวของซิลิโคนหรืออุปกรณ์ขยายเนื้อเยื่ออาจโผล่ทะลุผิวหนังออกมา ภาวะนี้เรียกว่า "Extrusion" (การทะลุ) ผู้ป่วยอาจเกิดการติดเชื้อหากมีซิลิโคนทะลุหรือโผล่ออกมา หากซิลิโคนเสริมหน้าอกทะลุออกมาแล้วหรือกำลังจะทะลุ ศัลยแพทย์ตกแต่งจะต้องนำออกหรือเปลี่ยนใหม่ผ่านการผ่าตัดแก้ไข</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_ABSCESS</LocID>                   
+        <Text>ฝี</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_NOSE_SEPTALPERF_V2</LocID>                                           
+        <Text>ผนังกั้นจมูกทะลุ</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_NOSE_SEPTALPERF_DESC</LocID>                   
+        <Text>ผนังกั้นจมูกทะลุเป็นภาวะทางการแพทย์ที่ผนังกั้นจมูก (ผนังกระดูก/กระดูกอ่อนที่แบ่งโพรงจมูก) เกิดรูหรือรอยแยก รูทะลุบางแห่งอาจทำให้เลือดออก เจ็บปวด และมีเสียงหวีดเมื่อหายใจเข้า หากมีเลือดแห้งหรือสะเก็ดสะสม คุณอาจหายใจทางจมูกลำบาก รูทะลุจำนวนมากไม่จำเป็นต้องปิด แต่รูที่ร้ายแรงหรือซับซ้อนอาจนำไปสู่การติดเชื้อได้</Text>  
+    </GameDBLocalizedString>
+
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_EYE_GLOBE_PERFORATION_V2</LocID>                                             
+        <Text>ลูกตาทะลุ</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_EYE_GLOBE_PERFORATION_DESC</LocID>                   
+        <Text>ลูกตาแตกหรือทะลุเกิดขึ้นเมื่อความสมบูรณ์ของเยื่อหุ้มชั้นนอกของตาถูกทำลายโดยแรงกระแทกหรือของมีคม การบาดเจ็บทุกความหนาของกระจกตา ตาขาว หรือทั้งสองอย่าง ถือเป็นการบาดเจ็บแบบลูกตาเปิดและต้องได้รับการจัดการในลักษณะเดียวกันในภาวะเฉียบพลัน ลูกตาทะลุเป็นภาวะฉุกเฉินทางจักษุวิทยาและการดำเนินการที่รวดเร็วมีความสำคัญอย่างยิ่งต่อการรักษาการมองเห็นให้ได้มากที่สุด แม้ว่าตำแหน่งของลูกตาภายในเบ้าตาจะช่วยปกป้องจากการบาดเจ็บในหลายสถานการณ์ แต่ความเสียหายต่อส่วนหลังของดวงตามักเกี่ยวข้องกับโอกาสสูงที่จะสูญเสียการมองเห็นถาวร</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_EYE_UNDESIRED_RESULTS_V2</LocID>                                             
+        <Text>ตำแหน่งดวงตาไม่เป็นที่น่าพอใจ</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_EYE_UNDESIRED_RESULTS_DESC</LocID>                   
+        <Text>ตำแหน่งดวงตาที่ไม่น่าพอใจหลังการผ่าตัดเป็นภาวะแทรกซ้อนที่พบบ่อยที่สุดเมื่อแก้ไขโรคตาเหล่และปัญหาการวางแนวตาอื่นๆ แม้จะมีการวัดอย่างระมัดระวังก่อนการผ่าตัดและการใช้ตารางปริมาณการผ่าตัดทั่วไป แต่ผู้ป่วยจำนวนหนึ่งจะได้รับการแก้ไขมากเกินไป (Overcorrected) หรือน้อยเกินไป (Undercorrected) หลังการผ่าตัด ซึ่งต้องใช้กระบวนการผ่าตัดแก้ไขเพื่อบรรเทาปัญหา</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_EYE_CIC_V2</LocID>                         
+        <Text>ถุงน้ำเยื่อบุตา</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_EYE_CIC_DESC</LocID>                   
+        <Text>Conjunctival inclusion cysts เกิดขึ้นเมื่อเซลล์เยื่อบุผิวเยื่อบุตาถูกฝังอยู่ใต้พื้นผิวเยื่อบุตาระหว่างการผ่าตัด เซลล์เหล่านี้สามารถแบ่งตัวเมื่อเวลาผ่านไปเพื่อสร้างถุงน้ำใต้เยื่อบุตาหลายวันถึงหลายปีหลังจากการผ่าตัดเดิม แผลเป็นที่เยื่อบุตาพบได้บ่อยหลังการผ่าตัดซ้ำและหลังการผ่าตัดตัดกล้ามเนื้อ ซึ่งการเลื่อนกล้ามเนื้ออาจทำให้ Tenon’s capsule ที่หนาด้านหลังเข้ามาใกล้ขอบกระจกตามากขึ้นซึ่งมองเห็นได้ชัดเจนกว่า</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_EYE_SLIPPED_MUSCLE_V2</LocID>                         
+        <Text>กล้ามเนื้อตาหลุด</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_EYE_SLIPPED_MUSCLE_DESC</LocID>                   
+        <Text>กล้ามเนื้อหลุด (Slipped muscle) เกิดขึ้นเมื่อเยื่อหุ้มกล้ามเนื้อถูกเย็บโดยไม่รวมกล้ามเนื้อหรือเอ็นกล้ามเนื้อในระหว่างการผ่าตัดตาเหล่ เมื่อเยื่อหุ้มถูกยึดกลับเข้ากับตาขาว เอ็นและกล้ามเนื้อจึงมีอิสระที่จะลื่นไถลไปด้านหลังจุดที่ยึดเกาะ</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_CSFRHINORRHEA</LocID>                         
+        <Text>น้ำหล่อเลี้ยงสมองและไขสันหลังรั่วทางจมูก</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_CSFRHINORRHEA_DESC</LocID>                         
+        <Text>Cerebrospinal fluid (CSF) rhinorrhea เป็นภาวะที่ของเหลวที่ล้อมรอบสมองรั่วไหลเข้าไปในจมูกและไซนัส การบาดเจ็บที่ศีรษะ การผ่าตัด หรือแม้แต่ความผิดปกติแต่กำเนิดสามารถทำให้เกิดรูในเยื่อหุ้มที่กักเก็บของเหลวนี้ มันจึงรั่วไหลเข้าไปในจมูกหรือหู ทำให้มีน้ำมูกไหลใสๆ</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString> <LocID>SYM_CRP_NASAL_HEMATOMA</LocID>                         
+        <Text>เลือดคั่งในจมูก</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString> <LocID>SYM_CRP_NASAL_HEMATOMA_DESC</LocID>                         
+        <Text>Nasal septal hematoma คือการสะสมของเลือดภายในผนังกั้นจมูก ผนังกั้นคือส่วนของจมูกที่อยู่ระหว่างรูจมูก การบาดเจ็บทำให้หลอดเลือดฉีกขาดจนของเหลวและเลือดอาจสะสมอยู่ใต้เยื่อบุ</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_LOW_NOSEBRIDGE</LocID>                         
+        <Text>ดั้งจมูกต่ำมาก</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_LOW_NOSEBRIDGE_DESC</LocID>                         
+        <Text>ผู้ป่วยมีดั้งจมูกที่ต่ำเป็นพิเศษ สิ่งนี้อาจทำให้เกิดปัญหาเกี่ยวกับการทำงานของจมูก</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_DISPROPORT_APPEAR</LocID>                         
+        <Text>รูปลักษณ์ไม่สมส่วน (จมูก)</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_DISPROPORT_APPEAR_DESC</LocID>                         
+        <Text>รูปลักษณ์และขนาดของจมูกของผู้ป่วยแตกต่างจากปกติอย่างเห็นได้ชัด</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_PINCHED_NOSTRILS</LocID>                         
+        <Text>ปีกจมูกลีบ</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_PINCHED_NOSTRILS_DESC</LocID>                         
+        <Text>ปลายจมูกลีบ (Pinched nasal tip) หมายถึงจมูกที่แคบเกินไปในบริเวณปลาย ความผิดปกติของจมูกประเภทนี้อาจเกิดขึ้นจากปัญหาแต่กำเนิด หรือเป็นผลจากการศัลยกรรมจมูกที่ไม่ประสบความสำเร็จก่อนหน้านี้</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_NOSETOOHIGH</LocID>                         
+        <Text>ปลายจมูกเชิดสูง</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_NOSETOOHIGH_DESC</LocID>                         
+        <Text>จมูกของผู้ป่วยชี้ขึ้นสูงผิดปกติที่ส่วนปลาย</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_UNEVEN_NOSTRILS</LocID>                         
+        <Text>รูจมูกไม่เท่ากัน</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_UNEVEN_NOSTRILS_DESC</LocID>                         
+        <Text>รูจมูกข้างหนึ่งของผู้ป่วยมีขนาดแตกต่างจากอีกข้างหนึ่งอย่างเห็นได้ชัด</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_BLEPHAROPTOSIS</LocID> <Text>หนังตาตก</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_BLEPHAROPTOSIS_DESC</LocID> <Text>Blepharoptosis หรือ Ptosis คือการหย่อนคล้อยของเปลือกตาบนที่อาจส่งผลต่อตาข้างเดียวหรือทั้งสองข้าง เปลือกตาอาจตกลงมาเพียงเล็กน้อย หรืออาจตกลงมามากจนปิดรูม่านตาและบดบังการมองเห็น</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_OCULAR_EXTRUDE</LocID>                         
+        <Text>เนื้อเยื่อตาโผล่ออกนอกเบ้า</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_OCULAR_EXTRUDE_DESC</LocID>                         
+        <Text>ดวงตาของผู้ป่วยมีเนื้อเยื่อภายในลูกตาโผล่ออกมาด้านนอก</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_OCULAR_MOTILITY</LocID>                         
+        <Text>สูญเสียการเคลื่อนไหวของดวงตา</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_OCULAR_MOTILITY_DESC</LocID>                         
+        <Text>การสูญเสียการเคลื่อนไหวของดวงตา หรือที่เรียกว่าความผิดปกติของกล้ามเนื้อตา (Oculomotor Dysfunction) เกิดขึ้นเมื่อขาดการเคลื่อนไหวของดวงตาที่มีการควบคุม เป็นไปตามใจ และมีเป้าหมาย หรือมีความบกพร่อง</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_TISSUE_SHRAPNEL</LocID>                         
+        <Text>เนื้อเยื่อเสียหายจากสะเก็ดระเบิด</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_TISSUE_SHRAPNEL_DESC</LocID>                         
+        <Text>ผู้ป่วยมีความเสียหายของเนื้อเยื่อระดับตื้นจากสะเก็ดระเบิด</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_FACE_HEMATOMA</LocID>                         
+        <Text>เลือดคั่งที่ใบหน้า</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_FACE_HEMATOMA_DESC</LocID>                         
+        <Text>Facial hematoma คือการสะสมของเลือดภายในใบหน้า การบาดเจ็บทำให้หลอดเลือดฉีกขาดจนของเหลวและเลือดอาจสะสมอยู่ใต้ผิวหนัง</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_IMPLANT_INFECTION01</LocID> <Text>การติดเชื้อที่ซิลิโคนเสริมแก้ม</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_IMPLANT_INFECTION01_DESC</LocID> <Text>ผู้ป่วยเกิดการติดเชื้อรอบๆ ซิลิโคนเสริมแก้มที่เพิ่งทำมา การติดเชื้อดังกล่าวร้ายแรงและจำเป็นต้องนำซิลิโคนออกและทำความสะอาดแผล</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_FAILED_CA01</LocID>                         
+        <Text>การเสริมแก้มล้มเหลว</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_SLP_FAILED_CA01_DESC</LocID>                   
+        <Text>เนื่องจากภาวะแทรกซ้อนจากการผ่าตัด ผู้ป่วยจึงไม่ได้รับผลลัพธ์จากการศัลยกรรมความงามที่ประสบความสำเร็จ พวกเขาจะไม่พอใจกับสิ่งนี้</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_LOSS_OF_UMBILICUS</LocID>                         
+        <Text>สะดือหาย</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_LOSS_OF_UMBILICUS_DESC</LocID>                   
+        <Text>การสูญเสียสะดือทำให้ผู้ป่วยไม่มีสะดือ แม้ว่าจะไม่ก่อให้เกิดปัญหาสุขภาพ แต่อาจทำให้ผู้ป่วยรู้สึกอับอาย โดยเฉพาะอย่างยิ่งหากเป็นภาวะแทรกซ้อนจากการผ่าตัดช่องท้อง</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_BURNING_SENSE</LocID>                         
+        <Text>ความรู้สึกแสบร้อน</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_BURNING_SENSE_DESC</LocID>                         
+        <Text>ผู้ป่วยกำลังประสบกับความรู้สึกแสบร้อนที่เจ็บปวด</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_SKIN_DISCOLOURATION</LocID>                         
+        <Text>สีผิวเปลี่ยนไป</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_SKIN_DISCOLOURATION_DESC</LocID>                         
+        <Text>ผู้ป่วยมีปื้นผิวหนังที่มีสีแตกต่างจากสีผิวปกติอย่างเห็นได้ชัด</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_ULCERATION</LocID>                         
+        <Text>การเกิดแผลพุพอง</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_ULCERATION_DESC</LocID>                         
+        <Text>Ulceration คือการพัฒนาหรือการก่อตัวของแผลเปื่อยบนส่วนหนึ่งของร่างกาย หลังจากเกิดแผล บริเวณที่ได้รับผลกระทบอาจมีเลือดออกหรือมีสารคัดหลั่งที่ไม่พึงประสงค์ออกมา แผลเปื่อยบนผิวหนังอาจทำให้เกิดแผลเจ็บปวดที่มีแนวโน้มที่จะติดเชื้อและเกิดหนอง</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_CVI</LocID>                         
+        <Text>ภาวะหลอดเลือดดำบกพร่องเรื้อรัง</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_CVI_DESC</LocID>                         
+        <Text>Chronic venous insufficiency เกิดขึ้นเมื่อเส้นเลือดดำที่ขาไม่สามารถให้เลือดไหลกลับขึ้นไปยังหัวใจได้ตามปกติ ปกติแล้วลิ้นในเส้นเลือดดำจะช่วยให้เลือดไหลไปยังหัวใจ แต่เมื่อลิ้นเหล่านี้ทำงานได้ไม่ดี เลือดอาจไหลย้อนกลับได้ ซึ่งอาจทำให้เลือดสะสม (คั่ง) ที่ขา</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_ECCHYMOSIS</LocID>                         
+        <Text>จ้ำเลือด (Ecchymosis)</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_ECCHYMOSIS_DESC</LocID>                         
+        <Text>Ecchymosis คือการเปลี่ยนสีของผิวหนังที่เป็นผลมาจากเลือดออกใต้ผิวหนัง ต่างจากรอยฟกช้ำทั่วไป Ecchymosis ไม่ได้เกิดจากการกระแทกหรือแรงกระทบที่ทำให้หลอดเลือดแตก</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_SF_THROMBOPHLEBITIS</LocID>                         
+        <Text>หลอดเลือดดำอักเสบผิวตื้น</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_SF_THROMBOPHLEBITIS_DESC</LocID>                         
+        <Text>Superficial thrombophlebitis (STP) หมายถึงการอักเสบและการเกิดลิ่มเลือดในเส้นเลือดดำตื้นที่อยู่ใต้ผิวหนัง มักเกิดขึ้นในเส้นเลือดขอดที่ขา แต่ก็สามารถเกิดขึ้นในเส้นเลือดดำตื้นใดๆ ก็ได้หลังจากการบาดเจ็บ</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_SKINBURN_MILD</LocID>                         
+        <Text>แผลไฟไหม้ระดับแรก</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_SKINBURN_MILD_DESC</LocID>                         
+        <Text>แผลไฟไหม้ระดับแรก (First-degree burn) หรือที่เรียกว่าแผลไฟไหม้ตื้น เป็นการบาดเจ็บที่ส่งผลต่อผิวหนังชั้นแรกเท่านั้น</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_CRP_EDEMA</LocID>                         
+        <Text>อาการบวมน้ำ</Text>  
+    </GameDBLocalizedString>
+
+    </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

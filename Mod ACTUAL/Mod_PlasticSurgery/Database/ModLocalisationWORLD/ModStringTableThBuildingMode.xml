@@ -1,0 +1,46 @@
+<Database>
+
+<GameDBStringTable ID="LOC_TH_ADDON_PLAS_BUILDING_MODE">
+<LanguageCode>th</LanguageCode>
+<LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+<Contributors>
+<Name>TonWazza</Name>
+</Contributors>
+
+<LocalizedStrings>
+    <GameDBLocalizedString>      
+        <LocID>ROOM_TYPE_PLAS_OFFICE</LocID>                            
+        <Text>ห้องตรวจศัลยกรรมตกแต่ง</Text>   
+    </GameDBLocalizedString>
+    <GameDBLocalizedString>      
+        <LocID>ROOM_TYPE_PLAS_OFFICE_DESCRIPTION</LocID>                
+        <Text>ห้องตรวจสำหรับแพทย์เฉพาะทางด้านศัลยกรรมตกแต่ง ความต้องการบุคลากร:\n1x แพทย์</Text>  
+    </GameDBLocalizedString>
+
+    <GameDBLocalizedString>
+        <LocID>ROOM_TYPE_INPATIENT_PLAS_OFFICE</LocID>                       
+        <Text>หน่วยวินิจฉัยโรค</Text>   
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>ROOM_TYPE_INPATIENT_PLAS_OFFICE_DESC</LocID>                   
+        <Text>หน่วยวินิจฉัยโรคประจำแผนกศัลยกรรมตกแต่ง ให้บริการการตรวจและรักษาสำหรับผู้ป่วยใน \n\nความต้องการบุคลากรขั้นต่ำ: \n1x แพทย์ \n(บุคลากรประจำอยู่ในห้องพักแพทย์เวร)</Text>
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>OBJECT_DECAL_MOD_PLAS</LocID>               
+        <Text>ศัลยกรรมตกแต่ง A</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>OBJECT_DECAL_PLAS_DESC</LocID>       
+        <Text>ลวดลายติดผนัง</Text>  
+    </GameDBLocalizedString>
+
+	<!-- ### ### -->
+	<!-- ######################################## Content for VX Added Below ######################################## -->
+	<!-- ### ### -->
+
+    </LocalizedStrings>
+</GameDBStringTable>
+</Database>

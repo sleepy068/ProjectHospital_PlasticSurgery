@@ -1,0 +1,57 @@
+<Database>
+    <GameDBStringTable ID="LOC_TH_ADDON_PLASTICS_TREATMENTS">
+    <LanguageCode>th</LanguageCode>
+    <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+    <Contributors>
+    <Name>TonWazza</Name>
+    </Contributors>
+
+    <LocalizedStrings>
+    <GameDBLocalizedString>      
+        <LocID>TRT_CRP_HOSPITALISEDMONTIOR_L1</LocID>                         
+        <Text>การเฝ้าระวังอาการในโรงพยาบาล (ระยะสั้น)</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>TRT_CRP_HOSPITALISEDMONTIOR_L1_DESC</LocID>                         
+        <Text>การเฝ้าระวังและดูอาการของผู้ป่วยจากในโรงพยาบาล ช่วยให้สามารถตอบสนองต่อปัญหาต่างๆ ได้รวดเร็วยิ่งขึ้น และจำเป็นสำหรับภาวะแทรกซ้อนที่มีความเสี่ยงสูงที่อาจเกิดขึ้นจากอาการหรือการรักษา</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>TRT_CRP_HOSPITALISEDMONTIOR_L2</LocID>                         
+        <Text>การเฝ้าระวังอาการในโรงพยาบาล (ระยะปานกลาง)</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>TRT_CRP_HOSPITALISEDMONTIOR_L2_DESC</LocID>                         
+        <Text>การเฝ้าระวังและดูอาการของผู้ป่วยจากในโรงพยาบาล ช่วยให้สามารถตอบสนองต่อปัญหาต่างๆ ได้รวดเร็วยิ่งขึ้น และจำเป็นสำหรับภาวะแทรกซ้อนที่มีความเสี่ยงสูงที่อาจเกิดขึ้นจากอาการหรือการรักษา</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>TRT_CRP_HOSPITALISEDMONTIOR_L3</LocID>                         
+        <Text>การเฝ้าระวังอาการในโรงพยาบาล (ระยะยาว)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>TRT_CRP_HOSPITALISEDMONTIOR_L3_DESC</LocID>                         
+        <Text>การเฝ้าระวังและดูอาการของผู้ป่วยจากในโรงพยาบาล ช่วยให้สามารถตอบสนองต่อปัญหาต่างๆ ได้รวดเร็วยิ่งขึ้น และจำเป็นสำหรับภาวะแทรกซ้อนที่มีความเสี่ยงสูงที่อาจเกิดขึ้นจากอาการหรือการรักษา</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>TRT_CRP_SHALLOWDEBRISREMOVAL</LocID>                         
+        <Text>การกำจัดสิ่งแปลกปลอมระดับตื้น</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>TRT_CRP_SHALLOWDEBRISREMOVAL_DESC</LocID>                         
+        <Text>การกำจัดเศษซากและวัตถุแปลกปลอมที่ฝังอยู่ในผิวหนังหรือใบหน้าของผู้ป่วยในระดับตื้น และการฆ่าเชื้อบริเวณที่ได้รับผลกระทบ</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>TRT_CRP_DIURETICS</LocID>                         
+        <Text>ยาขับปัสสาวะ</Text>  
+    </GameDBLocalizedString>
+        
+    </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

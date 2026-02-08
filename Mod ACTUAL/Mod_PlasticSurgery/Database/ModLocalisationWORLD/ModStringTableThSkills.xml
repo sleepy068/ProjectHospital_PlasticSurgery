@@ -1,0 +1,41 @@
+<Database>
+    <GameDBStringTable ID="LOC_TH_ADDON_PLASTICS_SKILLS">
+    
+    <LanguageCode>th</LanguageCode>
+    <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+    <Contributors>
+        <Name>TonWazza</Name>
+    </Contributors>
+        
+    <LocalizedStrings>
+
+	<!-- ### Skills ### -->
+            
+	<GameDBLocalizedString>      
+        <LocID>DPT_PLASTICS</LocID>                                         
+        <Text>ศัลยกรรมตกแต่ง</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SKILL_DOC_SPEC_PLAS</LocID>                   
+        <Text>ศัลยแพทย์ตกแต่ง (ที่ปรึกษา)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SKILL_DOC_SPEC_PLAS_DESCR</LocID>                   
+        <Text>ศัลยกรรมตกแต่งช่วยให้เข้าถึงหัตถการเฉพาะทางสำหรับการตรวจหา วินิจฉัย และรักษาภาวะต่างๆ ที่อาจจำเป็นต้องใช้ศัลยกรรมเพื่อการเสริมสร้าง (Reconstructive) หรือดำเนินการตามคำขอศัลยกรรมเพื่อความงาม</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SKILL_DOC_SPEC_PLAS_SURGERY</LocID>                   
+        <Text>ศัลยแพทย์ตกแต่งเฉพาะทาง</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SKILL_DOC_SPEC_PLAS_SURGERY_DESCR</LocID>                   
+        <Text>ศัลยแพทย์ตกแต่งคือแพทย์ผู้เชี่ยวชาญด้านการศัลยกรรมเพื่อความงามแบบรุกล้ำ (เพื่อความสวยงามหรือภาพลักษณ์) และศัลยกรรมเพื่อการเสริมสร้าง</Text>  
+    </GameDBLocalizedString>
+
+    </LocalizedStrings> 
+    </GameDBStringTable>
+</Database>

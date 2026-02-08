@@ -1,0 +1,342 @@
+<Database>
+    <GameDBStringTable ID="LOC_TH_ADDON_PLASTICS_SYMPTOMS_MAIN">
+    <LanguageCode>th</LanguageCode>
+    <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+    <Contributors>
+    <Name>TonWazza</Name>
+    </Contributors>
+
+    <LocalizedStrings>
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C001_V2</LocID>                                             
+        <Text>คำขอของผู้ป่วย (เสริมหน้าอก)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C001_DESC</LocID>                   
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการเสริมหน้าอกเพื่อความงาม เพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+    </GameDBLocalizedString>    
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C002_V2</LocID>                                             
+        <Text>คำขอของผู้ป่วย (ดูดไขมัน)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C002_DESC</LocID>                   
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการดูดไขมันเพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+    </GameDBLocalizedString>    
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C003_V2</LocID>                                             
+        <Text>คำขอของผู้ป่วย (เสริมจมูก)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C003_DESC</LocID>                   
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการเสริมจมูกเพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+    </GameDBLocalizedString>
+
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C004_V2</LocID>                                             
+        <Text>คำขอของผู้ป่วย (ปลูกผม)</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C004_DESC</LocID>                   
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการปลูกผมเพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C005</LocID>                         
+        <Text>คำขอของผู้ป่วย (ลอกหน้าด้วยสารเคมี)</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C005_DESC</LocID>                   
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการลอกหน้าด้วยสารเคมี (Chemical Peel) เพื่อปรับปรุงรูปลักษณ์ของตนเอง ผู้ป่วยประสงค์จะทำการลอกแบบอ่อนๆ เท่านั้น เพื่อไม่ให้เป็นภาระต่อผิวหน้ามากเกินไปหรือไม่ต้องใช้เวลารักษานาน</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C006</LocID>                                                
+        <Text>คำขอของผู้ป่วย (รักษาเส้นเลือดฝอยขยายตัว)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C006_DESC</LocID>                   
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการทำหัตถการเพื่อกำจัดเส้นเลือดฝอยขยายตัว (Spider Veins หรือ Telangiectasias) ออกจากส่วนต่างๆ ของร่างกายเพื่อปรับปรุงรูปลักษณ์</Text>  
+    </GameDBLocalizedString>
+
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C007</LocID>                         
+        <Text>คำขอของผู้ป่วย (ปรับสภาพผิวด้วยโบท็อกซ์)</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C007_DESC</LocID>                   
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการฉีดโบท็อกซ์เพื่อช่วยปรับสภาพผิวและปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C008</LocID>                         
+        <Text>คำขอของผู้ป่วย (ปรับสภาพผิวด้วยฟิลเลอร์)</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C008_DESC</LocID>                   
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการฉีดฟิลเลอร์เพื่อช่วยปรับสภาพผิวและปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C009</LocID>                         
+        <Text>คำขอของผู้ป่วย (ฟื้นฟูผิว)</Text>  
+    </GameDBLocalizedString>
+            
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C009_DESC</LocID>                   
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการทำเลเซอร์ผลัดเซลล์ผิว (Laser resurfacing) เพื่อช่วยฟื้นฟูผิวและปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R001</LocID>                                                
+        <Text>ภาวะหนังตากระตุก (การประเมิน)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R001_DESC</LocID>                   
+        <Text>ไม่มีการทดสอบเฉพาะสำหรับภาวะหนังตากระตุก (Blepharospasm) การวินิจฉัยอาศัยการตรวจร่างกาย ประวัติการรักษา และการตัดสาเหตุอื่นๆ ที่เป็นไปได้ออกไป แพทย์ได้ประเมินอาการของผู้ป่วยและสรุปว่าการวินิจฉัยคือภาวะหนังตากระตุกจริงๆ</Text>  
+    </GameDBLocalizedString>
+
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R002_V2</LocID>                                             
+        <Text>ตาเหล่</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R002_DESC</LocID>                   
+        <Text>ได้รับการยืนยันแล้วว่าผู้ป่วยมีภาวะตาเหล่ (Misaligned eyes)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R003</LocID>                                                
+        <Text>เส้นเลือดขอดแบบตื้น</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R003_DESC</LocID>                   
+        <Text>ผู้ป่วยมีเส้นเลือดขอด แต่โชคดีที่ดูเหมือนจะเป็นแบบตื้น (Simple) และไม่มีสัญญาณหรืออาการของโรคร้ายแรง เส้นเลือดขอดที่ก่อให้เกิดอาการไม่ควรถูกเพิกเฉย และควรรักษาทันทีเพื่อป้องกันความไม่สบายตัวของผู้ป่วยและช่วยป้องกันปัญหาในอนาคต</Text>  
+    </GameDBLocalizedString>
+
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R004_M</LocID>                                              
+        <Text>นิ้วมืองอถาวร</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R004_F</LocID>                                              
+        <Text>นิ้วมืองอถาวร</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R004_DESC</LocID>                   
+        <Text>นิ้วของผู้ป่วยงอเข้าหาฝ่ามืออย่างถาวร การงอเป็นผลมาจากเนื้อเยื่อหนาที่ดึงรั้งนิ้วให้อยู่ในตำแหน่งหดงอ การประเมินบ่งชี้ว่าสาเหตุคือโรคพังผืดฝ่ามือหดรั้ง (Dupuytren’s Contracture)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R005</LocID>                                                
+        <Text>แผลเป็นนูน (Hypertrophic Scarring)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R005_DESC</LocID>                   
+        <Text>ผู้ป่วยมาพบแพทย์ด้วยแผลเป็นนูนที่ทำให้เกิดความไม่สบายตัวในระดับหนึ่ง แม้ว่าแผลเป็นเหล่านี้จะไม่อันตรายหรือถึงแก่ชีวิต แต่การแก้ไขความไม่สบายตัวจะช่วยยกระดับคุณภาพชีวิตของผู้ป่วยได้</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R006</LocID>                                                
+        <Text>แผลเป็นคีลอยด์ (Keloid Scarring)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R006_DESC</LocID>                   
+        <Text>ผู้ป่วยมาพบแพทย์ด้วยแผลเป็นคีลอยด์ที่ทำให้เกิดความไม่สบายตัวในระดับหนึ่ง แม้ว่าแผลเป็นเหล่านี้จะไม่อันตรายหรือถึงแก่ชีวิต แต่การแก้ไขความไม่สบายตัวจะช่วยยกระดับคุณภาพชีวิตของผู้ป่วยได้</Text>  
+    </GameDBLocalizedString>    
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_RT001_V2</LocID>                                            
+        <Text>นิ้วมือขาด</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_RT001_DESC</LocID>                   
+        <Text>นิ้วมือข้างหนึ่งของผู้ป่วยถูกตัดขาดเนื่องจากอุบัติเหตุหรือการบาดเจ็บ</Text>  
+    </GameDBLocalizedString>
+                
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C010</LocID>                         
+        <Text>คำขอของผู้ป่วย (ยกกระชับหน้าอก)</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C010_DESC</LocID>                         
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการยกกระชับหน้าอก (Mastopexy) เพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C011</LocID>                         
+        <Text>คำขอของผู้ป่วย (ผ่าตัดผนังกั้นจมูก)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C011_DESC</LocID>                         
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการผ่าตัดผนังกั้นจมูก (Septoplasty) เพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU001</LocID>                         
+        <Text>ตรวจติดตามผล (เสริมหน้าอก)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU001_DESC</LocID>                         
+        <Text>ผู้ป่วยมีนัดหมายกับแพทย์เพื่อติดตามผลการผ่าตัดเสริมหน้าอกที่ทำไปก่อนหน้านี้</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU002</LocID>                         
+        <Text>ตรวจติดตามผล (เสริมจมูก)</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU002_DESC</LocID>                         
+        <Text>ผู้ป่วยมีนัดหมายกับแพทย์เพื่อติดตามผลการผ่าตัดเสริมจมูกที่ทำไปก่อนหน้านี้</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU003</LocID>                         
+        <Text>ตรวจติดตามผล (ดูดไขมัน)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU003_DESC</LocID>                         
+        <Text>ผู้ป่วยมีนัดหมายกับแพทย์เพื่อติดตามผลการผ่าตัดดูดไขมันที่ทำไปก่อนหน้านี้</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU004</LocID>                         
+        <Text>ตรวจติดตามผล (ยกกระชับหน้าอก)</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU004_DESC</LocID>                         
+        <Text>ผู้ป่วยมีนัดหมายกับแพทย์เพื่อติดตามผลการผ่าตัดยกกระชับหน้าอก (Mastopexy) ที่ทำไปก่อนหน้านี้</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU005</LocID>                         
+        <Text>ตรวจติดตามผล (ผ่าตัดผนังกั้นจมูก)</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU005_DESC</LocID>                         
+        <Text>ผู้ป่วยมีนัดหมายกับแพทย์เพื่อติดตามผลการผ่าตัดผนังกั้นจมูก (Septoplasty) ที่ทำไปก่อนหน้านี้</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R008</LocID>                         
+        <Text>ความผิดปกติของรูปจมูก</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R008_DESC</LocID>                         
+        <Text>ผู้ป่วยมีความผิดปกติของรูปจมูกที่ส่งผลต่อความสวยงามและการทำงานของจมูก</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_RT002</LocID>                         
+        <Text>นิ้วเท้าขาด</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_RT002_DESC</LocID>                         
+        <Text>นิ้วเท้าข้างหนึ่งของผู้ป่วยถูกตัดขาดเนื่องจากอุบัติเหตุหรือการบาดเจ็บ</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_RT003</LocID>                         
+        <Text>การบาดเจ็บที่ดวงตาที่ไม่สามารถซ่อมแซมได้</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_RT003_DESC</LocID>                         
+        <Text>ดวงตาข้างหนึ่งของผู้ป่วยเสียหายยับเยินจนเกือบหมดและไม่สามารถกู้คืนได้</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C012</LocID>                         
+        <Text>คำขอของผู้ป่วย (เสริมแก้ม)</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C012_DESC</LocID>                         
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการเสริมแก้ม (Cheek Augmentation) เพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C013</LocID>                         
+        <Text>คำขอของผู้ป่วย (ผ่าตัดไขมันหน้าท้อง)</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_C013_DESC</LocID>                         
+        <Text>ผู้ป่วยแจ้งความจำนงว่าต้องการผ่าตัดไขมันหน้าท้อง (Abdominoplasty) เพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text> 
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R009</LocID>                                                
+        <Text>เส้นเลือดขอดแบบซับซ้อน</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R009_DESC</LocID>                   
+        <Text>ผู้ป่วยมีเส้นเลือดขอด และโชคร้ายที่ดูเหมือนจะค่อนข้างซับซ้อนและมีสัญญาณหรืออาการของโรคร้ายแรง เส้นเลือดขอดที่ก่อให้เกิดอาการไม่ควรถูกเพิกเฉย และควรรักษาทันทีเพื่อป้องกันความไม่สบายตัวของผู้ป่วยและช่วยป้องกันปัญหาในอนาคต</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R010</LocID>                                                
+        <Text>แผลพุพองจากหลอดเลือดดำ</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R010_DESC</LocID>                   
+        <Text>ผู้ป่วยมีแผลผิดปกติที่เกิดจากหลอดเลือดดำเสียหาย</Text>  
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU006</LocID>                         
+        <Text>ตรวจติดตามผล (เสริมแก้ม)</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU006_DESC</LocID>                         
+        <Text>ผู้ป่วยมีนัดหมายกับแพทย์เพื่อติดตามผลการผ่าตัดเสริมแก้มที่ทำไปก่อนหน้านี้</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU007</LocID>                         
+        <Text>ตรวจติดตามผล (ผ่าตัดไขมันหน้าท้อง)</Text>   
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_CKU007_DESC</LocID>                         
+        <Text>ผู้ป่วยมีนัดหมายกับแพทย์เพื่อติดตามผลการผ่าตัดไขมันหน้าท้องที่ทำไปก่อนหน้านี้</Text>    
+    </GameDBLocalizedString>
+    
+    <GameDBLocalizedString>      
+        <LocID>SYM_PLAS_R009_V2</LocID>                                             
+        <Text>เส้นเลือดขอดแบบซับซ้อน</Text>  
+    </GameDBLocalizedString>
+    
+    </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

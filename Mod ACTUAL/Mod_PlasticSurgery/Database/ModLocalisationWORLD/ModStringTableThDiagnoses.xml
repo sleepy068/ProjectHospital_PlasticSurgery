@@ -1,0 +1,356 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+    <GameDBStringTable ID="LOC_TH_ADDON_PLASTICS_DIAGNOSES">
+    <LanguageCode>th</LanguageCode>
+    <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+    <Contributors>
+    <Name>TonWazza</Name>
+    </Contributors>
+
+    <LocalizedStrings>
+    
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_BREAST_01_V2</LocID>                         
+            <Text>การเสริมหน้าอก (เพื่อความงาม)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_BREAST_01_DESC</LocID>                         
+            <Text>การเสริมหน้าอก (Breast Augmentation หรือ Augmentation Mammoplasty) สามารถเป็นได้ทั้งหัตถการเพื่อความงาม (C) หรือหัตถการเพื่อการสร้างใหม่ (R) ในกรณีของการผ่าตัดสร้างเต้านมใหม่ ขั้นตอนนี้เกี่ยวข้องกับการใส่ถุงซิลิโคนเข้าไปใต้เต้านมเพื่อเพิ่มขนาด ชนิดและขนาดของซิลิโคนขึ้นอยู่กับปัจจัยต่างๆ เช่น ผู้ป่วยต้องการให้ใหญ่ขึ้นแค่ไหน สรีระหน้าอกเดิม ความหนาและความยืดหยุ่นของผิวหนัง และรูปร่างของผู้ป่วย ผู้ป่วยรายนี้แสดงความจำนงว่าต้องการเสริมหน้าอกเพื่อความงามเพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_STOMACH_01_V2</LocID>                         
+            <Text>การดูดไขมัน (เพื่อความงาม)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_STOMACH_01_DESC</LocID>                         
+            <Text>การดูดไขมัน (Liposuction หรือ Lipectomy) เป็นหัตถการที่ช่วยปรับปรุงสัดส่วนและรูปร่างของร่างกายโดยการกำจัดไขมันส่วนเกินออก เพื่อให้ร่างกายดูเพรียวและได้สัดส่วนมากขึ้น บริเวณที่นิยมทำ ได้แก่ ต้นขา ก้น หน้าท้อง ต้นแขน คอ และใต้คาง โดยปกติการดูดไขมันปริมาณน้อยสามารถทำแบบผู้ป่วยนอกได้ แต่หากดูดไขมันปริมาณมากจำเป็นต้องนอนพักในโรงพยาบาลเพื่อเฝ้าระวังระดับของเหลวในร่างกายและดูว่าผู้ป่วยมีภาวะแทรกซ้อนอื่นๆ หรือไม่ ผู้ป่วยรายนี้แสดงความจำนงว่าต้องการดูดไขมันเพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_NOSE_01_V2</LocID>                         
+            <Text>การเสริมจมูก (เพื่อความงาม)</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_NOSE_01_DESC</LocID>                         
+            <Text>การเสริมจมูก (Augmentation Rhinoplasty) คือการศัลยกรรมเพื่อเปลี่ยนรูปทรงของจมูก แรงจูงใจในการทำอาจเพื่อเปลี่ยนรูปลักษณ์ ปรับปรุงการหายใจ หรือทั้งสองอย่าง หัตถการนี้มักเรียกกันทั่วไปว่า "ทำจมูก" ขั้นตอนนี้ช่วยเสริมภาพลักษณ์ภายนอกของจมูก ซึ่งมักเกี่ยวข้องกับการแก้ไขจมูกที่ "เบี้ยว" หรือปรับจมูกที่มีขนาดใหญ่ให้ได้สัดส่วนกับใบหน้ามากขึ้น</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_EYE_01</LocID>                         
+            <Text>ภาวะหนังตากระตุก (เพื่อการรักษา)(เล็กน้อย)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_EYE_01_DESC</LocID>                         
+            <Text>Blepharospasm คือการหดเกร็งที่ผิดปกติของกล้ามเนื้อเปลือกตา มักหมายถึงภาวะ Benign Essential Blepharospasm (BEB) ซึ่งเป็นอาการที่เกิดขึ้นทั้งสองข้างและเป็นรูปแบบหนึ่งของโรคกล้ามเนื้อบิดเกร็งเฉพาะที่ นำไปสู่การปิดตาเป็นพักๆ ในกรณีที่มีอาการเพียงเล็กน้อย การฉีดโบทูลินัมทอกซิน (Botulinum Toxin) เป็นวิธีรักษาที่ยอมรับกันทั่วไป ยาจะเริ่มออกฤทธิ์ทำให้กล้ามเนื้อเป็นอัมพาตภายใน 1-4 วัน และจะเห็นผลเต็มที่ภายในประมาณหนึ่งสัปดาห์ โดยฤทธิ์มักคงอยู่ได้นานถึง 4 เดือน</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_EYE_02_V2</LocID>                         
+            <Text>โรคตาเหล่ (เพื่อการรักษา)</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_EYE_02_DESC</LocID>                         
+            <Text>โรคตาเหล่ (Strabismus) คือภาวะที่ตาทั้งสองข้างไม่มองไปในทิศทางเดียวกันเมื่อมองวัตถุ ตาที่โฟกัสวัตถุอาจสลับข้างกันได้ ภาวะนี้อาจเกิดขึ้นเป็นครั้งคราวหรือเป็นตลอดเวลา หากเป็นในช่วงวัยเด็กเป็นเวลานาน อาจส่งผลให้เกิดภาวะตาขี้เกียจ (Amblyopia) หรือสูญเสียการรับรู้ความลึก แม้ว่ามักจะถือว่าเป็นโรคในวัยเด็ก แต่อุบัติการณ์ของโรคตาเหล่ในผู้ใหญ่ก็พบได้สูงเช่นกัน</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_HAIR_01_V2</LocID>                         
+            <Text>การปลูกผม (เพื่อความงาม)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_HAIR_01_DESC</LocID>                         
+            <Text>การปลูกผม (Hair transplantation) เป็นเทคนิคทางศัลยกรรมที่ย้ายรากผมจากส่วนหนึ่งของร่างกาย เรียกว่า 'บริเวณผู้ให้' (Donor site) ไปยังส่วนที่ศีรษะล้านหรือผมบาง เรียกว่า 'บริเวณผู้รับ' (Recipient site) เทคนิคนี้ใช้รักษาอาการศีรษะล้านแบบผู้ชายเป็นหลัก ในขั้นตอนที่มีการรุกล้ำน้อยที่สุดนี้ กราฟท์ที่มีรากผมซึ่งมีความทนทานทางพันธุกรรมต่อการศีรษะล้าน (เช่น บริเวณท้ายทอย) จะถูกย้ายไปปลูกที่หนังศีรษะที่ล้าน การปลูกผมยังสามารถใช้เพื่อฟื้นฟูขนตา คิ้ว หนวดเครา ขนหน้าอก ขนในที่ลับ และเพื่อเติมเต็มรอยแผลเป็นที่เกิดจากอุบัติเหตุหรือการศัลยกรรม เช่น การดึงหน้า หรือการปลูกผมครั้งก่อน</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_SKIN_01</LocID>                         
+            <Text>การลอกหน้าด้วยสารเคมี (แบบอ่อน)(เพื่อความงาม)</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_SKIN_01_DESC</LocID>                         
+            <Text>Chemical peel เป็นรูปแบบการรักษาที่ใช้สารละลายเคมีเพื่อแก้ไขจุดด่างดำ รอยเหี่ยวย่น และสีผิวที่ไม่สม่ำเสมอ ในการรักษานี้ สารละลายเคมีจะถูกทาลงบนผิวหนัง ซึ่งทำให้ผิวหนัง "พองตัว" และลอกออกในที่สุด ผิวใหม่มักจะเรียบเนียนและมีรอยเหี่ยวย่นน้อยกว่าผิวเดิม</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_VEIN_01</LocID>                         
+            <Text>เส้นเลือดขอด (แบบตื้น)(เพื่อการรักษา)</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_VEIN_01_DESC</LocID>                         
+            <Text>เส้นเลือดขอดคือเส้นเลือดดำที่บิดเบี้ยวและขยายใหญ่ขึ้น เส้นเลือดดำตื้นๆ ทุกเส้นสามารถเป็นเส้นเลือดขอดได้ แต่พบบ่อยที่สุดที่ขา สำหรับผู้ป่วยจำนวนมาก เส้นเลือดขอดเป็นเพียงความกังวลด้านความงาม แต่สำหรับผู้ป่วยรายอื่น เส้นเลือดขอดอาจทำให้เกิดอาการปวดเมื่อย ไม่สบายตัว และอาจนำไปสู่ปัญหาร้ายแรงอื่นๆ ได้</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_VEIN_01</LocID>                         
+            <Text>เส้นเลือดฝอยขยายตัว (Spider Veins)(เพื่อความงาม)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_VEIN_01_DESC</LocID>                         
+            <Text>Telangiectasias หรือที่รู้จักกันทั่วไปในชื่อ Spider Veins (เส้นเลือดแมงมุม) คือกลุ่มของหลอดเลือดเล็กๆ ที่พัฒนาใกล้กับผิวหนัง มักมีสีแดง น้ำเงิน หรือม่วง และมีลักษณะคล้ายใยแมงมุม พบบ่อยที่ใบหน้าและขา</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_HAND_01_M</LocID>                         
+            <Text>โรคพังผืดฝ่ามือหดรั้ง (แบบไม่ซับซ้อน)(เพื่อการรักษา)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_HAND_01_F</LocID>                         
+            <Text>โรคพังผืดฝ่ามือหดรั้ง (แบบไม่ซับซ้อน)(เพื่อการรักษา)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_HAND_01_DESC</LocID>                         
+            <Text>Dupuytren's contracture หรือ Palmar fibromatosis มีลักษณะคือความผิดปกติของมือที่ข้อต่อของนิ้วหนึ่งนิ้วหรือมากกว่าไม่สามารถเหยียดตรงได้เต็มที่ ซึ่งมักพัฒนาขึ้นอย่างช้าๆ เป็นเวลาหลายปี ภาวะนี้ส่งผลต่อชั้นเนื้อเยื่อที่อยู่ใต้ผิวหนังของฝ่ามือ ก้อนเนื้อเยื่อจะก่อตัวขึ้นใต้ผิวหนัง และกลายเป็นเชือกหนาที่สามารถดึงนิ้วให้งอลงได้ ในกรณีที่ไม่ซับซ้อน ภาวะนี้อาจแก้ไขได้ง่ายโดยไม่ต้องผ่าตัด</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_SCAR_01</LocID>                         
+            <Text>แผลเป็นนูน (แบบไม่ซับซ้อน)(เพื่อการรักษา)</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_SCAR_01_DESC</LocID>                         
+            <Text>Hypertrophic scar คือแผลเป็นที่หนา กว้าง และมักนูนขึ้น ซึ่งเกิดขึ้นบริเวณที่ผิวหนังได้รับบาดเจ็บ แผลเป็นเป็นเรื่องปกติในกระบวนการรักษาบาดแผล แต่แผลเป็นนูนเป็นผลจากการตอบสนองที่ผิดปกติต่อการบาดเจ็บ แผลเป็นเหล่านี้มักเป็นภาวะแทรกซ้อนจากการถูกไฟไหม้ แต่ก็สามารถเกิดจากการเจาะหู ของมีคมบาด หรือแม้แต่สิว แผลเป็นนูนคล้ายกับคีลอยด์แต่มักรุนแรงน้อยกว่าและไม่เติบโตเกินขอบเขตของแผลเดิม แผลเป็นเหล่านี้ไม่อันตรายถึงชีวิต แต่อาจทำให้คันและเจ็บได้ แต่ส่วนใหญ่มักเป็นปัญหาด้านความงาม</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_SCAR_02</LocID>                         
+            <Text>แผลเป็นคีลอยด์ (แบบไม่ซับซ้อน)(เพื่อการรักษา)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_SCAR_02_DESC</LocID>                         
+            <Text>Keloids คือแผลเป็นชนิดนูน เกิดขึ้นบริเวณที่ผิวหนังหายดีแล้วหลังจากการบาดเจ็บ สามารถเติบโตจนมีขนาดใหญ่กว่าแผลเดิมที่เป็นสาเหตุได้มาก สิ่งที่ทำให้เกิดแผลเป็นได้ ก็สามารถทำให้เกิดคีลอยด์ได้เช่นกัน รวมถึงแผลไฟไหม้ ของมีคมบาด หรือสิวรุนแรง</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_T_REPLANT_01_V2</LocID>                         
+            <Text>นิ้วมือขาด (ตัดขาดเรียบ)(เพื่อการรักษา)(นำชิ้นส่วนมา)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_T_REPLANT_01_DESC</LocID>                         
+            <Text>Traumatic amputation คือการสูญเสียอวัยวะส่วนหนึ่งของร่างกายอันเป็นผลมาจากอุบัติเหตุหรือการบาดเจ็บ ในกรณีนี้ นิ้วมือของผู้ป่วยถูกตัดขาดและต้องการการดูแลทางการแพทย์ทันทีเพื่อพยายามฟื้นฟูการทำงานของมือและนิ้ว การบาดเจ็บแบบตัดขาดเรียบ (Guillotine-type) ที่เนื้อเยื่อโดยรอบบาดเจ็บน้อยมีการพยากรณ์โรคหลังการต่อคืนดีที่สุด ด้วยอัตราความสำเร็จ 77% ส่วนการบาดเจ็บจากการบดทับรุนแรง การบาดเจ็บหลายระดับ และการดึงกระชาก มักทำให้เนื้อเยื่ออ่อนเสียหายจนไม่สามารถต่อหลอดเลือดที่จำเป็นได้ ทำให้การต่อคืนเป็นไปไม่ได้ ในกรณีเช่นนี้ อาจจำเป็นต้องตัดแต่งตอของนิ้ว ผู้ป่วยมาถึงโรงพยาบาลพร้อมกับชิ้นส่วนอวัยวะที่ขาด (HB)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_SKIN_02</LocID>                         
+            <Text>การปรับสภาพผิว (ฉีดโบท็อกซ์)(เพื่อความงาม)</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_SKIN_02_DESC</LocID>                         
+            <Text>การฉีดโบท็อกซ์ (Botox) มีชื่อเสียงหลักในด้านความสามารถในการลดเลือนริ้วรอยบนใบหน้า โบท็อกซ์จะปิดกั้นสัญญาณเคมีบางอย่างจากเส้นประสาท โดยส่วนใหญ่เป็นสัญญาณที่ทำให้กล้ามเนื้อหดตัว การใช้ที่พบบ่อยที่สุดคือเพื่อคลายกล้ามเนื้อใบหน้าชั่วคราวซึ่งเป็นสาเหตุของริ้วรอยที่หน้าผากและรอบดวงตา</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_SKIN_03</LocID>                         
+            <Text>การปรับสภาพผิว (ฉีดฟิลเลอร์)(เพื่อความงาม)</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_SKIN_03_DESC</LocID>                         
+            <Text>Dermal fillers หรือสารเติมเต็มเนื้อเยื่ออ่อน เป็นวัสดุที่ฉีดเข้าไปใต้ผิวหนังเพื่อลดเลือนริ้วรอยหรือร่องลึกบนใบหน้า และยังสามารถใช้เพื่อปรับรูปหน้าโดยการเพิ่มปริมาตรให้แก้มและริมฝีปาก และเพื่อปรับปรุงลักษณะของแผลเป็น ผลิตภัณฑ์ฟิลเลอร์สามารถย่อยสลายได้ทางชีวภาพ ซึ่งหมายความว่าจะหายไปเองตามธรรมชาติในร่างกาย อายุการใช้งานของฟิลเลอร์อาจแตกต่างกันไป ขึ้นอยู่กับยี่ห้อ ความหนาแน่น และบริเวณที่รักษา</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_SKIN_04</LocID>                         
+            <Text>การฟื้นฟูผิว (เลเซอร์ผลัดเซลล์ผิว)(เพื่อความงาม)</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_SKIN_04_DESC</LocID>                         
+            <Text>Laser resurfacing เป็นหัตถการฟื้นฟูใบหน้าที่ใช้เลเซอร์เพื่อปรับปรุงลักษณะผิวหรือรักษาจุดบกพร่องเล็กน้อยบนใบหน้า สามารถลดเลือนริ้วรอยตื้นๆ บนใบหน้าได้ นอกจากนี้ยังสามารถรักษาการสูญเสียความตึงตัวของผิวและปรับปรุงผิวพรรณของผู้ป่วยที่มีแผลเป็นหรือความเสียหายจากแสงแดด แต่ไม่สามารถกำจัดผิวหนังส่วนเกินหรือผิวที่หย่อนคล้อยได้</Text>  
+        </GameDBLocalizedString>
+        
+	<!-- ================================================== -->
+	<!-- ============= Plastic Surgery v1.0.6 ============= -->
+	<!-- ================================================== -->
+
+    	<GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_BREAST_02</LocID>                         
+            <Text>การยกกระชับหน้าอก (Mastopexy)(เพื่อความงาม)</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_BREAST_02_DESC</LocID>                         
+            <Text>Breast lift หรือ Mastopexy เป็นหัตถการที่ยกและทำให้หน้าอกกระชับขึ้น ขั้นตอนการผ่าตัดยังปรับรูปร่างของหัวนมและลานนม และยกหน้าอกให้สูงขึ้นบนผนังหน้าอก ผู้ป่วยรายนี้แสดงความจำนงว่าต้องการยกกระชับหน้าอกเพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_NOSE_02</LocID>                         
+            <Text>การผ่าตัดผนังกั้นจมูก (Septoplasty)(เพื่อความงาม)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_NOSE_02_DESC</LocID>                         
+            <Text>Septoplasty หรือการซ่อมแซมผนังกั้นจมูก เป็นหัตถการแก้ไขเพื่อทำให้ผนังกั้นจมูกที่คดเอียงตรงขึ้น ผนังกั้นจมูกคือส่วนที่กั้นระหว่างโพรงจมูกสองข้าง ในอุดมคติผนังกั้นควรอยู่ตรงกลางจมูก ผู้ป่วยรายนี้แสดงความจำนงว่าต้องการทำ Septoplasty เพื่อปรับปรุงรูปลักษณ์ของตนเอง</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_T_REPLANT_02</LocID>                         
+            <Text>นิ้วเท้าขาด (ตัดขาดเรียบ)(เพื่อการรักษา)(นำชิ้นส่วนมา)</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_T_REPLANT_02_DESC</LocID>                         
+            <Text>Traumatic amputation คือการสูญเสียอวัยวะส่วนหนึ่งของร่างกายอันเป็นผลมาจากอุบัติเหตุหรือการบาดเจ็บ ในกรณีนี้ นิ้วเท้าของผู้ป่วยถูกตัดขาดและต้องการการดูแลทางการแพทย์ทันทีเพื่อพยายามฟื้นฟูการทำงานของเท้าและนิ้วเท้า การบาดเจ็บแบบตัดขาดเรียบ (Guillotine-type) ที่เนื้อเยื่อโดยรอบบาดเจ็บน้อยมีการพยากรณ์โรคหลังการต่อคืนดีที่สุด ด้วยอัตราความสำเร็จ 77% ส่วนการบาดเจ็บจากการบดทับรุนแรง การบาดเจ็บหลายระดับ และการดึงกระชาก มักทำให้เนื้อเยื่ออ่อนเสียหายจนไม่สามารถต่อหลอดเลือดที่จำเป็นได้ ทำให้การต่อคืนเป็นไปไม่ได้ ในกรณีเช่นนี้ อาจจำเป็นต้องตัดแต่งตอของนิ้ว ผู้ป่วยมาถึงโรงพยาบาลพร้อมกับชิ้นส่วนอวัยวะที่ขาด (HB)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_NOSE_01</LocID>                         
+            <Text>ความผิดปกติของรูปจมูก</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_NOSE_01_DESC</LocID>                         
+            <Text>จมูกของผู้ป่วยมีความบกพร่องทางโครงสร้างซึ่งก่อให้เกิดปัญหาทั้งทางด้านความงามและการทำงาน</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_01</LocID>                         
+            <Text>ตรวจติดตามผล: การเสริมหน้าอก (เพื่อความงาม)</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_01_DESC</LocID>                         
+            <Text>ผู้ป่วยมีนัดติดตามผลกับแพทย์ เป็นการติดตามผลหลังการผ่าตัดเสริมหน้าอก แพทย์จะตรวจแผล เปลี่ยนวัสดุปิดแผล และตัดไหม ลวดเย็บ กาว หรือท่อระบายเลือดที่ยังอยู่ออกหากจำเป็น</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_02</LocID>                         
+            <Text>ตรวจติดตามผล: การเสริมจมูก (เพื่อความงาม)</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_02_DESC</LocID>                         
+            <Text>ผู้ป่วยมีนัดติดตามผลกับแพทย์ เป็นการติดตามผลหลังการผ่าตัดเสริมจมูก แพทย์จะตรวจแผล เปลี่ยนวัสดุปิดแผล และตัดไหม ลวดเย็บ กาว หรือท่อระบายเลือดที่ยังอยู่ออกหากจำเป็น</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_03</LocID>                         
+            <Text>ตรวจติดตามผล: การดูดไขมัน (เพื่อความงาม)</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_03_DESC</LocID>                         
+            <Text>ผู้ป่วยมีนัดติดตามผลกับแพทย์ เป็นการติดตามผลหลังการผ่าตัดดูดไขมัน แพทย์จะตรวจแผล เปลี่ยนวัสดุปิดแผล และตัดไหม ลวดเย็บ กาว หรือท่อระบายเลือดที่ยังอยู่ออกหากจำเป็น</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_T_BLAST_01</LocID>                         
+            <Text>การบาดเจ็บที่ดวงตาจากแรงระเบิด</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_T_BLAST_01_DESC</LocID>                         
+            <Text>Blast-related ocular trauma ประกอบด้วยกลุ่มการบาดเจ็บแบบเจาะทะลุและแรงกระแทกต่อดวงตาและโครงสร้างรอบดวงตาที่เกิดจากการระเบิดของวัตถุระเบิด ดวงตาของผู้ป่วยเสียหายเกือบทั้งหมดทำให้การฟื้นฟูเป็นไปไม่ได้และสถานการณ์อยู่ในขั้นวิกฤต จำเป็นต้องได้รับการดูแลและผ่าตัดฉุกเฉินเพื่อป้องกันการเสียเลือดเพิ่มเติม การติดเชื้อ และความเสียหายต่อเนื้อเยื่อโดยรอบ</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_04</LocID>                         
+            <Text>ตรวจติดตามผล: การยกกระชับหน้าอก (เพื่อความงาม)</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_04_DESC</LocID>                         
+            <Text>ผู้ป่วยมีนัดติดตามผลกับแพทย์ เป็นการติดตามผลหลังการผ่าตัดยกกระชับหน้าอก (Mastopexy) แพทย์จะตรวจแผล เปลี่ยนวัสดุปิดแผล และตัดไหม ลวดเย็บ กาว หรือท่อระบายเลือดที่ยังอยู่ออกหากจำเป็น</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_05</LocID>                         
+            <Text>ตรวจติดตามผล: การผ่าตัดผนังกั้นจมูก (เพื่อความงาม)</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_05_DESC</LocID>                         
+            <Text>ผู้ป่วยมีนัดติดตามผลกับแพทย์ เป็นการติดตามผลหลังการผ่าตัดผนังกั้นจมูก (Septoplasty) แพทย์จะตรวจแผล เปลี่ยนวัสดุปิดแผล และตัดไหม ลวดเย็บ กาว หรือท่อระบายเลือดที่ยังอยู่ออกหากจำเป็น</Text> 
+        </GameDBLocalizedString>
+        
+		<!-- ================================================== -->
+		<!-- ============= Plastic Surgery v1.0.7 ============= -->
+		<!-- ================================================== -->
+
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHEEK_01</LocID>                         
+            <Text>การเสริมแก้ม (เพื่อความงาม)</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHEEK_01_DESC</LocID>                         
+            <Text>Cheek augmentation หรือการใส่ซิลิโคนเสริมแก้ม ทำเพื่อเพิ่มโหนกแก้มหรือทำให้แก้มดูอิ่มเอิบขึ้น เช่นเดียวกับศัลยกรรมพลาสติกประเภทอื่นๆ การเสริมแก้มสามารถทำให้ใบหน้าของผู้ป่วยดูอ่อนเยาว์ขึ้นหรือปรับสมดุลโครงสร้างใบหน้าได้</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_TUMMY_01</LocID>                         
+            <Text>การผ่าตัดไขมันหน้าท้อง (Tummy Tuck)(เพื่อความงาม)</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_TUMMY_01_DESC</LocID>                         
+            <Text>Abdominoplasty หรือ "Tummy Tuck" เป็นหัตถการศัลยกรรมความงามเพื่อทำให้หน้าท้องแบนราบและกระชับขึ้น การผ่าตัดเกี่ยวข้องกับการกำจัดผิวหนังและไขมันส่วนเกินออกจากหน้าท้องส่วนกลางและส่วนล่าง เพื่อกระชับกล้ามเนื้อและพังผืดของผนังหน้าท้อง</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_VEIN_02</LocID>                         
+            <Text>เส้นเลือดขอด (ซับซ้อน)(เพื่อการรักษา)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_VEIN_02_DESC</LocID>                         
+            <Text>เส้นเลือดขอดคือเส้นเลือดดำที่บิดเบี้ยวและขยายใหญ่ขึ้น เส้นเลือดดำตื้นๆ ทุกเส้นสามารถเป็นเส้นเลือดขอดได้ แต่พบบ่อยที่สุดที่ขา สำหรับผู้ป่วยจำนวนมาก เส้นเลือดขอดเป็นเพียงความกังวลด้านความงาม แต่สำหรับผู้ป่วยรายอื่น เส้นเลือดขอดอาจทำให้เกิดอาการปวดเมื่อย ไม่สบายตัว และอาจนำไปสู่ปัญหาร้ายแรงอื่นๆ ได้</Text> 
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_VEIN_03</LocID>                         
+            <Text>แผลพุพองจากหลอดเลือดดำ (เพื่อการรักษา)</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_VEIN_03_DESC</LocID>                         
+            <Text>Venous ulcers หรือแผลจากเส้นเลือดขอด เป็นผลจากการทำงานผิดปกติของลิ้นหลอดเลือดดำทำให้ความดันในหลอดเลือดดำเพิ่มขึ้น มักเกิดขึ้นที่ขาช่วงล่าง ความดันหลอดเลือดดำสูงทำให้เลือดคั่งเมื่อไม่สามารถสูบฉีดกลับสู่หัวใจได้อย่างมีประสิทธิภาพ หรือที่เรียกว่าภาวะหลอดเลือดดำบกพร่อง ในที่สุดเนื้อเยื่อจะตายเนื่องจากการขาดออกซิเจนและสารอาหาร โดยเฉพาะอย่างยิ่งการสะสมของโปรตีนไฟบรินรอบเส้นเลือดฝอย ซึ่งปกติมีบทบาทในการแข็งตัวของเลือด จะขัดขวางไม่ให้ออกซิเจนและสารอาหารไหลเวียนไปยังกล้ามเนื้อและเนื้อเยื่อโดยรอบ นำไปสู่การตายของเนื้อเยื่อและการเกิดแผลพุพอง</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_06</LocID>                         
+            <Text>ตรวจติดตามผล: การเสริมแก้ม (เพื่อความงาม)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_06_DESC</LocID>                         
+            <Text>ผู้ป่วยมีนัดติดตามผลกับแพทย์ เป็นการติดตามผลหลังการผ่าตัดเสริมแก้ม แพทย์จะตรวจแผล เปลี่ยนวัสดุปิดแผล และตัดไหม ลวดเย็บ กาว หรือท่อระบายเลือดที่ยังอยู่ออกหากจำเป็น</Text>  
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_07</LocID>                         
+            <Text>ตรวจติดตามผล: การผ่าตัดไขมันหน้าท้อง (เพื่อความงาม)</Text>    
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_C_CHECKUP_07_DESC</LocID>                         
+            <Text>ผู้ป่วยมีนัดติดตามผลกับแพทย์ เป็นการติดตามผลหลังการผ่าตัดไขมันหน้าท้อง (Abdominoplasty) แพทย์จะตรวจแผล เปลี่ยนวัสดุปิดแผล และตัดไหม ลวดเย็บ กาว หรือท่อระบายเลือดที่ยังอยู่ออกหากจำเป็น</Text>  
+        </GameDBLocalizedString>
+
+		<!-- ================================================== -->
+		<!-- ============= Plastic Surgery v1.0.8 ============= -->
+		<!-- ================================================== -->
+        
+        <GameDBLocalizedString>      
+            <LocID>DIA_PLAS_R_VEIN_02_V2</LocID>                         
+            <Text>เส้นเลือดขอด (ซับซ้อน)(เพื่อการรักษา)</Text>    
+        </GameDBLocalizedString>
+        
+    </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

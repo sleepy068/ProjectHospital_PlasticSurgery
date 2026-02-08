@@ -1,0 +1,41 @@
+<Database>
+	<!-- Plastic Surgery Mod by Sleepy068 -->
+    <GameDBStringTable ID="LOC_TH_ADDON_PLASTICS_EXAMINATIONS">
+
+        <LanguageCode>th</LanguageCode>
+        <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>TonWazza</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+		<!-- ================================================== -->
+		<!-- ============= Plastic Surgery v1.0.6 ============= -->
+		<!-- =================== CRP EXPORT =================== -->
+		<!-- ================================================== -->
+        
+        <GameDBLocalizedString>      
+            <LocID>EXM_CRP_ELECTROPHORESIS</LocID>                         
+            <Text>การเก็บตัวอย่างอิเล็กโทรโฟเรซิส</Text>   
+        </GameDBLocalizedString>
+
+        <GameDBLocalizedString>      
+            <LocID>EXM_CRP_ELECTROPHORESIS_DESC</LocID>                         
+            <Text>Electrophoresis เป็นเทคนิคทางห้องปฏิบัติการที่ใช้เพื่อแยกโมเลกุล DNA, RNA หรือโปรตีนตามขนาดและประจุไฟฟ้า โดยใช้กระแสไฟฟ้าเพื่อเคลื่อนย้ายโมเลกุลผ่านแผ่นเจล รูพรุนในเจลทำหน้าที่เหมือนตะแกรงร่อน ช่วยให้โมเลกุลขนาดเล็กเคลื่อนที่ได้เร็วกว่าโมเลกุลขนาดใหญ่ สภาวะที่ใช้ระหว่างการทำ Electrophoresis สามารถปรับเปลี่ยนเพื่อแยกโมเลกุลในช่วงขนาดที่ต้องการได้ \n\nห้องปฏิบัติการที่ต้องการ: จุลพยาธิวิทยา (Histology)</Text>   
+        </GameDBLocalizedString>
+        
+        <GameDBLocalizedString>      
+            <LocID>EXM_CRP_ELECTROPHORESIS_TEST</LocID>                         
+            <Text>การตรวจด้วยวิธีอิเล็กโทรโฟเรซิส</Text>    
+        </GameDBLocalizedString>
+
+        <GameDBLocalizedString>      
+            <LocID>EXM_CRP_ELECTROPHORESIS_TEST_DESC</LocID>                         
+            <Text>นักเทคนิคการแพทย์สาขาจุลพยาธิวิทยากำลังทำงานกับตัวอย่างที่ได้รับจากผู้ป่วย ผลการตรวจน่าจะออกมาเร็วๆ นี้</Text>    
+        </GameDBLocalizedString>
+
+</LocalizedStrings>
+</GameDBStringTable>
+</Database>
